@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../static/img/favicon.ico" rel="icon">
+    <link href="../static/css/bootstrap.css" rel="stylesheet" media="all">
+    <link href="../static/css/bootstrap-icons.css" rel="stylesheet" media="all">
+    <link href="../static/css/main.css" rel="stylesheet" media="all">
+    <script src="../static/js/jquery-3.4.1.js"></script>
+    <script src="../static/js/bootstrap.bundle.js"></script>
+    <script src="../static/js/jquery.twbsPagination.js"></script>
+    <title>MC-related Gene and Protein Search</title>
+</head>
+
+<body>
+    <div class="h-100 w-100 row m-0 p-0">
+        {% include 'nav.html' %}
+        <div class="col-9 lb p-0">
+            {% include 'header.html' %}
+            <div class="ml-5 pt-3 overflow-auto" style="height:90vh">
+                <h2><strong>MC-related Gene and Protein Search</strong>
+                    <sub><a href="../gdownload" class="ml-2"><u>data download</u></a></sub>
+                </h2>
+                {% csrf_token %}
+                <form class="form-inline" role="form" action="../gene_search/" method="POST"
+                    enctype=application/x-www-form-urlencoded>
+                    {% csrf_token %}
+                    <input type="text" class="form-control col-9" name="text" value={{ text }}>
+                    <button type="submit" class="btn btn-primary ml-5"><strong>Submit</strong></button>
+                    <div class="form-group" style="display:none">
+                        <input type="text" class="form-control" name="page" value=1>
+                    </div>
+                </form>
+                <strong>Keywords: Uniprot Accession, Gene Name <br>e.g. <u><a
+                            href='../gene_search/?text=O60885&page=1'>O60885</a></u>, <u><a
+                            href='../gene_search/?text=BRD4&page=1'>BRD4</a></u></strong><br><br>
+                <h3><em><strong>{{ msg }}</strong></em></h3>
+                {% if check %}
+                <div class="table-responsive mb-3">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">UniProt Accession</th>
+                                <th scope="col">Gene Name</th>
+                                <th scope="col">GO Identifier<i class="bi bi-question-square-fill p-1" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="only one is shown here, click the hyperlink below to see more"></i>
+                                </th>
+                                <th scope="col">GO Term</th>
+                                <th scope="col">Protein Name</th>
+                                <th nowrap scope="col">Synonyms<i class="bi bi-question-square-fill p-1" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="synonyms of this gene"></i>
+                                </th>
+                                <th scope="col">Confidence Level<i class="bi bi-question-square-fill p-1" data-bs-html="true" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" data-bs-align="left" title="<b>Level1:</b> with literature support and GO items association.<br/>
+                                    <b>Level2:</b> with literature support but GO items are not mentioned.<br/>
+                                    <b>Level3:</b> with GO items association and homologous enzymes have been reported in the literature.<br/>
+                                    <b>Level4:</b> GO items are indicated to be associated with mitosis which may be involved in MC."></i>
+                                </th>
+                                <th scope="col">MC-PMID<i class="bi bi-question-square-fill p-1" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Click on to jump to PUBMED."></i>
+                                </th>
+                            </tr>
+                        </thead>
+                        {% for data in datas %}
+                        <tr>
+                            <td nowrap>{{ data.uniprotKB }}</td>
+                            <td nowrap>{{ data.gene }}</td>
+                            <td nowrap><u><a href="../go/?text={{ data.gene }}&page=1">{{ data.go0 }}</a></u></td>
+                            <td nowrap>{{ data.goterm0 }}</td>
+                            <td nowrap>{{ data.protein }}</td>
+                            <td nowrap>{{ data.synonyms }}</td>
+                            <td nowrap>{{ data.level }}</td>
+                            <td nowrap>{{ data.pmid|safe }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                {% endif %}
+                <ul id="pagination">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% if check %}
+    <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        $('#pagination').twbsPagination({
+            totalPages: {{ totalPages }},
+            startPage: {{ currentPage }},
+            visiblePages: 10,
+            initiateStartPageClick: false,
+            onPageClick: function (event, page) {
+                $(window).attr('location', '../gene_search/?text={{ text }}&page=' + page);
+            }
+            });
+    </script>
+    {% endif %}
+</body>
+
+</html>

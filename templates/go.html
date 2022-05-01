@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../static/img/favicon.ico" rel="icon">
+    <link href="../static/css/bootstrap.css" rel="stylesheet" media="all">
+    <link href="../static/css/main.css" rel="stylesheet" media="all">
+    <script src="../static/js/jquery-3.4.1.js"></script>
+    <script src="../static/js/bootstrap.bundle.js"></script>
+    <script src="../static/js/jquery.twbsPagination.js"></script>
+    <title>MC-related Gene and Protein Search</title>
+</head>
+
+<body>
+    <div class="h-100 w-100 row m-0">
+        {% include 'nav.html' %}
+        <div class="col-9 lb p-0">
+            {% include 'header.html' %}
+            <div class="mt-3 mx-5">
+                <h2><strong>GO of <a href="../gene_search/?text={{ text }}&page=1">{{ text }}</a></strong></h2>
+                {% if check %}
+                <div class="table-responsive mb-3">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">GO Identifier</th>
+                                <th scope="col">GO Term</th>
+                            </tr>
+                        </thead>
+                        {% for data in datas %}
+                        <tr>
+                            <td nowrap><u><a href="http://amigo.geneontology.org/amigo/term/{{ data.goid }}" target="_blank">{{ data.goid }}</a></u></td>
+                            <td nowrap>{{ data.term }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                {% endif %}
+                <ul id="pagination">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% if check %}
+    <script type="text/javascript">
+        $('#pagination').twbsPagination({
+            totalPages: {{ totalPages }},
+            startPage: {{ currentPage }},
+            visiblePages: 10,
+            initiateStartPageClick: false,
+            onPageClick: function (event, page) {
+                $(window).attr('location', '../go/?text={{ text }}&page=' + page);
+            }
+            });
+    </script>
+    <script type="text/javascript">
+        $("html, body").scrollTop($("table").offset().top);
+    </script>
+    {% endif %}
+</body>
+
+</html>

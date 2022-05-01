@@ -1,0 +1,219 @@
+BLASTP 2.10.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: sequence.fasta
+           1,218 sequences; 881,835 total letters
+
+
+
+Query= sp|Q8N6T7|SIR6_HUMAN NAD-dependent protein deacetylase sirtuin-6
+OS=Homo sapiens OX=9606 GN=SIRT6 PE=1 SV=2
+
+Length=355
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+sp|Q9NRC8|SIR7_HUMAN NAD-dependent protein deacetylase sirtuin-7 ...  180     3e-54
+sp|Q8IXJ6|SIR2_HUMAN NAD-dependent protein deacetylase sirtuin-2 ...  76.6    1e-16
+sp|Q96EB6|SIR1_HUMAN NAD-dependent protein deacetylase sirtuin-1 ...  70.1    3e-14
+sp|Q68E01|INT3_HUMAN Integrator complex subunit 3 OS=Homo sapiens...  28.1    0.78 
+sp|Q01082|SPTB2_HUMAN Spectrin beta chain, non-erythrocytic 1 OS=...  25.4    5.4  
+sp|O15315|RA51B_HUMAN DNA repair protein RAD51 homolog 2 OS=Homo ...  25.0    6.1  
+sp|P00519|ABL1_HUMAN Tyrosine-protein kinase ABL1 OS=Homo sapiens...  25.0    6.4  
+sp|P51957|NEK4_HUMAN Serine/threonine-protein kinase Nek4 OS=Homo...  24.6    8.1  
+sp|Q8WZ42|TITIN_HUMAN Titin OS=Homo sapiens OX=9606 GN=TTN PE=1 SV=4  25.0    8.2  
+
+
+>sp|Q9NRC8|SIR7_HUMAN NAD-dependent protein deacetylase sirtuin-7 
+OS=Homo sapiens OX=9606 GN=SIRT7 PE=1 SV=1
+Length=400
+
+ Score = 180 bits (456),  Expect = 3e-54, Method: Compositional matrix adjust.
+ Identities = 118/276 (43%), Positives = 155/276 (56%), Gaps = 38/276 (14%)
+
+Query  22   EIFDPPEELERKVWELARLVWQSSSVVFHTGAGISTASGIPDFRGPHGVWTMEERGLAPK  81
+            E+ D PEEL  KV ELA  V  +  +V +TGAGISTA+ IPD+RGP+GVWT+ ++G +  
+Sbjct  77   EVCDDPEELRGKVRELASAVRNAKYLVVYTGAGISTAASIPDYRGPNGVWTLLQKGRSVS  136
+
+Query  82   FDTTFESARPTQTHMALVQLERVGLLRFLVSQNVDGLHVRSGFPRDKLAELHGNMFVEEC  141
+                 E A PT THM++ +L    L++ +VSQN DGLH+RSG PR  ++ELHGNM++E C
+Sbjct  137  AADLSE-AEPTLTHMSITRLHEQKLVQHVVSQNCDGLHLRSGLPRTAISELHGNMYIEVC  195
+
+Query  142  AKC--KTQYVR--DTVVGT-MGLKATGRLCTVAKARGLRACRGELRDTI-----------  185
+              C    +YVR  D    T +    TGR C          C  +LRDTI           
+Sbjct  196  TSCVPNREYVRVFDVTERTALHRHQTGRTC--------HKCGTQLRDTIVHFGERGTLGQ  247
+
+Query  186  -LDWEDSLPDRDLALADEASRNADLSITLGTSLQI-RPSGNLPLATK--RRGGRLVIVNL  241
+             L+WE          A EA+  AD  + LG+SL++ +    L   TK   R  +L IVNL
+Sbjct  248  PLNWE---------AATEAASRADTILCLGSSLKVLKKYPRLWCMTKPPSRRPKLYIVNL  298
+
+Query  242  QPTKHDRHADLRIHGYVDEVMTRLMKHLGLEIPAWD  277
+            Q T  D  A L++HG  D+VM  LM  LGLEIPA+ 
+Sbjct  299  QWTPKDDWAALKLHGKCDDVMRLLMAELGLEIPAYS  334
+
+
+>sp|Q8IXJ6|SIR2_HUMAN NAD-dependent protein deacetylase sirtuin-2 
+OS=Homo sapiens OX=9606 GN=SIRT2 PE=1 SV=2
+Length=389
+
+ Score = 76.6 bits (187),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 59/213 (28%), Positives = 95/213 (45%), Gaps = 37/213 (17%)
+
+Query  47   VVFHTGAGISTASGIPDFRGPH-GVWTMEERGLAPKFDTTFESA----------------  89
+            V+   GAGIST++GIPDFR P  G++   E+   P  +  FE +                
+Sbjct  79   VICLVGAGISTSAGIPDFRSPSTGLYDNLEKYHLPYPEAIFEISYFKKHPEPFFALAKEL  138
+
+Query  90   -----RPTQTHMALVQLERVGLLRFLVSQNVDGLHVRSGFPRDKLAELHGNMFVEEC--A  142
+                 +PT  H  +  L+  GLL    +QN+D L   +G  ++ L E HG  +   C  A
+Sbjct  139  YPGQFKPTICHYFMRLLKDKGLLLRCYTQNIDTLERIAGLEQEDLVEAHGTFYTSHCVSA  198
+
+Query  143  KCKTQYVRDTVVGTMGLKATGRLCTVAKARGLRACRGELRDTILDWEDSLPDRDLALADE  202
+             C+ +Y    +   +  + T +            C+  ++  I+ + +SLP R  +    
+Sbjct  199  SCRHEYPLSWMKEKIFSEVTPK---------CEDCQSLVKPDIVFFGESLPARFFSCMQS  249
+
+Query  203  ASRNADLSITLGTSLQIRPSGNL----PLATKR  231
+                 DL + +GTSLQ++P  +L    PL+T R
+Sbjct  250  DFLKVDLLLVMGTSLQVQPFASLISKAPLSTPR  282
+
+
+>sp|Q96EB6|SIR1_HUMAN NAD-dependent protein deacetylase sirtuin-1 
+OS=Homo sapiens OX=9606 GN=SIRT1 PE=1 SV=2
+Length=747
+
+ Score = 70.1 bits (170),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 64/275 (23%), Positives = 116/275 (42%), Gaps = 35/275 (13%)
+
+Query  25   DPPEELERK----VWELARLVWQSSSVVFHTGAGISTASGIPDFRGPHGVWTMEERGL--  78
+            +PP+  +RK    + +  +L+ +   ++  TGAG+S + GIPDFR   G++         
+Sbjct  230  EPPKRKKRKDINTIEDAVKLLQECKKIIVLTGAGVSVSCGIPDFRSRDGIYARLAVDFPD  289
+
+Query  79   ----APKFDTT---------FESAR--------PTQTHMALVQLERVGLLRFLVSQNVDG  117
+                   FD           F+ A+        P+  H  +   ++ G L    +QN+D 
+Sbjct  290  LPDPQAMFDIEYFRKDPRPFFKFAKEIYPGQFQPSLCHKFIALSDKEGKLLRNYTQNIDT  349
+
+Query  118  LHVRSGFPRDKLAELHGNMFVEECAKCKTQYVRDTVVGTMGLKATGRLCTVAKARGLRAC  177
+            L   +G  R  + + HG+     C  CK +   + V G +  +   R         L   
+Sbjct  350  LEQVAGIQR--IIQCHGSFATASCLICKYKVDCEAVRGDIFNQVVPRCPRCPADEPLAIM  407
+
+Query  178  RGELRDTILDWEDSLPDRDLALADEASRNADLSITLGTSLQIRPSGNLPLATKRRGGRLV  237
+            + E    I+ + ++LP++            DL I +G+SL++RP   +P +      + +
+Sbjct  408  KPE----IVFFGENLPEQFHRAMKYDKDEVDLLIVIGSSLKVRPVALIPSSIPHEVPQ-I  462
+
+Query  238  IVNLQPTKHDRHADLRIHGYVDEVMTRLMKHLGLE  272
+            ++N +P  H  H D+ + G  D ++  L   LG E
+Sbjct  463  LINREPLPH-LHFDVELLGDCDVIINELCHRLGGE  496
+
+
+>sp|Q68E01|INT3_HUMAN Integrator complex subunit 3 OS=Homo sapiens 
+OX=9606 GN=INTS3 PE=1 SV=1
+Length=1043
+
+ Score = 28.1 bits (61),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 21/81 (26%), Positives = 32/81 (40%), Gaps = 12/81 (15%)
+
+Query  261  VMTRLMKHLGLEIPAWDGPRV-------LERALPPLPRPPTPKLEPKEESPTRINGSIPA  313
+            V  R++ HL    P +D P++       L    P     P+P +E K E P  +      
+Sbjct  465  VEKRVLAHLA---PLFDNPKLDKELRAMLREKFPEFCSSPSPPVEVKIEEPVSMEMDNHM  521
+
+Query  314  GPKQEPCAQHNGSEPASPKRE  334
+              K E C  ++ +E A    E
+Sbjct  522  SDKDESC--YDNAEAAFSDDE  540
+
+
+>sp|Q01082|SPTB2_HUMAN Spectrin beta chain, non-erythrocytic 1 
+OS=Homo sapiens OX=9606 GN=SPTBN1 PE=1 SV=2
+Length=2364
+
+ Score = 25.4 bits (54),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 12/46 (26%), Positives = 22/46 (48%), Gaps = 1/46 (2%)
+
+Query  280   RVLERALPPLPRPPTPKLEPKEESPTRINGSIPAGPKQEPCAQHNG  325
+             R   +   P+P P + + + K   P +   ++PA  ++ P AQ  G
+Sbjct  2158  RTSSKESSPIPSPTSDR-KAKTALPAQSAATLPARTQETPSAQMEG  2202
+
+
+>sp|O15315|RA51B_HUMAN DNA repair protein RAD51 homolog 2 OS=Homo 
+sapiens OX=9606 GN=RAD51B PE=1 SV=2
+Length=384
+
+ Score = 25.0 bits (53),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 12/24 (50%), Gaps = 0/24 (0%)
+
+Query  63  DFRGPHGVWTMEERGLAPKFDTTF  86
+            +RG H +  M  R  APK  T +
+Sbjct  45  SYRGVHELLCMVSRACAPKMQTAY  68
+
+
+>sp|P00519|ABL1_HUMAN Tyrosine-protein kinase ABL1 OS=Homo sapiens 
+OX=9606 GN=ABL1 PE=1 SV=4
+Length=1130
+
+ Score = 25.0 bits (53),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 20/42 (48%), Gaps = 6/42 (14%)
+
+Query  8    GLSPYADKGKCGLPEIFDPPEELER------KVWELARLVWQ  43
+            G+SPY       + E+ +    +ER      KV+EL R  WQ
+Sbjct  436  GMSPYPGIDLSQVYELLEKDYRMERPEGCPEKVYELMRACWQ  477
+
+
+>sp|P51957|NEK4_HUMAN Serine/threonine-protein kinase Nek4 OS=Homo 
+sapiens OX=9606 GN=NEK4 PE=1 SV=2
+Length=841
+
+ Score = 24.6 bits (52),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  280  RVLERALPPLPRPPTPKL  297
+            R++E  LPP+PR  +P+L
+Sbjct  217  RIIEGKLPPMPRDYSPEL  234
+
+
+>sp|Q8WZ42|TITIN_HUMAN Titin OS=Homo sapiens OX=9606 GN=TTN PE=1 
+SV=4
+Length=34350
+
+ Score = 25.0 bits (53),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 21/30 (70%), Gaps = 2/30 (7%)
+
+Query  278    GPRVLERALPPLPRPPTPKLEPKEESPTRI  307
+              GP + E+ +PP  +PPT K+ P++E P ++
+Sbjct  11369  GPEISEKIIPP-KKPPT-KVVPRKEPPAKV  11396
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 212361552
+
+
+  Database: sequence.fasta
+    Posted date:  Jul 30, 2020  4:34 AM
+  Number of letters in database: 881,835
+  Number of sequences in database:  1,218
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

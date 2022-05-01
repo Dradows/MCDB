@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../static/img/favicon.ico" rel="icon">
+    <link href="../static/css/bootstrap.css" rel="stylesheet" media="all">
+    <link href="../static/css/bootstrap-icons.css" rel="stylesheet" media="all">
+    <link href="../static/css/main.css" rel="stylesheet" media="all">
+    <script src="../static/js/jquery-3.4.1.js"></script>
+    <script src="../static/js/bootstrap.bundle.js"></script>
+    <script src="../static/js/jquery.twbsPagination.js"></script>
+    <title>Protein Sequence Alignment</title>
+</head>
+
+<body>
+    <div class="h-100 w-100 row m-0">
+        {% include 'nav.html' %}
+        <div class="col-9 lb p-0">
+            {% include 'header.html' %}
+            <div class="ml-5 pt-3 overflow-auto" style="height:90vh">
+                <h2><strong>Protein Sequence Alignment</strong></h2>
+                {% csrf_token %}
+                <form class="form-inline" role="form" action="../pcompare_search/" method="POST"
+                    enctype=application/x-www-form-urlencoded>
+                    {% csrf_token %}
+                    <textarea class="form-control col-9" name="text" placeholder="">{{ textshow }}</textarea>
+                    <button type="submit" class="btn btn-primary ml-5"><strong>Submit</strong></button>
+                    <div class="form-group" style="display:none">
+                        <input type="text" class="form-control" name="page" value=1>
+                    </div>
+                </form>
+                <strong>Keywords: FASTA<br>
+                    {% if not check%}
+                    e.g. <br><u><a
+                        href='../pcompare_search/?text=>sp|Q9NYV4|CDK12_HUMAN Cyclin-dependent kinase 12 OS=Homo sapiens OX=9606 GN=CDK12 PE=1 SV=2%0AMPNSERHGGKKDGSGGASGTLQPSSGGGSSNSRERHRLVSKHKRHKSKHSKDMGLVTPEAASLGTVIKPLVEYDDISSDSDTFSDDMAFKLDRRENDERRGSDRSDRLHKHRHHQHRRSRDLLKAKQTEKEKSQEVSSKSGSMKDRISGSSKRSNEETDDYGKAQVAKSSSKESRSSKLHKEKTRKERELKSGHKDRSKSHRKRETPKSYKTVDSPKRRSRSPHRKWSDSSKQDDSPSGASYGQDYDLSPSRSHTSSNYDSYKKSPGSTSRRQSVSPPYKEPSAYQSSTRSPSPYSRRQRSVSPYSRRRSSSYERSGSYSGRSPSPYGRRRSSSPFLSKRSLSRSPLPSRKSMKSRSRSPAYSRHSSSHSKKKRSSSRSRHSSISPVRLPLNSSLGAELSRKKKERAAAAAAAKMDGKESKGSPVFLPRKENSSVEAKDSGLESKKLPRSVKLEKSAPDTELVNVTHLNTEVKNSSDTGKVKLDENSEKHLVKDLKAQGTRDSKPIALKEEIVTPKETETSEKETPPPLPTIASPPPPLPTTTPPPQTPPLPPLPPIPALPQQPPLPPSQPAFSQVPASSTSTLPPSTHSKTSAVSSQANSQPPVQVSVKTQVSVTAAIPHLKTSTLPPLPLPPLLPGDDDMDSPKETLPSKPVKKEKEQRTRHLLTDLPLPPELPGGDLSPPDSPEPKAITPPQQPYKKRPKICCPRYGERRQTESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLKDVELSKMAPPDLPHWQDCHELWSKKRRRQRQSGVVVEEPPPSKTSRKETTSGTSTEPVKNSSPAPPQPAPGKVESGAGDAIGLADITQQLNQSELAVLLNLLQSQTDLSIPQMAQLLNIHSNPEMQQQLEALNQSISALTEATSQQQDSETMAPEESLKEAPSAPVILPSAEQTTLEASSTPADMQNILAVLLSQLMKTQEPAGSLEENNSDKNSGPQGPRRTPTMPQEEAAACPPHILPPEKRPPEPPGPPPPPPPPPLVEGDLSSAPQELNPAVTAALLQLLSQPEAEPPGHLPHEHQALRPMEYSTRPRPNRTYGNTDGPETGFSAIDTDERNSGPALTESLVQTLVKNRTFSGSLSHLGESSSYQGTGSVQFPGDQDLRFARVPLALHPVVGQPFLKAEGSSNSVVHAETKLQNYGELGPGTTGASSSGAGLHWGGPTQSSAYGKLYRGPTRVPPRGGRGRGVPY&page=1'>
+                        >sp|Q9NYV4|CDK12_HUMAN Cyclin-dependent kinase 12 OS=Homo sapiens OX=9606 GN=CDK12 PE=1 SV=2<br>
+                        MPNSERHGGKKDGSGGASGTLQPSSGGGSSNSRERHRLVSKHKRHKSKHSKDMGLVTPEA<br>
+                        ASLGTVIKPLVEYDDISSDSDTFSDDMAFKLDRRENDERRGSDRSDRLHKHRHHQHRRSR<br>
+                        DLLKAKQTEKEKSQEVSSKSGSMKDRISGSSKRSNEETDDYGKAQVAKSSSKESRSSKLH<br>
+                        KEKTRKERELKSGHKDRSKSHRKRETPKSYKTVDSPKRRSRSPHRKWSDSSKQDDSPSGA<br>
+                        SYGQDYDLSPSRSHTSSNYDSYKKSPGSTSRRQSVSPPYKEPSAYQSSTRSPSPYSRRQR<br>
+                        SVSPYSRRRSSSYERSGSYSGRSPSPYGRRRSSSPFLSKRSLSRSPLPSRKSMKSRSRSP<br>
+                        AYSRHSSSHSKKKRSSSRSRHSSISPVRLPLNSSLGAELSRKKKERAAAAAAAKMDGKES<br>
+                        KGSPVFLPRKENSSVEAKDSGLESKKLPRSVKLEKSAPDTELVNVTHLNTEVKNSSDTGK<br>
+                        VKLDENSEKHLVKDLKAQGTRDSKPIALKEEIVTPKETETSEKETPPPLPTIASPPPPLP<br>
+                        TTTPPPQTPPLPPLPPIPALPQQPPLPPSQPAFSQVPASSTSTLPPSTHSKTSAVSSQAN<br>
+                        SQPPVQVSVKTQVSVTAAIPHLKTSTLPPLPLPPLLPGDDDMDSPKETLPSKPVKKEKEQ<br>
+                        RTRHLLTDLPLPPELPGGDLSPPDSPEPKAITPPQQPYKKRPKICCPRYGERRQTESDWG<br>
+                        KRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQ<br>
+                        LIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFM<br>
+                        KQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLW<br>
+                        YRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVW<br>
+                        PDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFL<br>
+                        KDVELSKMAPPDLPHWQDCHELWSKKRRRQRQSGVVVEEPPPSKTSRKETTSGTSTEPVK<br>
+                        NSSPAPPQPAPGKVESGAGDAIGLADITQQLNQSELAVLLNLLQSQTDLSIPQMAQLLNI<br>
+                        HSNPEMQQQLEALNQSISALTEATSQQQDSETMAPEESLKEAPSAPVILPSAEQTTLEAS<br>
+                        STPADMQNILAVLLSQLMKTQEPAGSLEENNSDKNSGPQGPRRTPTMPQEEAAACPPHIL<br>
+                        PPEKRPPEPPGPPPPPPPPPLVEGDLSSAPQELNPAVTAALLQLLSQPEAEPPGHLPHEH<br>
+                        QALRPMEYSTRPRPNRTYGNTDGPETGFSAIDTDERNSGPALTESLVQTLVKNRTFSGSL<br>
+                        SHLGESSSYQGTGSVQFPGDQDLRFARVPLALHPVVGQPFLKAEGSSNSVVHAETKLQNY<br>
+                        GELGPGTTGASSSGAGLHWGGPTQSSAYGKLYRGPTRVPPRGGRGRGVPY
+                    </u></a>
+                    {% endif %}
+                    </strong>
+                {% if check %}
+                <div class="text-right"><strong><a href="../pcdownload?name={{ name }}"
+                            class="btn btn-primary mb-2">download</a></strong></div>
+                <div class="table-responsive mb-3">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Uniprot Accession</th>
+                                <th scope="col">Gene Name</th>
+                                <th scope="col">Confidence Level<i class="bi bi-question-square-fill p-1" data-bs-html="true" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" data-bs-align="left" title="<b>Level1:</b> with literature support and GO items association.<br/>
+                                    <b>Level2:</b> with literature support but GO items are not mentioned.<br/>
+                                    <b>Level3:</b> with GO items association and homologous enzymes have been reported in the literature.<br/>
+                                    <b>Level4:</b> GO items are indicated to be associated with mitosis which may be involved in MC."></i>
+                                    <a href="../pcompare_search/?text={{ text }}&page=1&sort=level"><i class="bi bi-sort-numeric-down"></i></a>
+                                </th>
+                                <th nowrap scope="col">Length<i class="bi bi-question-square-fill p-1" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Represent the sequence length of the protein."></i>
+                                    <a href="../pcompare_search/?text={{ text }}&page=1&sort=length"><i class="bi bi-sort-numeric-down-alt"></i></a>
+                               </th>
+                                <th nowrap scope="col">Score<i class="bi bi-question-square-fill p-1" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Calculated as the sum of substitution and gap scores, taking the statistical properties of the scoring system into account."></i>
+                                    <a href="../pcompare_search/?text={{ text }}&page=1&sort=score"><i class="bi bi-sort-numeric-down-alt"></i></a>
+                               </th>
+                                <th nowrap scope="col">Expect<i class="bi bi-question-square-fill p-1" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Represent the number of different alignments with scores equivalent to or better than the raw score that is expected to occur in a database search by chance."></i>
+                                    <a href="../pcompare_search/?text={{ text }}&page=1&sort=expect"><i class="bi bi-sort-numeric-down"></i></a>
+                                </th>
+                                <th nowrap scope="col">Identities<i class="bi bi-question-square-fill p-1" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="The extent to which two sequences have the same residues at the same positions in an alignment."></i>
+                                    <a href="../pcompare_search/?text={{ text }}&page=1&sort=identities"><i class="bi bi-sort-numeric-down-alt"></i></a>
+                                </th>
+                                <th nowrap scope="col">Positives<i class="bi bi-question-square-fill p-1" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="The extent to which two sequences are related in an alignment."></i>
+                                    <a href="../pcompare_search/?text={{ text }}&page=1&sort=positives"><i class="bi bi-sort-numeric-down-alt"></i></a>
+                               </th>
+                                <th nowrap scope="col">Gaps<i class="bi bi-question-square-fill p-1" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" title="Calculated as the sum of the gap opening penalty and the gap extension penalty."></i>
+                                    <a href="../pcompare_search/?text={{ text }}&page=1&sort=gaps"><i class="bi bi-sort-numeric-down"></i></a>
+                               </th>
+                            </tr>
+                        </thead>
+                        {% for data in datas %}
+                        <tr>
+                            <td nowrap><u><a href='../gene_search/?text={{ data.name }}&page=1'>{{ data.name }}</a></u></td>
+                            <td nowrap>{{ data.gene }}</td>
+                            <td nowrap>{{ data.level }}</td>
+                            <td nowrap>{{ data.length }}</td>
+                            <td nowrap>{{ data.score }}</td>
+                            <td nowrap>{{ data.expect }}</td>
+                            <td nowrap>{{ data.identities }}</td>
+                            <td nowrap>{{ data.positives }}</td>
+                            <td nowrap>{{ data.gaps }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                {% endif %}
+                <ul id="pagination">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% if check %}
+    <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })    
+        $('#pagination').twbsPagination({
+            totalPages: {{ totalPages }},
+            startPage: {{ currentPage }},
+            visiblePages: 10,
+            initiateStartPageClick: false,
+            onPageClick: function (event, page) {
+                $(window).attr('location', '../pcompare_search/?text={{ text }}&page=' + page);
+            }
+            });
+    </script>
+    {% endif %}
+</body>
+
+</html>

@@ -1,0 +1,3810 @@
+BLASTP 2.10.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: sequence.fasta
+           1,218 sequences; 881,835 total letters
+
+
+
+Query= sp|Q9NYV4|CDK12_HUMAN Cyclin-dependent kinase 12 OS=Homo sapiens
+OX=9606 GN=CDK12 PE=1 SV=2
+
+Length=1490
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+sp|Q14004|CDK13_HUMAN Cyclin-dependent kinase 13 OS=Homo sapiens ...  803     0.0  
+sp|P24941|CDK2_HUMAN Cyclin-dependent kinase 2 OS=Homo sapiens OX...  240     3e-72
+sp|Q00526|CDK3_HUMAN Cyclin-dependent kinase 3 OS=Homo sapiens OX...  240     3e-72
+sp|P21127|CD11B_HUMAN Cyclin-dependent kinase 11B OS=Homo sapiens...  253     1e-71
+sp|Q9UQ88|CD11A_HUMAN Cyclin-dependent kinase 11A OS=Homo sapiens...  252     3e-71
+sp|Q15131|CDK10_HUMAN Cyclin-dependent kinase 10 OS=Homo sapiens ...  239     5e-71
+sp|P06493|CDK1_HUMAN Cyclin-dependent kinase 1 OS=Homo sapiens OX...  230     9e-69
+sp|Q00535|CDK5_HUMAN Cyclin-dependent-like kinase 5 OS=Homo sapie...  222     5e-66
+sp|Q00536|CDK16_HUMAN Cyclin-dependent kinase 16 OS=Homo sapiens ...  220     5e-63
+sp|Q07002|CDK18_HUMAN Cyclin-dependent kinase 18 OS=Homo sapiens ...  212     1e-60
+sp|Q00537|CDK17_HUMAN Cyclin-dependent kinase 17 OS=Homo sapiens ...  213     2e-60
+sp|P50613|CDK7_HUMAN Cyclin-dependent kinase 7 OS=Homo sapiens OX...  202     1e-58
+sp|O94921|CDK14_HUMAN Cyclin-dependent kinase 14 OS=Homo sapiens ...  199     3e-56
+sp|Q00534|CDK6_HUMAN Cyclin-dependent kinase 6 OS=Homo sapiens OX...  194     5e-56
+sp|Q96Q40|CDK15_HUMAN Cyclin-dependent kinase 15 OS=Homo sapiens ...  190     3e-53
+sp|P11802|CDK4_HUMAN Cyclin-dependent kinase 4 OS=Homo sapiens OX...  180     2e-51
+sp|P28482|MK01_HUMAN Mitogen-activated protein kinase 1 OS=Homo s...  176     2e-49
+sp|P20794|MAK_HUMAN Serine/threonine-protein kinase MAK OS=Homo s...  181     7e-49
+sp|P49841|GSK3B_HUMAN Glycogen synthase kinase-3 beta OS=Homo sap...  140     1e-36
+sp|P49840|GSK3A_HUMAN Glycogen synthase kinase-3 alpha OS=Homo sa...  139     1e-35
+sp|P51956|NEK3_HUMAN Serine/threonine-protein kinase Nek3 OS=Homo...  116     6e-28
+sp|O14965|AURKA_HUMAN Aurora kinase A OS=Homo sapiens OX=9606 GN=...  113     2e-27
+sp|Q13153|PAK1_HUMAN Serine/threonine-protein kinase PAK 1 OS=Hom...  109     1e-25
+sp|P68400|CSK21_HUMAN Casein kinase II subunit alpha OS=Homo sapi...  107     2e-25
+sp|P57059|SIK1_HUMAN Serine/threonine-protein kinase SIK1 OS=Homo...  110     2e-25
+sp|Q13043|STK4_HUMAN Serine/threonine-protein kinase 4 OS=Homo sa...  107     6e-25
+sp|Q13233|M3K1_HUMAN Mitogen-activated protein kinase kinase kina...  109     6e-25
+sp|P19784|CSK22_HUMAN Casein kinase II subunit alpha' OS=Homo sap...  103     1e-24
+sp|Q13188|STK3_HUMAN Serine/threonine-protein kinase 3 OS=Homo sa...  105     2e-24
+sp|O96013|PAK4_HUMAN Serine/threonine-protein kinase PAK 4 OS=Hom...  106     2e-24
+sp|Q9Y2U5|M3K2_HUMAN Mitogen-activated protein kinase kinase kina...  104     8e-24
+sp|Q9P286|PAK5_HUMAN Serine/threonine-protein kinase PAK 5 OS=Hom...  104     1e-23
+sp|P51955|NEK2_HUMAN Serine/threonine-protein kinase Nek2 OS=Homo...  102     1e-23
+sp|Q96PY6|NEK1_HUMAN Serine/threonine-protein kinase Nek1 OS=Homo...  104     2e-23
+sp|Q7L7X3|TAOK1_HUMAN Serine/threonine-protein kinase TAO1 OS=Hom...  104     2e-23
+sp|Q9UL54|TAOK2_HUMAN Serine/threonine-protein kinase TAO2 OS=Hom...  103     4e-23
+sp|Q9BYT3|STK33_HUMAN Serine/threonine-protein kinase 33 OS=Homo ...  101     5e-23
+sp|O75914|PAK3_HUMAN Serine/threonine-protein kinase PAK 3 OS=Hom...  101     5e-23
+sp|Q92918|M4K1_HUMAN Mitogen-activated protein kinase kinase kina...  102     6e-23
+sp|Q9Y6R4|M3K4_HUMAN Mitogen-activated protein kinase kinase kina...  102     8e-23
+sp|Q99759|M3K3_HUMAN Mitogen-activated protein kinase kinase kina...  101     8e-23
+sp|Q9UQB9|AURKC_HUMAN Aurora kinase C OS=Homo sapiens OX=9606 GN=...  96.3    2e-22
+sp|Q13177|PAK2_HUMAN Serine/threonine-protein kinase PAK 2 OS=Hom...  99.4    2e-22
+sp|O94804|STK10_HUMAN Serine/threonine-protein kinase 10 OS=Homo ...  100     3e-22
+sp|Q8TDC3|BRSK1_HUMAN Serine/threonine-protein kinase BRSK1 OS=Ho...  100     3e-22
+sp|Q9H2K8|TAOK3_HUMAN Serine/threonine-protein kinase TAO3 OS=Hom...  100     4e-22
+sp|O00444|PLK4_HUMAN Serine/threonine-protein kinase PLK4 OS=Homo...  99.8    5e-22
+sp|O14757|CHK1_HUMAN Serine/threonine-protein kinase Chk1 OS=Homo...  96.7    1e-21
+sp|P51957|NEK4_HUMAN Serine/threonine-protein kinase Nek4 OS=Homo...  97.1    3e-21
+sp|Q9NQU5|PAK6_HUMAN Serine/threonine-protein kinase PAK 6 OS=Hom...  96.3    4e-21
+sp|Q96GD4|AURKB_HUMAN Aurora kinase B OS=Homo sapiens OX=9606 GN=...  91.7    1e-20
+sp|Q9H4B4|PLK3_HUMAN Serine/threonine-protein kinase PLK3 OS=Homo...  94.4    1e-20
+sp|Q12851|M4K2_HUMAN Mitogen-activated protein kinase kinase kina...  94.0    3e-20
+sp|Q9H2G2|SLK_HUMAN STE20-like serine/threonine-protein kinase OS...  93.6    5e-20
+sp|Q8IWQ3|BRSK2_HUMAN Serine/threonine-protein kinase BRSK2 OS=Ho...  92.8    5e-20
+sp|Q8TD19|NEK9_HUMAN Serine/threonine-protein kinase Nek9 OS=Homo...  92.8    7e-20
+sp|Q8TDX7|NEK7_HUMAN Serine/threonine-protein kinase Nek7 OS=Homo...  88.6    7e-20
+sp|P23443|KS6B1_HUMAN Ribosomal protein S6 kinase beta-1 OS=Homo ...  90.9    1e-19
+sp|Q8IVH8|M4K3_HUMAN Mitogen-activated protein kinase kinase kina...  90.5    3e-19
+sp|P00519|ABL1_HUMAN Tyrosine-protein kinase ABL1 OS=Homo sapiens...  89.7    6e-19
+sp|Q9Y4K4|M4K5_HUMAN Mitogen-activated protein kinase kinase kina...  87.0    3e-18
+sp|Q9HC98|NEK6_HUMAN Serine/threonine-protein kinase Nek6 OS=Homo...  83.6    4e-18
+sp|Q9P289|STK26_HUMAN Serine/threonine-protein kinase 26 OS=Homo ...  85.1    4e-18
+sp|O95835|LATS1_HUMAN Serine/threonine-protein kinase LATS1 OS=Ho...  86.3    7e-18
+sp|Q8N4C8|MINK1_HUMAN Misshapen-like kinase 1 OS=Homo sapiens OX=...  85.9    9e-18
+sp|O00506|STK25_HUMAN Serine/threonine-protein kinase 25 OS=Homo ...  84.0    1e-17
+sp|Q9UKE5|TNIK_HUMAN TRAF2 and NCK-interacting protein kinase OS=...  85.5    1e-17
+sp|Q9NRM7|LATS2_HUMAN Serine/threonine-protein kinase LATS2 OS=Ho...  85.1    2e-17
+sp|P53350|PLK1_HUMAN Serine/threonine-protein kinase PLK1 OS=Homo...  84.0    2e-17
+sp|O43293|DAPK3_HUMAN Death-associated protein kinase 3 OS=Homo s...  83.2    2e-17
+sp|Q9Y6E0|STK24_HUMAN Serine/threonine-protein kinase 24 OS=Homo ...  83.2    2e-17
+sp|P17612|KAPCA_HUMAN cAMP-dependent protein kinase catalytic sub...  82.0    2e-17
+sp|O95819|M4K4_HUMAN Mitogen-activated protein kinase kinase kina...  84.0    4e-17
+sp|Q9UQM7|KCC2A_HUMAN Calcium/calmodulin-dependent protein kinase...  82.0    5e-17
+sp|O96017|CHK2_HUMAN Serine/threonine-protein kinase Chk2 OS=Homo...  82.0    7e-17
+sp|Q56UN5|M3K19_HUMAN Mitogen-activated protein kinase kinase kin...  82.8    9e-17
+sp|Q9NYY3|PLK2_HUMAN Serine/threonine-protein kinase PLK2 OS=Homo...  80.5    3e-16
+sp|O14578|CTRO_HUMAN Citron Rho-interacting kinase OS=Homo sapien...  80.1    6e-16
+sp|O95747|OXSR1_HUMAN Serine/threonine-protein kinase OSR1 OS=Hom...  78.2    1e-15
+sp|P07332|FES_HUMAN Tyrosine-protein kinase Fes/Fps OS=Homo sapie...  78.6    1e-15
+sp|P17252|KPCA_HUMAN Protein kinase C alpha type OS=Homo sapiens ...  77.0    3e-15
+sp|Q8NG66|NEK11_HUMAN Serine/threonine-protein kinase Nek11 OS=Ho...  76.6    4e-15
+sp|Q9UEW8|STK39_HUMAN STE20/SPS1-related proline-alanine-rich pro...  76.6    4e-15
+sp|P11362|FGFR1_HUMAN Fibroblast growth factor receptor 1 OS=Homo...  76.6    5e-15
+sp|Q99558|M3K14_HUMAN Mitogen-activated protein kinase kinase kin...  76.3    7e-15
+sp|P31749|AKT1_HUMAN RAC-alpha serine/threonine-protein kinase OS...  74.3    1e-14
+sp|Q8WZ42|TITIN_HUMAN Titin OS=Homo sapiens OX=9606 GN=TTN PE=1 SV=4  75.1    2e-14
+sp|P53671|LIMK2_HUMAN LIM domain kinase 2 OS=Homo sapiens OX=9606...  74.3    3e-14
+sp|Q14680|MELK_HUMAN Maternal embryonic leucine zipper kinase OS=...  73.2    5e-14
+sp|P05771|KPCB_HUMAN Protein kinase C beta type OS=Homo sapiens O...  72.8    8e-14
+sp|Q13464|ROCK1_HUMAN Rho-associated protein kinase 1 OS=Homo sap...  71.6    2e-13
+sp|Q13163|MP2K5_HUMAN Dual specificity mitogen-activated protein ...  70.1    3e-13
+sp|Q9NYL2|M3K20_HUMAN Mitogen-activated protein kinase kinase kin...  70.1    5e-13
+sp|Q7Z2Y5|NRK_HUMAN Nik-related protein kinase OS=Homo sapiens OX...  69.7    9e-13
+sp|O14733|MP2K7_HUMAN Dual specificity mitogen-activated protein ...  68.6    9e-13
+sp|P49137|MAPK2_HUMAN MAP kinase-activated protein kinase 2 OS=Ho...  68.2    1e-12
+sp|Q02750|MP2K1_HUMAN Dual specificity mitogen-activated protein ...  67.8    1e-12
+sp|P36507|MP2K2_HUMAN Dual specificity mitogen-activated protein ...  67.8    1e-12
+sp|Q96GX5|GWL_HUMAN Serine/threonine-protein kinase greatwall OS=...  68.6    2e-12
+sp|Q9P1W9|PIM2_HUMAN Serine/threonine-protein kinase pim-2 OS=Hom...  66.2    2e-12
+sp|Q99640|PMYT1_HUMAN Membrane-associated tyrosine- and threonine...  65.9    7e-12
+sp|O75116|ROCK2_HUMAN Rho-associated protein kinase 2 OS=Homo sap...  65.1    2e-11
+sp|P46734|MP2K3_HUMAN Dual specificity mitogen-activated protein ...  61.6    8e-11
+sp|Q13546|RIPK1_HUMAN Receptor-interacting serine/threonine-prote...  62.4    1e-10
+sp|P09619|PGFRB_HUMAN Platelet-derived growth factor receptor bet...  62.8    1e-10
+sp|Q16513|PKN2_HUMAN Serine/threonine-protein kinase N2 OS=Homo s...  62.0    2e-10
+sp|P43405|KSYK_HUMAN Tyrosine-protein kinase SYK OS=Homo sapiens ...  61.2    2e-10
+sp|P52564|MP2K6_HUMAN Dual specificity mitogen-activated protein ...  60.1    3e-10
+sp|P06213|INSR_HUMAN Insulin receptor OS=Homo sapiens OX=9606 GN=...  61.6    3e-10
+sp|Q86V86|PIM3_HUMAN Serine/threonine-protein kinase pim-3 OS=Hom...  58.5    7e-10
+sp|P00533|EGFR_HUMAN Epidermal growth factor receptor OS=Homo sap...  59.7    1e-09
+sp|P33981|TTK_HUMAN Dual specificity protein kinase TTK OS=Homo s...  58.9    1e-09
+sp|P33981|TTK_HUMAN Dual specificity protein kinase TTK OS=Homo s...  58.9    1e-09
+sp|Q8TEA7|TBCK_HUMAN TBC domain-containing protein kinase-like pr...  56.2    9e-09
+sp|P45985|MP2K4_HUMAN Dual specificity mitogen-activated protein ...  55.5    9e-09
+sp|Q99986|VRK1_HUMAN Serine/threonine-protein kinase VRK1 OS=Homo...  54.3    2e-08
+sp|P48730|KC1D_HUMAN Casein kinase I isoform delta OS=Homo sapien...  54.3    3e-08
+sp|P0C263|SBK2_HUMAN Serine/threonine-protein kinase SBK2 OS=Homo...  52.4    8e-08
+sp|P49674|KC1E_HUMAN Casein kinase I isoform epsilon OS=Homo sapi...  51.6    2e-07
+sp|Q04771|ACVR1_HUMAN Activin receptor type-1 OS=Homo sapiens OX=...  52.0    2e-07
+sp|P08069|IGF1R_HUMAN Insulin-like growth factor 1 receptor OS=Ho...  52.4    2e-07
+sp|P30291|WEE1_HUMAN Wee1-like protein kinase OS=Homo sapiens OX=...  49.7    1e-06
+sp|Q7RTN6|STRAA_HUMAN STE20-related kinase adapter protein alpha ...  47.8    3e-06
+sp|P41279|M3K8_HUMAN Mitogen-activated protein kinase kinase kina...  45.8    1e-05
+sp|O00311|CDC7_HUMAN Cell division cycle 7-related protein kinase...  45.8    1e-05
+sp|P36896|ACV1B_HUMAN Activin receptor type-1B OS=Homo sapiens OX...  45.8    1e-05
+sp|Q9C0K7|STRAB_HUMAN STE20-related kinase adapter protein beta O...  45.1    2e-05
+sp|P0C1S8|WEE2_HUMAN Wee1-like protein kinase 2 OS=Homo sapiens O...  44.3    4e-05
+sp|Q96KB5|TOPK_HUMAN Lymphokine-activated killer T-cell-originate...  35.8    0.012
+sp|O43683|BUB1_HUMAN Mitotic checkpoint serine/threonine-protein ...  36.2    0.015
+sp|P18583|SON_HUMAN Protein SON OS=Homo sapiens OX=9606 GN=SON PE...  30.8    0.66 
+sp|Q8IWB6|TEX14_HUMAN Inactive serine/threonine-protein kinase TE...  30.4    0.73 
+sp|P01375|TNFA_HUMAN Tumor necrosis factor OS=Homo sapiens OX=960...  28.1    2.4  
+sp|Q8TF76|HASP_HUMAN Serine/threonine-protein kinase haspin OS=Ho...  28.5    2.8  
+sp|Q13123|RED_HUMAN Protein Red OS=Homo sapiens OX=9606 GN=IK PE=...  28.1    3.5  
+sp|Q15058|KIF14_HUMAN Kinesin-like protein KIF14 OS=Homo sapiens ...  28.5    3.5  
+sp|Q53H47|SETMR_HUMAN Histone-lysine N-methyltransferase SETMAR O...  28.1    3.6  
+sp|Q9NPG1|FZD3_HUMAN Frizzled-3 OS=Homo sapiens OX=9606 GN=FZD3 P...  28.1    3.7  
+sp|Q14203|DCTN1_HUMAN Dynactin subunit 1 OS=Homo sapiens OX=9606 ...  27.7    4.9  
+sp|Q9UPV0|CE164_HUMAN Centrosomal protein of 164 kDa OS=Homo sapi...  27.7    5.4  
+sp|Q7Z7A1|CNTRL_HUMAN Centriolin OS=Homo sapiens OX=9606 GN=CNTRL...  27.3    6.4  
+sp|O75179|ANR17_HUMAN Ankyrin repeat domain-containing protein 17...  26.9    9.5  
+
+
+>sp|Q14004|CDK13_HUMAN Cyclin-dependent kinase 13 OS=Homo sapiens 
+OX=9606 GN=CDK13 PE=1 SV=2
+Length=1512
+
+ Score = 803 bits (2074),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 408/596 (68%), Positives = 466/596 (78%), Gaps = 31/596 (5%)
+
+Query  639   DDDMDSPKETLPSKPVKKEKEQRTRHLLTDLPLPPELPGGD-LSPPDSPEPKAITPPQQP  697
+             D + DS +  +  K VKKE E++ R LL DLPLPPELPGGD LS   SPE K  T  Q  
+Sbjct  619   DKEADSLRGNISVKAVKKEVEKKLRCLLADLPLPPELPGGDDLS--KSPEEKK-TATQLH  675
+
+Query  698   YKKRPKICCPRYGERRQTESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKK  757
+              K+RPKIC PRYGE ++ + DWGKRCVDKFDIIGIIGEGTYGQVYKA+DKDTGE+VALKK
+Sbjct  676   SKRRPKICGPRYGETKEKDIDWGKRCVDKFDIIGIIGEGTYGQVYKARDKDTGEMVALKK  735
+
+Query  758   VRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMD  817
+             VRLDNEKEGFPITAIREIKILRQL H+S++NMKEIVTDK+DALDFKKDKGAFYLVFEYMD
+Sbjct  736   VRLDNEKEGFPITAIREIKILRQLTHQSIINMKEIVTDKEDALDFKKDKGAFYLVFEYMD  795
+
+Query  818   HDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLAD  877
+             HDLMGLLESGLVHF+E+HIKSFM+QLMEGL+YCHKKNFLHRDIKCSNILLNN GQIKLAD
+Sbjct  796   HDLMGLLESGLVHFNENHIKSFMRQLMEGLDYCHKKNFLHRDIKCSNILLNNRGQIKLAD  855
+
+Query  878   FGLARLYNSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQ  937
+             FGLARLY+SEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQ
+Sbjct  856   FGLARLYSSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQ  915
+
+Query  938   ANLELAQLELISRLCGSPCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLL  997
+             AN ELAQLELISR+CGSPCPAVWPDVIKLPYFNTMKPKKQYRR+LREEF FIP+AALDL 
+Sbjct  916   ANQELAQLELISRICGSPCPAVWPDVIKLPYFNTMKPKKQYRRKLREEFVFIPAAALDLF  975
+
+Query  998   DHMLTLDPSKRCTAEQTLQSDFLKDVELSKMAPPDLPHWQDCHELWSKKRRRQRQSGVVV  1057
+             D+ML LDPSKRCTAEQ LQ +FL+DVE SKM PPDLP WQDCHELWSKKRRRQ+Q G + 
+Sbjct  976   DYMLALDPSKRCTAEQALQCEFLRDVEPSKMPPPDLPLWQDCHELWSKKRRRQKQMG-MT  1034
+
+Query  1058  EEPPPSKTSRKETTSGTSTEPVKNSSPAPPQPAPGKVESGAGDAIGLADIT-------QQ  1110
+             ++    K  RK+ + G     + +S    PQ   G + S    + G +++        Q 
+Sbjct  1035  DDVSTIKAPRKDLSLG-----LDDSRTNTPQ---GVLPSSQLKSQGSSNVAPVKTGPGQH  1086
+
+Query  1111  LNQSELAVLLNLLQSQTDLSIPQMAQLLNIHSNPEMQQQLEALNQSISALTEATSQQQDS  1170
+             LN SELA+LLNLLQS+T +++    Q+LNI  N E QQQL  +N     L  AT ++Q  
+Sbjct  1087  LNHSELAILLNLLQSKTSVNMADFVQVLNIKVNSETQQQLNKINLPAGIL--ATGEKQTD  1144
+
+Query  1171  ETMAPEESLK----EAPSAPVILPSAEQTTLEASSTPADMQNILAVLLSQLMKTQE  1222
+              +   +ES K      PS+  I P  E    +A+     +Q+  AVLL+QL+K Q+
+Sbjct  1145  PSTPQQESSKPLGGIQPSSQTIQPKVETDAAQAA-----VQSAFAVLLTQLIKAQQ  1195
+
+
+>sp|P24941|CDK2_HUMAN Cyclin-dependent kinase 2 OS=Homo sapiens 
+OX=9606 GN=CDK2 PE=1 SV=2
+Length=298
+
+ Score = 240 bits (612),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 133/296 (45%), Positives = 181/296 (61%), Gaps = 21/296 (7%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+             IGEGTYG VYKA++K TGE+VALKK+RLD E EG P TAIREI +L++L H ++V +   
+Sbjct  10    IGEGTYGVVYKARNKLTGEVVALKKIRLDTETEGVPSTAIREISLLKELNHPNIVKL---  66
+
+Query  793   VTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLE-SGLVHFSEDHIKSFMKQLMEGLEYCH  851
+                    LD    +   YLVFE++  DL   ++ S L       IKS++ QL++GL +CH
+Sbjct  67    -------LDVIHTENKLYLVFEFLHQDLKKFMDASALTGIPLPLIKSYLFQLLQGLAFCH  119
+
+Query  852   KKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEE  911
+                 LHRD+K  N+L+N  G IKLADFGLAR +     R YT++V+TLWYR PE+LLG +
+Sbjct  120   SHRVLHRDLKPQNLLINTEGAIKLADFGLARAFGVP-VRTYTHEVVTLWYRAPEILLGCK  178
+
+Query  912   RYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPYFNT  971
+              Y+ A+D+WS GCI  E+ T++ +F  + E+ QL  I R  G+P   VWP V  +P +  
+Sbjct  179   YYSTAVDIWSLGCIFAEMVTRRALFPGDSEIDQLFRIFRTLGTPDEVVWPGVTSMPDYKP  238
+
+Query  972   MKPKKQYRRRLREEFS-FIPSAALD---LLDHMLTLDPSKRCTAEQTLQSDFLKDV  1023
+               PK       R++FS  +P    D   LL  ML  DP+KR +A+  L   F +DV
+Sbjct  239   SFPKWA-----RQDFSKVVPPLDEDGRSLLSQMLHYDPNKRISAKAALAHPFFQDV  289
+
+
+>sp|Q00526|CDK3_HUMAN Cyclin-dependent kinase 3 OS=Homo sapiens 
+OX=9606 GN=CDK3 PE=1 SV=1
+Length=305
+
+ Score = 240 bits (612),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 130/297 (44%), Positives = 185/297 (62%), Gaps = 21/297 (7%)
+
+Query  724   VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIH  783
+             +D F  +  IGEGTYG VYKAK+++TG+LVALKK+RLD E EG P TAIREI +L++L H
+Sbjct  1     MDMFQKVEKIGEGTYGVVYKAKNRETGQLVALKKIRLDLEMEGVPSTAIREISLLKELKH  60
+
+Query  784   RSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGL-----VHFSEDHIKS  838
+              ++V + ++V +++            YLVFE++  DL   ++S       +H     IKS
+Sbjct  61    PNIVRLLDVVHNERK----------LYLVFEFLSQDLKKYMDSTPGSELPLHL----IKS  106
+
+Query  839   FMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVIT  898
+             ++ QL++G+ +CH    +HRD+K  N+L+N  G IKLADFGLAR +     R YT++V+T
+Sbjct  107   YLFQLLQGVSFCHSHRVIHRDLKPQNLLINELGAIKLADFGLARAFGVP-LRTYTHEVVT  165
+
+Query  899   LWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPA  958
+             LWYR PE+LLG + YT A+D+WS GCI  E+ T+K +F  + E+ QL  I R+ G+P   
+Sbjct  166   LWYRAPEILLGSKFYTTAVDIWSIGCIFAEMVTRKALFPGDSEIDQLFRIFRMLGTPSED  225
+
+Query  959   VWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTL  1015
+              WP V +LP +    PK   R+ L E    +     DLL  +L  DPS+R TA+  L
+Sbjct  226   TWPGVTQLPDYKGSFPKWT-RKGLEEIVPNLEPEGRDLLMQLLQYDPSQRITAKTAL  281
+
+
+>sp|P21127|CD11B_HUMAN Cyclin-dependent kinase 11B OS=Homo sapiens 
+OX=9606 GN=CDK11B PE=1 SV=4
+Length=795
+
+ Score = 253 bits (646),  Expect = 1e-71, Method: Compositional matrix adjust.
+ Identities = 126/318 (40%), Positives = 192/318 (60%), Gaps = 11/318 (3%)
+
+Query  720   GKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILR  779
+             G R V++F  +  I EGTYG VY+AKDK T E+VALK+++++ EKEGFPIT++REI  + 
+Sbjct  431   GCRSVEEFQCLNRIEEGTYGVVYRAKDKKTDEIVALKRLKMEKEKEGFPITSLREINTIL  490
+
+Query  780   QLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSF  839
+             +  H ++V ++EIV           +    Y+V  Y++HDL  L+E+    F    +K+ 
+Sbjct  491   KAQHPNIVTVREIVVGS--------NMDKIYIVMNYVEHDLKSLMETMKQPFLPGEVKTL  542
+
+Query  840   MKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITL  899
+             M QL+ G+++ H    LHRD+K SN+LL+++G +K+ DFGLAR Y S   + YT  V+TL
+Sbjct  543   MIQLLRGVKHLHDNWILHRDLKTSNLLLSHAGILKVGDFGLAREYGSP-LKAYTPVVVTL  601
+
+Query  900   WYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAV  959
+             WYR PELLLG + Y+ A+D+WS GCI GEL T+KP+F    E+ Q+  + +  G+P   +
+Sbjct  602   WYRAPELLLGAKEYSTAVDMWSVGCIFGELLTQKPLFPGKSEIDQINKVFKDLGTPSEKI  661
+
+Query  960   WPDVIKLPYFNTMKPKKQYRRRLREEF-SFIPSAALDLLDHMLTLDPSKRCTAEQTLQSD  1018
+             WP   +LP    M   +     LR+ F + +     DL++  LT  P +R +AE  L+ +
+Sbjct  662   WPGYSELPAVKKMTFSEHPYNNLRKRFGALLSDQGFDLMNKFLTYFPGRRISAEDGLKHE  721
+
+Query  1019  FLKDVELSKMAPPDLPHW  1036
+             + ++  L  + P   P W
+Sbjct  722   YFRETPLP-IDPSMFPTW  738
+
+
+>sp|Q9UQ88|CD11A_HUMAN Cyclin-dependent kinase 11A OS=Homo sapiens 
+OX=9606 GN=CDK11A PE=1 SV=4
+Length=783
+
+ Score = 252 bits (643),  Expect = 3e-71, Method: Compositional matrix adjust.
+ Identities = 126/318 (40%), Positives = 192/318 (60%), Gaps = 11/318 (3%)
+
+Query  720   GKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILR  779
+             G R V++F  +  I EGTYG VY+AKDK T E+VALK+++++ EKEGFPIT++REI  + 
+Sbjct  419   GCRSVEEFQCLNRIEEGTYGVVYRAKDKKTDEIVALKRLKMEKEKEGFPITSLREINTIL  478
+
+Query  780   QLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSF  839
+             +  H ++V ++EIV           +    Y+V  Y++HDL  L+E+    F    +K+ 
+Sbjct  479   KAQHPNIVTVREIVVGS--------NMDKIYIVMNYVEHDLKSLMETMKQPFLPGEVKTL  530
+
+Query  840   MKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITL  899
+             M QL+ G+++ H    LHRD+K SN+LL+++G +K+ DFGLAR Y S   + YT  V+T 
+Sbjct  531   MIQLLRGVKHLHDNWILHRDLKTSNLLLSHAGILKVGDFGLAREYGSP-LKAYTPVVVTQ  589
+
+Query  900   WYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAV  959
+             WYR PELLLG + Y+ A+D+WS GCI GEL T+KP+F  N E+ Q+  + +  G+P   +
+Sbjct  590   WYRAPELLLGAKEYSTAVDMWSVGCIFGELLTQKPLFPGNSEIDQINKVFKELGTPSEKI  649
+
+Query  960   WPDVIKLPYFNTMKPKKQYRRRLREEF-SFIPSAALDLLDHMLTLDPSKRCTAEQTLQSD  1018
+             WP   +LP    M   +     LR+ F + +     DL++  LT  P +R +AE  L+ +
+Sbjct  650   WPGYSELPVVKKMTFSEHPYNNLRKRFGALLSDQGFDLMNKFLTYFPGRRISAEDGLKHE  709
+
+Query  1019  FLKDVELSKMAPPDLPHW  1036
+             + ++  L  + P   P W
+Sbjct  710   YFRETPLP-IDPSMFPTW  726
+
+
+>sp|Q15131|CDK10_HUMAN Cyclin-dependent kinase 10 OS=Homo sapiens 
+OX=9606 GN=CDK10 PE=1 SV=1
+Length=360
+
+ Score = 239 bits (609),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 128/301 (43%), Positives = 183/301 (61%), Gaps = 9/301 (3%)
+
+Query  722   RCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQL  781
+             R V +F+ +  IGEGTYG VY+A+D  T E+VALKKVR+D EK+G PI+++REI +L +L
+Sbjct  34    RSVKEFEKLNRIGEGTYGIVYRARDTQTDEIVALKKVRMDKEKDGIPISSLREITLLLRL  93
+
+Query  782   IHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMK  841
+              H ++V +KE+V              + +LV  Y + DL  LLE+    FSE  +K  + 
+Sbjct  94    RHPNIVELKEVVVGNHLE--------SIFLVMGYCEQDLASLLENMPTPFSEAQVKCIVL  145
+
+Query  842   QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+             Q++ GL+Y H+   +HRD+K SN+L+ + G +K ADFGLAR Y     +P T KV+TLWY
+Sbjct  146   QVLRGLQYLHRNFIIHRDLKVSNLLMTDKGCVKTADFGLARAYGVP-VKPMTPKVVTLWY  204
+
+Query  902   RPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWP  961
+             R PELLLG    T +ID+W+ GCIL EL   +P+     E+ Q++LI +L G+P   +WP
+Sbjct  205   RAPELLLGTTTQTTSIDMWAVGCILAELLAHRPLLPGTSEIHQIDLIVQLLGTPSENIWP  264
+
+Query  962   DVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLK  1021
+                KLP       +KQ    L+ +F ++  A L LL  +   DP KR TA   L+S + K
+Sbjct  265   GFSKLPLVGQYSLRKQPYNNLKHKFPWLSEAGLRLLHFLFMYDPKKRATAGDCLESSYFK  324
+
+Query  1022  D  1022
+             +
+Sbjct  325   E  325
+
+
+>sp|P06493|CDK1_HUMAN Cyclin-dependent kinase 1 OS=Homo sapiens 
+OX=9606 GN=CDK1 PE=1 SV=3
+Length=297
+
+ Score = 230 bits (586),  Expect = 9e-69, Method: Compositional matrix adjust.
+ Identities = 123/295 (42%), Positives = 184/295 (62%), Gaps = 16/295 (5%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+             IGEGTYG VYK + K TG++VA+KK+RL++E+EG P TAIREI +L++L H ++V+++++
+Sbjct  10    IGEGTYGVVYKGRHKTTGQVVAMKKIRLESEEEGVPSTAIREISLLKELRHPNIVSLQDV  69
+
+Query  793   VTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLES---GLVHFSEDHIKSFMKQLMEGLEY  849
+             +   QD+          YL+FE++  DL   L+S   G  +     +KS++ Q+++G+ +
+Sbjct  70    LM--QDS--------RLYLIFEFLSMDLKKYLDSIPPG-QYMDSSLVKSYLYQILQGIVF  118
+
+Query  850   CHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLG  909
+             CH +  LHRD+K  N+L+++ G IKLADFGLAR +     R YT++V+TLWYR PE+LLG
+Sbjct  119   CHSRRVLHRDLKPQNLLIDDKGTIKLADFGLARAFGIP-IRVYTHEVVTLWYRSPEVLLG  177
+
+Query  910   EERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPYF  969
+               RY+  +D+WS G I  EL TKKP+F  + E+ QL  I R  G+P   VWP+V  L  +
+Sbjct  178   SARYSTPVDIWSIGTIFAELATKKPLFHGDSEIDQLFRIFRALGTPNNEVWPEVESLQDY  237
+
+Query  970   NTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLKDVE  1024
+                 PK +    L      +    LDLL  ML  DP+KR + +  L   +  D++
+Sbjct  238   KNTFPKWK-PGSLASHVKNLDENGLDLLSKMLIYDPAKRISGKMALNHPYFNDLD  291
+
+
+>sp|Q00535|CDK5_HUMAN Cyclin-dependent-like kinase 5 OS=Homo sapiens 
+OX=9606 GN=CDK5 PE=1 SV=3
+Length=292
+
+ Score = 222 bits (565),  Expect = 5e-66, Method: Compositional matrix adjust.
+ Identities = 123/302 (41%), Positives = 188/302 (62%), Gaps = 19/302 (6%)
+
+Query  726   KFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRS  785
+             K++ +  IGEGTYG V+KAK+++T E+VALK+VRLD++ EG P +A+REI +L++L H++
+Sbjct  3     KYEKLEKIGEGTYGTVFKAKNRETHEIVALKRVRLDDDDEGVPSSALREICLLKELKHKN  62
+
+Query  786   VVNMKEIV-TDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLM  844
+             +V + +++ +DK+             LVFE+ D DL    +S       + +KSF+ QL+
+Sbjct  63    IVRLHDVLHSDKK-----------LTLVFEFCDQDLKKYFDSCNGDLDPEIVKSFLFQLL  111
+
+Query  845   EGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPP  904
+             +GL +CH +N LHRD+K  N+L+N +G++KLADFGLAR +     R Y+ +V+TLWYRPP
+Sbjct  112   KGLGFCHSRNVLHRDLKPQNLLINRNGELKLADFGLARAFGI-PVRCYSAEVVTLWYRPP  170
+
+Query  905   ELLLGEERYTPAIDVWSCGCILGELFTK-KPIFQANLELAQLELISRLCGSPCPAVWPDV  963
+             ++L G + Y+ +ID+WS GCI  EL    +P+F  N    QL+ I RL G+P    WP +
+Sbjct  171   DVLFGAKLYSTSIDMWSAGCIFAELANAGRPLFPGNDVDDQLKRIFRLLGTPTEEQWPSM  230
+
+Query  964   IKLPYFNTMKPKKQY--RRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLK  1021
+              KLP +   KP   Y     L      + +   DLL ++L  +P +R +AE+ LQ  +  
+Sbjct  231   TKLPDY---KPYPMYPATTSLVNVVPKLNATGRDLLQNLLKCNPVQRISAEEALQHPYFS  287
+
+Query  1022  DV  1023
+             D 
+Sbjct  288   DF  289
+
+
+>sp|Q00536|CDK16_HUMAN Cyclin-dependent kinase 16 OS=Homo sapiens 
+OX=9606 GN=CDK16 PE=1 SV=1
+Length=496
+
+ Score = 220 bits (561),  Expect = 5e-63, Method: Compositional matrix adjust.
+ Identities = 118/309 (38%), Positives = 177/309 (57%), Gaps = 12/309 (4%)
+
+Query  712   RRQTESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITA  771
+             RR + S+ G   ++ +  +  +GEGTY  VYK K K T  LVALK++RL++E EG P TA
+Sbjct  150   RRVSLSEIGFGKLETYIKLDKLGEGTYATVYKGKSKLTDNLVALKEIRLEHE-EGAPCTA  208
+
+Query  772   IREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHF  831
+             IRE+ +L+ L H ++V + +I+  ++          +  LVFEY+D DL   L+      
+Sbjct  209   IREVSLLKDLKHANIVTLHDIIHTEK----------SLTLVFEYLDKDLKQYLDDCGNII  258
+
+Query  832   SEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRP  891
+             +  ++K F+ QL+ GL YCH++  LHRD+K  N+L+N  G++KLADFGLAR   S  ++ 
+Sbjct  259   NMHNVKLFLFQLLRGLAYCHRQKVLHRDLKPQNLLINERGELKLADFGLAR-AKSIPTKT  317
+
+Query  892   YTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRL  951
+             Y+N+V+TLWYRPP++LLG   Y+  ID+W  GCI  E+ T +P+F  +    QL  I R+
+Sbjct  318   YSNEVVTLWYRPPDILLGSTDYSTQIDMWGVGCIFYEMATGRPLFPGSTVEEQLHFIFRI  377
+
+Query  952   CGSPCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTA  1011
+              G+P    WP ++    F T    K     L      + S   DLL  +L  +   R +A
+Sbjct  378   LGTPTEETWPGILSNEEFKTYNYPKYRAEALLSHAPRLDSDGADLLTKLLQFEGRNRISA  437
+
+Query  1012  EQTLQSDFL  1020
+             E  ++  F 
+Sbjct  438   EDAMKHPFF  446
+
+
+>sp|Q07002|CDK18_HUMAN Cyclin-dependent kinase 18 OS=Homo sapiens 
+OX=9606 GN=CDK18 PE=1 SV=4
+Length=474
+
+ Score = 212 bits (540),  Expect = 1e-60, Method: Compositional matrix adjust.
+ Identities = 111/261 (43%), Positives = 160/261 (61%), Gaps = 14/261 (5%)
+
+Query  712  RRQTESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITA  771
+            RR + SD G   ++ +  +  +GEGTY  V+K + K T  LVALK++RL++E EG P TA
+Sbjct  129  RRASLSDIGFGKLETYVKLDKLGEGTYATVFKGRSKLTENLVALKEIRLEHE-EGAPCTA  187
+
+Query  772  IREIKILRQLIHRSVVNMKEIV-TDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH  830
+            IRE+ +L+ L H ++V + +++ TD+           +  LVFEY+D DL   L+     
+Sbjct  188  IREVSLLKNLKHANIVTLHDLIHTDR-----------SLTLVFEYLDSDLKQYLDHCGNL  236
+
+Query  831  FSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESR  890
+             S  ++K FM QL+ GL YCH +  LHRD+K  N+L+N  G++KLADFGLAR   S  ++
+Sbjct  237  MSMHNVKIFMFQLLRGLAYCHHRKILHRDLKPQNLLINERGELKLADFGLARA-KSVPTK  295
+
+Query  891  PYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISR  950
+             Y+N+V+TLWYRPP++LLG   Y+  ID+W  GCI  E+ T +P+F  +    +L LI R
+Sbjct  296  TYSNEVVTLWYRPPDVLLGSTEYSTPIDMWGVGCIHYEMATGRPLFPGSTVKEELHLIFR  355
+
+Query  951  LCGSPCPAVWPDVIKLPYFNT  971
+            L G+P    WP V     F T
+Sbjct  356  LLGTPTEETWPGVTAFSEFRT  376
+
+
+>sp|Q00537|CDK17_HUMAN Cyclin-dependent kinase 17 OS=Homo sapiens 
+OX=9606 GN=CDK17 PE=1 SV=2
+Length=523
+
+ Score = 213 bits (543),  Expect = 2e-60, Method: Compositional matrix adjust.
+ Identities = 113/292 (39%), Positives = 172/292 (59%), Gaps = 14/292 (5%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+             +GEGTY  VYK + K T  LVALK++RL++E EG P TAIRE+ +L+ L H ++V + +I
+Sbjct  198   LGEGTYATVYKGRSKLTENLVALKEIRLEHE-EGAPCTAIREVSLLKDLKHANIVTLHDI  256
+
+Query  793   V-TDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCH  851
+             V TDK           +  LVFEY+D DL   ++      S  ++K F+ Q++ GL YCH
+Sbjct  257   VHTDK-----------SLTLVFEYLDKDLKQYMDDCGNIMSMHNVKLFLYQILRGLAYCH  305
+
+Query  852   KKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEE  911
+             ++  LHRD+K  N+L+N  G++KLADFGLAR   S  ++ Y+N+V+TLWYRPP++LLG  
+Sbjct  306   RRKVLHRDLKPQNLLINEKGELKLADFGLARA-KSVPTKTYSNEVVTLWYRPPDVLLGSS  364
+
+Query  912   RYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPYFNT  971
+              Y+  ID+W  GCI  E+ + +P+F  +    +L LI RL G+P    WP +     F  
+Sbjct  365   EYSTQIDMWGVGCIFFEMASGRPLFPGSTVEDELHLIFRLLGTPSQETWPGISSNEEFKN  424
+
+Query  972   MKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLKDV  1023
+                 K   + L      + S  ++L+   L  +  KR +AE+ ++  + + +
+Sbjct  425   YNFPKYKPQPLINHAPRLDSEGIELITKFLQYESKKRVSAEEAMKHVYFRSL  476
+
+
+>sp|P50613|CDK7_HUMAN Cyclin-dependent kinase 7 OS=Homo sapiens 
+OX=9606 GN=CDK7 PE=1 SV=1
+Length=346
+
+ Score = 202 bits (515),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 110/300 (37%), Positives = 173/300 (58%), Gaps = 16/300 (5%)
+
+Query  726   KFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNE---KEGFPITAIREIKILRQLI  782
+             +++ +  +GEG +  VYKA+DK+T ++VA+KK++L +    K+G   TA+REIK+L++L 
+Sbjct  11    RYEKLDFLGEGQFATVYKARDKNTNQIVAIKKIKLGHRSEAKDGINRTALREIKLLQELS  70
+
+Query  783   HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQ  842
+             H +++ +          LD    K    LVF++M+ DL  +++   +  +  HIK++M  
+Sbjct  71    HPNIIGL----------LDAFGHKSNISLVFDFMETDLEVIIKDNSLVLTPSHIKAYMLM  120
+
+Query  843   LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYR  902
+              ++GLEY H+   LHRD+K +N+LL+ +G +KLADFGLA+ + S  +R YT++V+T WYR
+Sbjct  121   TLQGLEYLHQHWILHRDLKPNNLLLDENGVLKLADFGLAKSFGSP-NRAYTHQVVTRWYR  179
+
+Query  903   PPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPD  962
+              PELL G   Y   +D+W+ GCIL EL  + P    + +L QL  I    G+P    WPD
+Sbjct  180   APELLFGARMYGVGVDMWAVGCILAELLLRVPFLPGDSDLDQLTRIFETLGTPTEEQWPD  239
+
+Query  963   VIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLKD  1022
+             +  LP + T K        L   FS      LDL+  +   +P  R TA Q L+  +  +
+Sbjct  240   MCSLPDYVTFKSFPGI--PLHHIFSAAGDDLLDLIQGLFLFNPCARITATQALKMKYFSN  297
+
+
+>sp|O94921|CDK14_HUMAN Cyclin-dependent kinase 14 OS=Homo sapiens 
+OX=9606 GN=CDK14 PE=1 SV=3
+Length=469
+
+ Score = 199 bits (507),  Expect = 3e-56, Method: Compositional matrix adjust.
+ Identities = 119/317 (38%), Positives = 180/317 (57%), Gaps = 28/317 (9%)
+
+Query  725   DKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHR  784
+             D ++ +  +GEG+Y  VYK K K  G+LVALK +RL  E+EG P TAIRE  +L+ L H 
+Sbjct  133   DSYEKLEKLGEGSYATVYKGKSKVNGKLVALKVIRL-QEEEGTPFTAIREASLLKGLKHA  191
+
+Query  785   SVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLES--GLVHFSEDHIKSFMKQ  842
+             ++V + +I+  K+             LVFEY+  DL   ++   G +H   D++K F+ Q
+Sbjct  192   NIVLLHDIIHTKE----------TLTLVFEYVHTDLCQYMDKHPGGLH--PDNVKLFLFQ  239
+
+Query  843   LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYR  902
+             L+ GL Y H++  LHRD+K  N+L++++G++KLADFGLAR   S  S  Y+N+V+TLWYR
+Sbjct  240   LLRGLSYIHQRYILHRDLKPQNLLISDTGELKLADFGLARA-KSVPSHTYSNEVVTLWYR  298
+
+Query  903   PPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELA-QLELISRLCGSPCPAVWP  961
+             PP++LLG   Y+  +D+W  GCI  E+      F    ++  QLE I  + G+P    WP
+Sbjct  299   PPDVLLGSTEYSTCLDMWGVGCIFVEMIQGVAAFPGMKDIQDQLERIFLVLGTPNEDTWP  358
+
+Query  962   DVIKLPYFN----TMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQS  1017
+              V  LP+F     T+   K  R+    + S++  A  DL   +L   P  R +A+  L  
+Sbjct  359   GVHSLPHFKPERFTLYSSKNLRQAW-NKLSYVNHAE-DLASKLLQCSPKNRLSAQAALSH  416
+
+Query  1018  DFLKDV-----ELSKMA  1029
+             ++  D+     EL+ M+
+Sbjct  417   EYFSDLPPRLWELTDMS  433
+
+
+>sp|Q00534|CDK6_HUMAN Cyclin-dependent kinase 6 OS=Homo sapiens 
+OX=9606 GN=CDK6 PE=1 SV=1
+Length=326
+
+ Score = 194 bits (493),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 123/328 (38%), Positives = 186/328 (57%), Gaps = 38/328 (12%)
+
+Query  716   ESDWGKRCVDKFDIIGIIGEGTYGQVYKAKD-KDTGELVALKKVRLDNEKEGFPITAIRE  774
+             E D   R   +++ +  IGEG YG+V+KA+D K+ G  VALK+VR+   +EG P++ IRE
+Sbjct  2     EKDGLCRADQQYECVAEIGEGAYGKVFKARDLKNGGRFVALKRVRVQTGEEGMPLSTIRE  61
+
+Query  775   IKILRQLI---HRSVVNMKEIVT----DKQDALDFKKDKGAFYLVFEYMDHDLMGLL---  824
+             + +LR L    H +VV + ++ T    D++  L          LVFE++D DL   L   
+Sbjct  62    VAVLRHLETFEHPNVVRLFDVCTVSRTDRETKLT---------LVFEHVDQDLTTYLDKV  112
+
+Query  825   -ESGLVHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARL  883
+              E G+     + IK  M QL+ GL++ H    +HRD+K  NIL+ +SGQIKLADFGLAR+
+Sbjct  113   PEPGV---PTETIKDMMFQLLRGLDFLHSHRVVHRDLKPQNILVTSSGQIKLADFGLARI  169
+
+Query  884   YNSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELA  943
+             Y+ + +   T+ V+TLWYR PE+LL     TP +D+WS GCI  E+F +KP+F+ + ++ 
+Sbjct  170   YSFQMA--LTSVVVTLWYRAPEVLLQSSYATP-VDLWSVGCIFAEMFRRKPLFRGSSDVD  226
+
+Query  944   QLELISRLCGSPCPAVWPDVIKLP----YFNTMKPKKQYRRRLREEFSFIPSAALDLLDH  999
+             QL  I  + G P    WP  + LP    +  + +P +++   + E          DLL  
+Sbjct  227   QLGKILDVIGLPGEEDWPRDVALPRQAFHSKSAQPIEKFVTDIDE-------LGKDLLLK  279
+
+Query  1000  MLTLDPSKRCTAEQTLQSDFLKDVELSK  1027
+              LT +P+KR +A   L   + +D+E  K
+Sbjct  280   CLTFNPAKRISAYSALSHPYFQDLERCK  307
+
+
+>sp|Q96Q40|CDK15_HUMAN Cyclin-dependent kinase 15 OS=Homo sapiens 
+OX=9606 GN=CDK15 PE=1 SV=2
+Length=435
+
+ Score = 190 bits (482),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 113/293 (39%), Positives = 165/293 (56%), Gaps = 19/293 (6%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+             +GEG+Y  VYK   +  G+LVALK + + N +EG P TAIRE  +L+ L H ++V + +I
+Sbjct  109   LGEGSYATVYKGISRINGQLVALKVISM-NAEEGVPFTAIREASLLKGLKHANIVLLHDI  167
+
+Query  793   VTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCHK  852
+             +  K + L F         VFEYM  DL   +          +++ FM QL+ GL Y H 
+Sbjct  168   IHTK-ETLTF---------VFEYMHTDLAQYMSQHPGGLHPHNVRLFMFQLLRGLAYIHH  217
+
+Query  853   KNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEER  912
+             ++ LHRD+K  N+L+++ G++KLADFGLAR   S  S+ Y+++V+TLWYRPP+ LLG   
+Sbjct  218   QHVLHRDLKPQNLLISHLGELKLADFGLARA-KSIPSQTYSSEVVTLWYRPPDALLGATE  276
+
+Query  913   YTPAIDVWSCGCILGELFTKKPIF--QANLELAQLELISRLCGSPCPAVWPDVIKLPYFN  970
+             Y+  +D+W  GCI  E+F  +P+F   +N+ L QLE I  + G P    WP V KLP +N
+Sbjct  277   YSSELDIWGAGCIFIEMFQGQPLFPGVSNI-LEQLEKIWEVLGVPTEDTWPGVSKLPNYN  335
+
+Query  971   TMK---PKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFL  1020
+                   P  +    +      +P A  DL   ML   P  R +A++ L  D+ 
+Sbjct  336   PEWFPLPTPRSLHVVWNRLGRVPEAE-DLASQMLKGFPRDRVSAQEALVHDYF  387
+
+
+>sp|P11802|CDK4_HUMAN Cyclin-dependent kinase 4 OS=Homo sapiens 
+OX=9606 GN=CDK4 PE=1 SV=2
+Length=303
+
+ Score = 180 bits (457),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 115/305 (38%), Positives = 167/305 (55%), Gaps = 24/305 (8%)
+
+Query  726   KFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEG---FPITAIREIKILRQLI  782
+             +++ +  IG G YG VYKA+D  +G  VALK VR+ N   G    PI+ +RE+ +LR+L 
+Sbjct  5     RYEPVAEIGVGAYGTVYKARDPHSGHFVALKSVRVPNGGGGGGGLPISTVREVALLRRLE  64
+
+Query  783   ---HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLES----GLVHFSEDH  835
+                H +VV + ++    +   + K       LVFE++D DL   L+     GL     + 
+Sbjct  65    AFEHPNVVRLMDVCATSRTDREIKVT-----LVFEHVDQDLRTYLDKAPPPGL---PAET  116
+
+Query  836   IKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNK  895
+             IK  M+Q + GL++ H    +HRD+K  NIL+ + G +KLADFGLAR+Y+ + +   T  
+Sbjct  117   IKDLMRQFLRGLDFLHANCIVHRDLKPENILVTSGGTVKLADFGLARIYSYQMA--LTPV  174
+
+Query  896   VITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSP  955
+             V+TLWYR PE+LL     TP +D+WS GCI  E+F +KP+F  N E  QL  I  L G P
+Sbjct  175   VVTLWYRAPEVLLQSTYATP-VDMWSVGCIFAEMFRRKPLFCGNSEADQLGKIFDLIGLP  233
+
+Query  956   CPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTL  1015
+                 WP  + LP      P+    R ++     +  +   LL  MLT +P KR +A + L
+Sbjct  234   PEDDWPRDVSLPR-GAFPPRGP--RPVQSVVPEMEESGAQLLLEMLTFNPHKRISAFRAL  290
+
+Query  1016  QSDFL  1020
+             Q  +L
+Sbjct  291   QHSYL  295
+
+
+>sp|P28482|MK01_HUMAN Mitogen-activated protein kinase 1 OS=Homo 
+sapiens OX=9606 GN=MAPK1 PE=1 SV=3
+Length=360
+
+ Score = 176 bits (446),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 114/303 (38%), Positives = 164/303 (54%), Gaps = 19/303 (6%)
+
+Query  726   KFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRS  785
+             ++  +  IGEG YG V  A D      VA+KK+    E + +    +REIKIL +  H +
+Sbjct  24    RYTNLSYIGEGAYGMVCSAYDNVNKVRVAIKKIS-PFEHQTYCQRTLREIKILLRFRHEN  82
+
+Query  786   VVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLME  845
+             ++ + +I+  +   ++  KD    Y+V + M+ DL  LL++   H S DHI  F+ Q++ 
+Sbjct  83    IIGINDII--RAPTIEQMKD---VYIVQDLMETDLYKLLKTQ--HLSNDHICYFLYQILR  135
+
+Query  846   GLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRP--YTNKVITLWYRP  903
+             GL+Y H  N LHRD+K SN+LLN +  +K+ DFGLAR+ + +       T  V T WYR 
+Sbjct  136   GLKYIHSANVLHRDLKPSNLLLNTTCDLKICDFGLARVADPDHDHTGFLTEYVATRWYRA  195
+
+Query  904   PELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDV  963
+             PE++L  + YT +ID+WS GCIL E+ + +PIF     L QL  I  + GSP       +
+Sbjct  196   PEIMLNSKGYTKSIDIWSVGCILAEMLSNRPIFPGKHYLDQLNHILGILGSPSQEDLNCI  255
+
+Query  964   IKLPYFNTM-----KPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSD  1018
+             I L   N +     K K  + R     F    S ALDLLD MLT +P KR   EQ L   
+Sbjct  256   INLKARNYLLSLPHKNKVPWNRL----FPNADSKALDLLDKMLTFNPHKRIEVEQALAHP  311
+
+Query  1019  FLK  1021
+             +L+
+Sbjct  312   YLE  314
+
+
+>sp|P20794|MAK_HUMAN Serine/threonine-protein kinase MAK OS=Homo 
+sapiens OX=9606 GN=MAK PE=1 SV=2
+Length=623
+
+ Score = 181 bits (460),  Expect = 7e-49, Method: Compositional matrix adjust.
+ Identities = 100/301 (33%), Positives = 166/301 (55%), Gaps = 19/301 (6%)
+
+Query  724   VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIH  783
+             ++++  +  +G+GTYG V   K  ++GELVA+K+++            +RE+K L++L H
+Sbjct  1     MNRYTTMRQLGDGTYGSVLMGKSNESGELVAIKRMKRKFYSWD-ECMNLREVKSLKKLNH  59
+
+Query  784   RSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQL  843
+              +V+ +KE++          ++    Y +FEYM  +L  L++     F E  I++ M Q+
+Sbjct  60    ANVIKLKEVI----------RENDHLYFIFEYMKENLYQLMKDRNKLFPESVIRNIMYQI  109
+
+Query  844   MEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRP  903
+             ++GL + HK  F HRD+K  N+L      +K+ADFGLAR   S+   PYT+ V T WYR 
+Sbjct  110   LQGLAFIHKHGFFHRDMKPENLLCMGPELVKIADFGLARELRSQP--PYTDYVSTRWYRA  167
+
+Query  904   PELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDV  963
+             PE+LL    Y+  IDVW+ G I+ EL+  +P+F    E+ ++  I ++ G+P  + WP+ 
+Sbjct  168   PEVLLRSSVYSSPIDVWAVGSIMAELYMLRPLFPGTSEVDEIFKICQVLGTPKKSDWPEG  227
+
+Query  964   IKLPYFNTMKPKKQYRRRLREEFSFIPSA---ALDLLDHMLTLDPSKRCTAEQTLQSDFL  1020
+              +L      +  +     L+   + IP+A   A+ L+  ML  DP KR TA Q L+  + 
+Sbjct  228   YQLASSMNFRFPQCVPINLK---TLIPNASNEAIQLMTEMLNWDPKKRPTASQALKHPYF  284
+
+Query  1021  K  1021
+             +
+Sbjct  285   Q  285
+
+
+>sp|P49841|GSK3B_HUMAN Glycogen synthase kinase-3 beta OS=Homo 
+sapiens OX=9606 GN=GSK3B PE=1 SV=2
+Length=420
+
+ Score = 140 bits (353),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 82/232 (35%), Positives = 126/232 (54%), Gaps = 24/232 (10%)
+
+Query  732  IIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKE  791
+            +IG G++G VY+AK  D+GELVA+KKV  D   +       RE++I+R+L H ++V ++ 
+Sbjct  61   VIGNGSFGVVYQAKLCDSGELVAIKKVLQDKRFKN------RELQIMRKLDHCNIVRLRY  114
+
+Query  792  IVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSED-------HIKSFMKQLM  844
+                  +    KKD+    LV +Y+   +  +      H+S         ++K +M QL 
+Sbjct  115  FFYSSGE----KKDEVYLNLVLDYVPETVYRVAR----HYSRAKQTLPVIYVKLYMYQLF  166
+
+Query  845  EGLEYCHKKNFLHRDIKCSNILLN-NSGQIKLADFGLARLYNSEESRPYTNKVITLWYRP  903
+              L Y H     HRDIK  N+LL+ ++  +KL DFG A+     E  P  + + + +YR 
+Sbjct  167  RSLAYIHSFGICHRDIKPQNLLLDPDTAVLKLCDFGSAKQLVRGE--PNVSYICSRYYRA  224
+
+Query  904  PELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSP  955
+            PEL+ G   YT +IDVWS GC+L EL   +PIF  +  + QL  I ++ G+P
+Sbjct  225  PELIFGATDYTSSIDVWSAGCVLAELLLGQPIFPGDSGVDQLVEIIKVLGTP  276
+
+
+>sp|P49840|GSK3A_HUMAN Glycogen synthase kinase-3 alpha OS=Homo 
+sapiens OX=9606 GN=GSK3A PE=1 SV=2
+Length=483
+
+ Score = 139 bits (349),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 81/234 (35%), Positives = 128/234 (55%), Gaps = 24/234 (10%)
+
+Query  730  IGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNM  789
+            I +IG G++G VY+A+  +T ELVA+KKV  D   +       RE++I+R+L H ++V +
+Sbjct  122  IKVIGNGSFGVVYQARLAETRELVAIKKVLQDKRFKN------RELQIMRKLDHCNIVRL  175
+
+Query  790  KEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSED-------HIKSFMKQ  842
+            +       +    KKD+    LV EY+   +  +      HF++        ++K +M Q
+Sbjct  176  RYFFYSSGE----KKDELYLNLVLEYVPETVYRVAR----HFTKAKLTIPILYVKVYMYQ  227
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLN-NSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+            L   L Y H +   HRDIK  N+L++ ++  +KL DFG A+     E  P  + + + +Y
+Sbjct  228  LFRSLAYIHSQGVCHRDIKPQNLLVDPDTAVLKLCDFGSAKQLVRGE--PNVSYICSRYY  285
+
+Query  902  RPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSP  955
+            R PEL+ G   YT +IDVWS GC+L EL   +PIF  +  + QL  I ++ G+P
+Sbjct  286  RAPELIFGATDYTSSIDVWSAGCVLAELLLGQPIFPGDSGVDQLVEIIKVLGTP  339
+
+
+>sp|P51956|NEK3_HUMAN Serine/threonine-protein kinase Nek3 OS=Homo 
+sapiens OX=9606 GN=NEK3 PE=1 SV=2
+Length=506
+
+ Score = 116 bits (290),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 84/241 (35%), Positives = 132/241 (55%), Gaps = 23/241 (10%)
+
+Query  724  VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPIT--AIREIKILRQL  781
+            +D + ++ +IGEG++G+    + + + ++ A+K++RL    + F  T  + +E  +L ++
+Sbjct  1    MDDYMVLRMIGEGSFGRALLVQHESSNQMFAMKEIRL---PKSFSNTQNSRKEAVLLAKM  57
+
+Query  782  IHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLL--ESGLVHFSEDHIKS  838
+             H ++V  KE          F+ + G  Y+V EY D  DLM  +  + G + F ED I +
+Sbjct  58   KHPNIVAFKE---------SFEAE-GHLYIVMEYCDGGDLMQKIKQQKGKL-FPEDMILN  106
+
+Query  839  FMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVIT  898
+            +  Q+  G+ + HKK  LHRDIK  NI L  +G++KL DFG ARL ++  +   T  V T
+Sbjct  107  WFTQMCLGVNHIHKKRVLHRDIKSKNIFLTQNGKVKLGDFGSARLLSNPMAFACT-YVGT  165
+
+Query  899  LWYRPPELLLGEER-YTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCP  957
+             +Y PPE+   E   Y    D+WS GCIL EL T K  FQAN     +  + + C SP P
+Sbjct  166  PYYVPPEIW--ENLPYNNKSDIWSLGCILYELCTLKHPFQANSWKNLILKVCQGCISPLP  223
+
+Query  958  A  958
+            +
+Sbjct  224  S  224
+
+
+>sp|O14965|AURKA_HUMAN Aurora kinase A OS=Homo sapiens OX=9606 
+GN=AURKA PE=1 SV=2
+Length=403
+
+ Score = 113 bits (282),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 97/373 (26%), Positives = 167/373 (45%), Gaps = 62/373 (17%)
+
+Query  652   KPVKKEKEQRTRHLLTDLPLPPELPGGDLSPPDSPEPKAITPPQQPYKKRPKICCPRYGE  711
+             KPV+ +K+++ +   T +P P   P  +      P P A  P   P ++          +
+Sbjct  69    KPVQNQKQKQLQ--ATSVPHPVSRPLNNTQKSKQPLPSA--PENNPEEELA-------SK  117
+
+Query  712   RRQTESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKV-RLDNEKEGFPIT  770
+             ++  ES   +  ++ F+I   +G+G +G VY A++K +  ++ALK + +   EK G    
+Sbjct  118   QKNEESKKRQWALEDFEIGRPLGKGKFGNVYLAREKQSKFILALKVLFKAQLEKAGVEHQ  177
+
+Query  771   AIREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH  830
+               RE++I   L H +++ +            +  D    YL+ EY     +      L  
+Sbjct  178   LRREVEIQSHLRHPNILRL----------YGYFHDATRVYLILEYAPLGTVYRELQKLSK  227
+
+Query  831   FSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESR  890
+             F E    +++ +L   L YCH K  +HRDIK  N+LL ++G++K+ADFG +   ++  SR
+Sbjct  228   FDEQRTATYITELANALSYCHSKRVIHRDIKPENLLLGSAGELKIADFGWS--VHAPSSR  285
+
+Query  891   PYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISR  950
+               T    TL Y PPE++ G   +   +D+WS G +  E    KP F+AN           
+Sbjct  286   -RTTLCGTLDYLPPEMIEG-RMHDEKVDLWSLGVLCYEFLVGKPPFEANTY---------  334
+
+Query  951   LCGSPCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFS---FIPSAALDLLDHMLTLDPSK  1007
+                                     ++ Y+R  R EF+   F+   A DL+  +L  +PS+
+Sbjct  335   ------------------------QETYKRISRVEFTFPDFVTEGARDLISRLLKHNPSQ  370
+
+Query  1008  RCTAEQTLQSDFL  1020
+             R    + L+  ++
+Sbjct  371   RPMLREVLEHPWI  383
+
+
+>sp|Q13153|PAK1_HUMAN Serine/threonine-protein kinase PAK 1 OS=Homo 
+sapiens OX=9606 GN=PAK1 PE=1 SV=2
+Length=545
+
+ Score = 109 bits (272),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 105/382 (27%), Positives = 171/382 (45%), Gaps = 56/382 (15%)
+
+Query  658   KEQRTRHLLTDLPLPP--ELPGGDLSPPDSPE--PKAITPPQQPYKKRPKICCPRYGERR  713
+             K   TR ++  LP+ P  ++    +SP ++    P A+T   +  KK+PK+      E+ 
+Sbjct  198   KSVYTRSVIEPLPVTPTRDVATSPISPTENNTTPPDALTRNTEKQKKKPKMSDEEILEKL  257
+
+Query  714   QTESDWG--KRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITA  771
+             ++    G  K+   +F+ IG   +G  G VY A D  TG+ VA+K++ L  + +   I  
+Sbjct  258   RSIVSVGDPKKKYTRFEKIG---QGASGTVYTAMDVATGQEVAIKQMNLQQQPKKELI--  312
+
+Query  772   IREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH-  830
+             I EI ++R+  + ++VN           LD        ++V EY+     G L   +   
+Sbjct  313   INEILVMRENKNPNIVNY----------LDSYLVGDELWVVMEYLAG---GSLTDVVTET  359
+
+Query  831   -FSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEES  889
+                E  I +  ++ ++ LE+ H    +HRDIK  NILL   G +KL DFG       E+S
+Sbjct  360   CMDEGQIAAVCRECLQALEFLHSNQVIHRDIKSDNILLGMDGSVKLTDFGFCAQITPEQS  419
+
+Query  890   RPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELIS  949
+             +  T  V T ++  PE ++  + Y P +D+WS G +  E+   +P +     L  L LI+
+Sbjct  420   KRST-MVGTPYWMAPE-VVTRKAYGPKVDIWSLGIMAIEMIEGEPPYLNENPLRALYLIA  477
+
+Query  950   RLCGSPCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRC  1009
+                                     P+ Q   +L   F        D L+  L +D  KR 
+Sbjct  478   --------------------TNGTPELQNPEKLSAIFR-------DFLNRCLEMDVEKRG  510
+
+Query  1010  TAEQTLQSDFLKDVE-LSKMAP  1030
+             +A++ LQ  FLK  + LS + P
+Sbjct  511   SAKELLQHQFLKIAKPLSSLTP  532
+
+
+>sp|P68400|CSK21_HUMAN Casein kinase II subunit alpha OS=Homo 
+sapiens OX=9606 GN=CSNK2A1 PE=1 SV=1
+Length=391
+
+ Score = 107 bits (266),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 63/222 (28%), Positives = 119/222 (54%), Gaps = 14/222 (6%)
+
+Query  811   LVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNS  870
+             LVFE++++     L   L  +    I+ +M ++++ L+YCH    +HRD+K  N+++++ 
+Sbjct  111   LVFEHVNNTDFKQLYQTLTDYD---IRFYMYEILKALDYCHSMGIMHRDVKPHNVMIDHE  167
+
+Query  871   G-QIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGEL  929
+               +++L D+GLA  Y+    + Y  +V + +++ PELL+  + Y  ++D+WS GC+L  +
+Sbjct  168   HRKLRLIDWGLAEFYHP--GQEYNVRVASRYFKGPELLVDYQMYDYSLDMWSLGCMLASM  225
+
+Query  930   -FTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKL---PYFNTM---KPKKQYRRRL  982
+              F K+P F  +    QL  I+++ G+     + D   +   P FN +     +K++ R +
+Sbjct  226   IFRKEPFFHGHDNYDQLVRIAKVLGTEDLYDYIDKYNIELDPRFNDILGRHSRKRWERFV  285
+
+Query  983   REEFSFIPS-AALDLLDHMLTLDPSKRCTAEQTLQSDFLKDV  1023
+               E   + S  ALD LD +L  D   R TA + ++  +   V
+Sbjct  286   HSENQHLVSPEALDFLDKLLRYDHQSRLTAREAMEHPYFYTV  327
+
+
+>sp|P57059|SIK1_HUMAN Serine/threonine-protein kinase SIK1 OS=Homo 
+sapiens OX=9606 GN=SIK1 PE=1 SV=2
+Length=783
+
+ Score = 110 bits (274),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 82/304 (27%), Positives = 135/304 (44%), Gaps = 54/304 (18%)
+
+Query  724   VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALK---KVRLDNEKEGFPITAIREIKILRQ  780
+             V  +DI   +G+G +  V  A+ + T   VA+K   K RLD+          RE+++++ 
+Sbjct  24    VGFYDIERTLGKGNFAVVKLARHRVTKTQVAIKIIDKTRLDSSNLE---KIYREVQLMKL  80
+
+Query  781   LIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFM  840
+             L H  ++ + +++          + K   Y+V E+  +  M    +   H SE+  +   
+Sbjct  81    LNHPHIIKLYQVM----------ETKDMLYIVTEFAKNGEMFDYLTSNGHLSENEARKKF  130
+
+Query  841   KQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLW  900
+              Q++  +EYCH  + +HRD+K  N+LL+ +  IKLADFG    Y S E  P +    +  
+Sbjct  131   WQILSAVEYCHDHHIVHRDLKTENLLLDGNMDIKLADFGFGNFYKSGE--PLSTWCGSPP  188
+
+Query  901   YRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVW  960
+             Y  PE+  G+E   P +D+WS G +L  L                     +CGS      
+Sbjct  189   YAAPEVFEGKEYEGPQLDIWSLGVVLYVL---------------------VCGS------  221
+
+Query  961   PDVIKLPYFNTMKPKKQYRR---RLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQS  1017
+                  LP+     P  + R    R R  F F+      L+  ML +DP++R T  Q  Q 
+Sbjct  222   -----LPFDGPNLPTLRQRVLEGRFRIPF-FMSQDCESLIRRMLVVDPARRITIAQIRQH  275
+
+Query  1018  DFLK  1021
+              +++
+Sbjct  276   RWMR  279
+
+
+>sp|Q13043|STK4_HUMAN Serine/threonine-protein kinase 4 OS=Homo 
+sapiens OX=9606 GN=STK4 PE=1 SV=2
+Length=487
+
+ Score = 107 bits (266),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 77/214 (36%), Positives = 115/214 (54%), Gaps = 27/214 (13%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+            FD++  +GEG+YG VYKA  K+TG++VA+K+V ++++ +      I+EI I++Q     V
+Sbjct  30   FDVLEKLGEGSYGSVYKAIHKETGQIVAIKQVPVESDLQEI----IKEISIMQQCDSPHV  85
+
+Query  787  VNMKEIVTDKQDALDFKKDKGAFYLVFEYMD----HDLMGLLESGLVHFSEDHIKSFMKQ  842
+            V        K     FK      ++V EY       D++ L    L   +ED I + ++ 
+Sbjct  86   V--------KYYGSYFKNTD--LWIVMEYCGAGSVSDIIRLRNKTL---TEDEIATILQS  132
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLA-RLYNSEESRPYTNKVI-TLW  900
+             ++GLEY H    +HRDIK  NILLN  G  KLADFG+A +L ++   R   N VI T +
+Sbjct  133  TLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKR---NTVIGTPF  189
+
+Query  901  YRPPELLLGEERYTPAIDVWSCGCILGELFTKKP  934
+            +  PE ++ E  Y    D+WS G    E+   KP
+Sbjct  190  WMAPE-VIQEIGYNCVADIWSLGITAIEMAEGKP  222
+
+
+>sp|Q13233|M3K1_HUMAN Mitogen-activated protein kinase kinase 
+kinase 1 OS=Homo sapiens OX=9606 GN=MAP3K1 PE=1 SV=4
+Length=1512
+
+ Score = 109 bits (272),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 68/227 (30%), Positives = 123/227 (54%), Gaps = 19/227 (8%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKV---RLDNEKEGFPITAIRE-IKILRQLIHRSVVN  788
+             IG G +   Y+A+D  TG L+A+K+V   R  + ++   + A+RE I+++  L H +++ 
+Sbjct  1249  IGLGAFSSCYQAQDVGTGTLMAVKQVTYVRNTSSEQEEVVEALREEIRMMSHLNHPNIIR  1308
+
+Query  789   MKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLE  848
+             M          L    +K  + L  E+M    +  L S    F E  + ++ +QL+ GL 
+Sbjct  1309  M----------LGATCEKSNYNLFIEWMAGGSVAHLLSKYGAFKESVVINYTEQLLRGLS  1358
+
+Query  849   YCHKKNFLHRDIKCSNILLNNSGQ-IKLADFGLARLYNSEESRP--YTNKVI-TLWYRPP  904
+             Y H+   +HRD+K +N+L++++GQ +++ADFG A    S+ +    +  +++ T+ +  P
+Sbjct  1359  YLHENQIIHRDVKGANLLIDSTGQRLRIADFGAAARLASKGTGAGEFQGQLLGTIAFMAP  1418
+
+Query  905   ELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRL  951
+             E+L G++ Y  + DVWS GC + E+   KP + A      L LI ++
+Sbjct  1419  EVLRGQQ-YGRSCDVWSVGCAIIEMACAKPPWNAEKHSNHLALIFKI  1464
+
+
+>sp|P19784|CSK22_HUMAN Casein kinase II subunit alpha' OS=Homo 
+sapiens OX=9606 GN=CSNK2A2 PE=1 SV=1
+Length=350
+
+ Score = 103 bits (257),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 67/231 (29%), Positives = 123/231 (53%), Gaps = 18/231 (8%)
+
+Query  811   LVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNN-  869
+             LVFEY+++     L   L  F    I+ +M +L++ L+YCH K  +HRD+K  N+++++ 
+Sbjct  112   LVFEYINNTDFKQLYQILTDFD---IRFYMYELLKALDYCHSKGIMHRDVKPHNVMIDHQ  168
+
+Query  870   SGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGEL  929
+               +++L D+GLA  Y+   ++ Y  +V + +++ PELL+  + Y  ++D+WS GC+L  +
+Sbjct  169   QKKLRLIDWGLAEFYHP--AQEYNVRVASRYFKGPELLVDYQMYDYSLDMWSLGCMLASM  226
+
+Query  930   -FTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKL---PYFNTMKPKKQYRRRLREE  985
+              F ++P F       QL  I+++ G+     +     +   P+FN +    Q+ R+  E 
+Sbjct  227   IFRREPFFHGQDNYDQLVRIAKVLGTEELYGYLKKYHIDLDPHFNDI--LGQHSRKRWEN  284
+
+Query  986   F------SFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLKDVELSKMAP  1030
+             F        +   ALDLLD +L  D  +R TA++ ++  +   V   +  P
+Sbjct  285   FIHSENRHLVSPEALDLLDKLLRYDHQQRLTAKEAMEHPYFYPVVKEQSQP  335
+
+
+>sp|Q13188|STK3_HUMAN Serine/threonine-protein kinase 3 OS=Homo 
+sapiens OX=9606 GN=STK3 PE=1 SV=2
+Length=491
+
+ Score = 105 bits (262),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 93/307 (30%), Positives = 146/307 (48%), Gaps = 64/307 (21%)
+
+Query  727   FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+             FD++  +GEG+YG V+KA  K++G++VA+K+V ++++ +      I+EI I++Q     V
+Sbjct  27    FDVLEKLGEGSYGSVFKAIHKESGQVVAIKQVPVESDLQEI----IKEISIMQQCDSPYV  82
+
+Query  787   VNMKEIVTDKQDALDFKKDKGAFYLVFEYMD----HDLMGLLESGLVHFSEDHIKSFMKQ  842
+             V        K     FK      ++V EY       D++ L    L+   ED I + +K 
+Sbjct  83    V--------KYYGSYFKNTD--LWIVMEYCGAGSVSDIIRLRNKTLI---EDEIATILKS  129
+
+Query  843   LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLA-RLYNSEESRPYTNKVI-TLW  900
+              ++GLEY H    +HRDIK  NILLN  G  KLADFG+A +L ++   R   N VI T +
+Sbjct  130   TLKGLEYLHFMRKIHRDIKAGNILLNTEGHAKLADFGVAGQLTDTMAKR---NTVIGTPF  186
+
+Query  901   YRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSP-----  955
+             +  PE ++ E  Y    D+WS G    E+   KP +    ++  +  I  +  +P     
+Sbjct  187   WMAPE-VIQEIGYNCVADIWSLGITSIEMAEGKPPYA---DIHPMRAIFMIPTNPPPTFR  242
+
+Query  956   CPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTL  1015
+              P +W D                      +F+       D +   L  +P +R TA Q L
+Sbjct  243   KPELWSD----------------------DFT-------DFVKKCLVKNPEQRATATQLL  273
+
+Query  1016  QSDFLKD  1022
+             Q  F+K+
+Sbjct  274   QHPFIKN  280
+
+
+>sp|O96013|PAK4_HUMAN Serine/threonine-protein kinase PAK 4 OS=Homo 
+sapiens OX=9606 GN=PAK4 PE=1 SV=1
+Length=591
+
+ Score = 106 bits (264),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 87/309 (28%), Positives = 137/309 (44%), Gaps = 67/309 (22%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKE-  791
+             IGEG+ G V  A  + +G+LVA+KK  +D  K+        E+ I+R   H +VV M   
+Sbjct  327   IGEGSTGIVCIATVRSSGKLVAVKK--MDLRKQQRRELLFNEVVIMRDYQHENVVEMYNS  384
+
+Query  792   -IVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH--FSEDHIKSFMKQLMEGLE  848
+              +V D+             ++V E+++    G L   + H   +E+ I +    +++ L 
+Sbjct  385   YLVGDE------------LWVVMEFLEG---GALTDIVTHTRMNEEQIAAVCLAVLQALS  429
+
+Query  849   YCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLL  908
+               H +  +HRDIK  +ILL + G++KL+DFG     + E  R   + V T ++  PE L+
+Sbjct  430   VLHAQGVIHRDIKSDSILLTHDGRVKLSDFGFCAQVSKEVPR-RKSLVGTPYWMAPE-LI  487
+
+Query  909   GEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPY  968
+                 Y P +D+WS G ++ E+   +P                                PY
+Sbjct  488   SRLPYGPEVDIWSLGIMVIEMVDGEP--------------------------------PY  515
+
+Query  969   FNT--MKPKKQYRR----RLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLKD  1022
+             FN   +K  K  R     RL+      PS     LD +L  DP++R TA + L+  F   
+Sbjct  516   FNEPPLKAMKMIRDNLPPRLKNLHKVSPSLK-GFLDRLLVRDPAQRATAAELLKHPF---  571
+
+Query  1023  VELSKMAPP  1031
+               L+K  PP
+Sbjct  572   --LAKAGPP  578
+
+
+>sp|Q9Y2U5|M3K2_HUMAN Mitogen-activated protein kinase kinase 
+kinase 2 OS=Homo sapiens OX=9606 GN=MAP3K2 PE=1 SV=2
+Length=619
+
+ Score = 104 bits (259),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 77/280 (28%), Positives = 133/280 (48%), Gaps = 33/280 (12%)
+
+Query  732   IIGEGTYGQVYKAKDKDTGELVALKKVRLD-----NEKEGFPITAIR-EIKILRQLIHRS  785
+             ++G+G +G+VY   D DTG  +A+K+V+ D       KE   + A+  EI++L+ L+H  
+Sbjct  361   LLGQGAFGRVYLCYDVDTGRELAVKQVQFDPDSPETSKE---VNALECEIQLLKNLLHER  417
+
+Query  786   VVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLME  845
+             +V     + D Q+            +  EYM    +          +E+  + + +Q++E
+Sbjct  418   IVQYYGCLRDPQEK--------TLSIFMEYMPGGSIKDQLKAYGALTENVTRKYTRQILE  469
+
+Query  846   GLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITL--WYRP  903
+             G+ Y H    +HRDIK +NIL +++G +KL DFG ++   +        K +T   ++  
+Sbjct  470   GVHYLHSNMIVHRDIKGANILRDSTGNVKLGDFGASKRLQTICLSGTGMKSVTGTPYWMS  529
+
+Query  904   PELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPC-PAVWPD  962
+             PE++ GE  Y    D+WS  C + E+ T+KP +    E   +  I ++   P  P + P 
+Sbjct  530   PEVISGEG-YGRKADIWSVACTVVEMLTEKPPWA---EFEAMAAIFKIATQPTNPKLPPH  585
+
+Query  963   VIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLT  1002
+             V            + + +R+  E    PSA  +LL HM  
+Sbjct  586   VSDY--------TRDFLKRIFVEAKLRPSAD-ELLRHMFV  616
+
+
+>sp|Q9P286|PAK5_HUMAN Serine/threonine-protein kinase PAK 5 OS=Homo 
+sapiens OX=9606 GN=PAK5 PE=1 SV=1
+Length=719
+
+ Score = 104 bits (259),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 86/300 (29%), Positives = 136/300 (45%), Gaps = 64/300 (21%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKE-  791
+             IGEG+ G V  A +K TG+ VA+KK  +D  K+        E+ I+R   H +VV+M   
+Sbjct  455   IGEGSTGIVCIATEKHTGKQVAVKK--MDLRKQQRRELLFNEVVIMRDYHHDNVVDMYSS  512
+
+Query  792   -IVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH--FSEDHIKSFMKQLMEGLE  848
+              +V D+             ++V E+++    G L   + H   +E+ I +    ++  L 
+Sbjct  513   YLVGDE------------LWVVMEFLEG---GALTDIVTHTRMNEEQIATVCLSVLRALS  557
+
+Query  849   YCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLL  908
+             Y H +  +HRDIK  +ILL + G+IKL+DFG      S+E     + V T ++  PE ++
+Sbjct  558   YLHNQGVIHRDIKSDSILLTSDGRIKLSDFGFCAQV-SKEVPKRKSLVGTPYWMAPE-VI  615
+
+Query  909   GEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPY  968
+                 Y   +D+WS G ++ E+   +P                                PY
+Sbjct  616   SRLPYGTEVDIWSLGIMVIEMIDGEP--------------------------------PY  643
+
+Query  969   FNTMKPKKQYRRRLRE-------EFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLK  1021
+             FN  +P  Q  RR+R+       +   + S     LD ML  +PS+R TA++ L   FLK
+Sbjct  644   FN--EPPLQAMRRIRDSLPPRVKDLHKVSSVLRGFLDLMLVREPSQRATAQELLGHPFLK  701
+
+
+>sp|P51955|NEK2_HUMAN Serine/threonine-protein kinase Nek2 OS=Homo 
+sapiens OX=9606 GN=NEK2 PE=1 SV=1
+Length=445
+
+ Score = 102 bits (253),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 66/221 (30%), Positives = 111/221 (50%), Gaps = 19/221 (9%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+            ++++  IG G+YG+  K + K  G+++  K++   +  E      + E+ +LR+L H ++
+Sbjct  8    YEVLYTIGTGSYGRCQKIRRKSDGKILVWKELDYGSMTEAEKQMLVSEVNLLRELKHPNI  67
+
+Query  787  VNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGL---VHFSEDHIKSFMKQ  842
+            V   + + D+ +           Y+V EY +  DL  ++  G     +  E+ +   M Q
+Sbjct  68   VRYYDRIIDRTNT--------TLYIVMEYCEGGDLASVITKGTKERQYLDEEFVLRVMTQ  119
+
+Query  843  LMEGLEYCHKKN-----FLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVI  897
+            L   L+ CH+++      LHRD+K +N+ L+    +KL DFGLAR+ N + S   T  V 
+Sbjct  120  LTLALKECHRRSDGGHTVLHRDLKPANVFLDGKQNVKLGDFGLARILNHDTSFAKTF-VG  178
+
+Query  898  TLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQA  938
+            T +Y  PE  +    Y    D+WS GC+L EL    P F A
+Sbjct  179  TPYYMSPE-QMNRMSYNEKSDIWSLGCLLYELCALMPPFTA  218
+
+
+>sp|Q96PY6|NEK1_HUMAN Serine/threonine-protein kinase Nek1 OS=Homo 
+sapiens OX=9606 GN=NEK1 PE=1 SV=2
+Length=1258
+
+ Score = 104 bits (260),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 65/218 (30%), Positives = 109/218 (50%), Gaps = 16/218 (7%)
+
+Query  724  VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIH  783
+            ++K+  +  IGEG++G+    K  + G    +K++ +          + RE+ +L  + H
+Sbjct  1    MEKYVRLQKIGEGSFGKAILVKSTEDGRQYVIKEINISRMSSKEREESRREVAVLANMKH  60
+
+Query  784  RSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGL-VHFSEDHIKSFMK  841
+             ++V  +E            ++ G+ Y+V +Y +  DL   + +   V F ED I  +  
+Sbjct  61   PNIVQYRESF----------EENGSLYIVMDYCEGGDLFKRINAQKGVLFQEDQILDWFV  110
+
+Query  842  QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+            Q+   L++ H +  LHRDIK  NI L   G ++L DFG+AR+ NS      T  + T +Y
+Sbjct  111  QICLALKHVHDRKILHRDIKSQNIFLTKDGTVQLGDFGIARVLNSTVELARTC-IGTPYY  169
+
+Query  902  RPPELLLGEER-YTPAIDVWSCGCILGELFTKKPIFQA  938
+              PE+   E + Y    D+W+ GC+L EL T K  F+A
+Sbjct  170  LSPEIC--ENKPYNNKSDIWALGCVLYELCTLKHAFEA  205
+
+
+>sp|Q7L7X3|TAOK1_HUMAN Serine/threonine-protein kinase TAO1 OS=Homo 
+sapiens OX=9606 GN=TAOK1 PE=1 SV=1
+Length=1001
+
+ Score = 104 bits (259),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 72/212 (34%), Positives = 106/212 (50%), Gaps = 21/212 (10%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDNEK--EGFPITAIREIKILRQLIHRSVVNMK  790
+            IG G++G VY A+D  T E+VA+KK+    ++  E +    I+E+K L+++ H + +  K
+Sbjct  34   IGHGSFGAVYFARDVRTNEVVAIKKMSYSGKQSTEKWQ-DIIKEVKFLQRIKHPNSIEYK  92
+
+Query  791  EIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYC  850
+                 +  A          +LV EY       LLE       E  I +     ++GL Y 
+Sbjct  93   GCYLREHTA----------WLVMEYCLGSASDLLEVHKKPLQEVEIAAITHGALQGLAYL  142
+
+Query  851  HKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLG-  909
+            H    +HRDIK  NILL   GQ+KLADFG A +     + P  + V T ++  PE++L  
+Sbjct  143  HSHTMIHRDIKAGNILLTEPGQVKLADFGSASM-----ASPANSFVGTPYWMAPEVILAM  197
+
+Query  910  -EERYTPAIDVWSCGCILGELFTKK-PIFQAN  939
+             E +Y   +DVWS G    EL  +K P+F  N
+Sbjct  198  DEGQYDGKVDVWSLGITCIELAERKPPLFNMN  229
+
+
+>sp|Q9UL54|TAOK2_HUMAN Serine/threonine-protein kinase TAO2 OS=Homo 
+sapiens OX=9606 GN=TAOK2 PE=1 SV=2
+Length=1235
+
+ Score = 103 bits (256),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 70/214 (33%), Positives = 104/214 (49%), Gaps = 25/214 (12%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKV----RLDNEKEGFPITAIREIKILRQLIHRSVVN  788
+            IG G++G VY A+D    E+VA+KK+    +  NEK       I+E++ L++L H + + 
+Sbjct  34   IGHGSFGAVYFARDVRNSEVVAIKKMSYSGKQSNEKWQ---DIIKEVRFLQKLRHPNTIQ  90
+
+Query  789  MKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLE  848
+             +     +  A          +LV EY       LLE       E  I +     ++GL 
+Sbjct  91   YRGCYLREHTA----------WLVMEYCLGSASDLLEVHKKPLQEVEIAAVTHGALQGLA  140
+
+Query  849  YCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLL  908
+            Y H  N +HRD+K  NILL+  G +KL DFG A +       P  + V T ++  PE++L
+Sbjct  141  YLHSHNMIHRDVKAGNILLSEPGLVKLGDFGSASIMA-----PANSFVGTPYWMAPEVIL  195
+
+Query  909  G--EERYTPAIDVWSCGCILGELFTKK-PIFQAN  939
+               E +Y   +DVWS G    EL  +K P+F  N
+Sbjct  196  AMDEGQYDGKVDVWSLGITCIELAERKPPLFNMN  229
+
+
+>sp|Q9BYT3|STK33_HUMAN Serine/threonine-protein kinase 33 OS=Homo 
+sapiens OX=9606 GN=STK33 PE=1 SV=1
+Length=514
+
+ Score = 101 bits (251),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 86/315 (27%), Positives = 144/315 (46%), Gaps = 54/315 (17%)
+
+Query  732   IIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAI--REIKILRQLIHRSVVNM  789
+             I+G+G++G V +A DK+T    A+KKV  + EK G     +  RE+ IL+ + H  ++++
+Sbjct  121   ILGKGSFGIVIEATDKETETKWAIKKV--NKEKAGSSAVKLLEREVNILKSVKHEHIIHL  178
+
+Query  790   KEIVTDKQDALDFKKDKGAFYLVFEYM-DHDLMGLLE-SGLVHFSEDHIKSFMKQLMEGL  847
+             +++         F+  K   YLV E   D +L  +L+  G  HFSE+  +  ++ L   +
+Sbjct  179   EQV---------FETPK-KMYLVMELCEDGELKEILDRKG--HFSENETRWIIQSLASAI  226
+
+Query  848   EYCHKKNFLHRDIKCSNILLNNS---------GQIKLADFGLARLYNSEESRPYTNKVIT  898
+              Y H  + +HRD+K  NI++ +S           IK+ DFGLA    S           T
+Sbjct  227   AYLHNNDIVHRDLKLENIMVKSSLIDDNNEINLNIKVTDFGLAVKKQSRSEAMLQATCGT  286
+
+Query  899   LWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPA  958
+               Y  PE++   + Y+   D+WS G ++  L   +P F A+ E    ELI +       A
+Sbjct  287   PIYMAPEVISAHD-YSQQCDIWSIGVVMYMLLRGEPPFLASSEEKLFELIRKGELHFENA  345
+
+Query  959   VWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSD  1018
+             VW                            I   A  +L  ++ +DP+ R TA++ L + 
+Sbjct  346   VWNS--------------------------ISDCAKSVLKQLMKVDPAHRITAKELLDNQ  379
+
+Query  1019  FLKDVELSKMAPPDL  1033
+             +L   +LS + P ++
+Sbjct  380   WLTGNKLSSVRPTNV  394
+
+
+>sp|O75914|PAK3_HUMAN Serine/threonine-protein kinase PAK 3 OS=Homo 
+sapiens OX=9606 GN=PAK3 PE=1 SV=2
+Length=559
+
+ Score = 101 bits (252),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 82/291 (28%), Positives = 129/291 (44%), Gaps = 46/291 (16%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+             IG+G  G VY A D  TG+ VA+K++ L  + +   I  I EI ++R+  + ++VN    
+Sbjct  289   IGQGASGTVYTALDIATGQEVAIKQMNLQQQPKKELI--INEILVMRENKNPNIVNY---  343
+
+Query  793   VTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH--FSEDHIKSFMKQLMEGLEYC  850
+                    LD        ++V EY+     G L   +      E  I +  ++ ++ L++ 
+Sbjct  344   -------LDSYLVGDELWVVMEYLAG---GSLTDVVTETCMDEGQIAAVCRECLQALDFL  393
+
+Query  851   HKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGE  910
+             H    +HRDIK  NILL   G +KL DFG       E+S+  T  V T ++  PE ++  
+Sbjct  394   HSNQVIHRDIKSDNILLGMDGSVKLTDFGFCAQITPEQSKRST-MVGTPYWMAPE-VVTR  451
+
+Query  911   ERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPYFN  970
+             + Y P +D+WS G +  E+   +P +     L  L LI+                     
+Sbjct  452   KAYGPKVDIWSLGIMAIEMVEGEPPYLNENPLRALYLIA--------------------T  491
+
+Query  971   TMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLK  1021
+                P+ Q   RL   F        D L+  L +D  +R +A++ LQ  FLK
+Sbjct  492   NGTPELQNPERLSAVFR-------DFLNRCLEMDVDRRGSAKELLQHPFLK  535
+
+
+>sp|Q92918|M4K1_HUMAN Mitogen-activated protein kinase kinase 
+kinase kinase 1 OS=Homo sapiens OX=9606 GN=MAP4K1 PE=1 SV=1
+Length=833
+
+ Score = 102 bits (254),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 63/211 (30%), Positives = 108/211 (51%), Gaps = 13/211 (6%)
+
+Query  725  DKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHR  784
+            D +D++  +G GTYG+V+KA+DK +G+LVALK V+++ + +    T  +EI IL+   H 
+Sbjct  15   DHYDLLQRLGGGTYGEVFKARDKVSGDLVALKMVKMEPDDD--VSTLQKEILILKTCRH-  71
+
+Query  785  SVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLM  844
+                   IV      L  +K     ++  E+     +  +       SE  I    ++++
+Sbjct  72   -----ANIVAYHGSYLWLQK----LWICMEFCGAGSLQDIYQVTGSLSELQISYVCREVL  122
+
+Query  845  EGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPP  904
+            +GL Y H +  +HRDIK +NIL+N++G+++LADFG++    +  +R  +      W  P 
+Sbjct  123  QGLAYLHSQKKIHRDIKGANILINDAGEVRLADFGISAQIGATLARRLSFIGTPYWMAPE  182
+
+Query  905  ELLLG-EERYTPAIDVWSCGCILGELFTKKP  934
+               +  +  Y    D+WS G    EL   +P
+Sbjct  183  VAAVALKGGYNELCDIWSLGITAIELAELQP  213
+
+
+>sp|Q9Y6R4|M3K4_HUMAN Mitogen-activated protein kinase kinase 
+kinase 4 OS=Homo sapiens OX=9606 GN=MAP3K4 PE=1 SV=2
+Length=1608
+
+ Score = 102 bits (255),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 89/298 (30%), Positives = 133/298 (45%), Gaps = 53/298 (18%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLD-NEKEGFPITAIREIKILRQLIHRSVVNMKE  791
+             IGEG YG+VY     DTGEL+A+K++R   N+ +    TA  E+KI   + H ++V    
+Sbjct  1349  IGEGQYGKVYTCISVDTGELMAMKEIRFQPNDHKTIKETA-DELKIFEGIKHPNLVRYFG  1407
+
+Query  792   IVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCH  851
+             +   +++           Y+  EY D     L E   +   E  I+ + KQ+   +   H
+Sbjct  1408  VELHREE----------MYIFMEYCDEG--TLEEVSRLGLQEHVIRLYSKQITIAINVLH  1455
+
+Query  852   KKNFLHRDIKCSNILLNNSGQIKLADFGL-ARLYNSEESRP--YTNKVITLWYRPPELLL  908
+             +   +HRDIK +NI L +SG IKL DFG   +L N+ ++ P    + + T  Y  PE++ 
+Sbjct  1456  EHGIVHRDIKGANIFLTSSGLIKLGDFGCSVKLKNNAQTMPGEVNSTLGTAAYMAPEVIT  1515
+
+Query  909   GE--ERYTPAIDVWSCGCILGELFT-KKPI--FQANLELAQLELISRLCGSPCPAVWPDV  963
+                 E +  A D+WS GC++ E+ T K+P   ++ N ++                     
+Sbjct  1516  RAKGEGHGRAADIWSLGCVVIEMVTGKRPWHEYEHNFQIM--------------------  1555
+
+Query  964   IKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLK  1021
+                 Y   M  K     RL  E         D L H L  DP  R TA Q L   F+K
+Sbjct  1556  ----YKVGMGHKPPIPERLSPE-------GKDFLSHCLESDPKMRWTASQLLDHSFVK  1602
+
+
+>sp|Q99759|M3K3_HUMAN Mitogen-activated protein kinase kinase 
+kinase 3 OS=Homo sapiens OX=9606 GN=MAP3K3 PE=1 SV=2
+Length=626
+
+ Score = 101 bits (251),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 66/211 (31%), Positives = 107/211 (51%), Gaps = 20/211 (9%)
+
+Query  732  IIGEGTYGQVYKAKDKDTGELVALKKVRLD-----NEKEGFPITAIR-EIKILRQLIHRS  785
+            ++G+G +G+VY   D DTG  +A K+V+ D       KE   ++A+  EI++L+ L H  
+Sbjct  367  LLGQGAFGRVYLCYDVDTGRELASKQVQFDPDSPETSKE---VSALECEIQLLKNLQHER  423
+
+Query  786  VVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLME  845
+            +V     + D+ +            +  EYM    +          +E   + + +Q++E
+Sbjct  424  IVQYYGCLRDRAEK--------TLTIFMEYMPGGSVKDQLKAYGALTESVTRKYTRQILE  475
+
+Query  846  GLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLA-RLYNSEESRPYTNKVI-TLWYRP  903
+            G+ Y H    +HRDIK +NIL +++G +KL DFG + RL     S      V  T ++  
+Sbjct  476  GMSYLHSNMIVHRDIKGANILRDSAGNVKLGDFGASKRLQTICMSGTGMRSVTGTPYWMS  535
+
+Query  904  PELLLGEERYTPAIDVWSCGCILGELFTKKP  934
+            PE++ GE  Y    DVWS GC + E+ T+KP
+Sbjct  536  PEVISGEG-YGRKADVWSLGCTVVEMLTEKP  565
+
+
+>sp|Q9UQB9|AURKC_HUMAN Aurora kinase C OS=Homo sapiens OX=9606 
+GN=AURKC PE=1 SV=1
+Length=309
+
+ Score = 96.3 bits (238),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 83/298 (28%), Positives = 131/298 (44%), Gaps = 53/298 (18%)
+
+Query  724   VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKV-RLDNEKEGFPITAIREIKILRQLI  782
+             VD F+I   +G+G +G VY A+ K++  +VALK + +   EKEG      REI+I   L 
+Sbjct  40    VDDFEIGRPLGKGKFGNVYLARLKESHFIVALKVLFKSQIEKEGLEHQLRREIEIQAHLQ  99
+
+Query  783   HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYM-DHDLMGLLESGLVHFSEDHIKSFMK  841
+             H +++ +           ++  D    YL+ EY    +L   L+       E    + ++
+Sbjct  100   HPNILRLY----------NYFHDARRVYLILEYAPRGELYKELQKS-EKLDEQRTATIIE  148
+
+Query  842   QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+             +L + L YCH K  +HRDIK  N+LL   G++K+ADFG +    S   +       TL Y
+Sbjct  149   ELADALTYCHDKKVIHRDIKPENLLLGFRGEVKIADFGWSVHTPSLRRKTMCG---TLDY  205
+
+Query  902   RPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWP  961
+              PPE++ G   Y   +D+W  G +  EL                                
+Sbjct  206   LPPEMIEGRT-YDEKVDLWCIGVLCYEL--------------------------------  232
+
+Query  962   DVIKLPYFNTMKPKKQYRRRLREEFSF---IPSAALDLLDHMLTLDPSKRCTAEQTLQ  1016
+              ++  P F +    + YRR L+ +  F   +P  A DL+  +L   P +R    Q L+
+Sbjct  233   -LVGYPPFESASHSETYRRILKVDVRFPLSMPLGARDLISRLLRYQPLERLPLAQILK  289
+
+
+>sp|Q13177|PAK2_HUMAN Serine/threonine-protein kinase PAK 2 OS=Homo 
+sapiens OX=9606 GN=PAK2 PE=1 SV=3
+Length=524
+
+ Score = 99.4 bits (246),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 80/291 (27%), Positives = 129/291 (44%), Gaps = 46/291 (16%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+             IG+G  G V+ A D   G+ VA+K++ L  + +   I  I EI ++++L + ++VN    
+Sbjct  255   IGQGASGTVFTATDVALGQEVAIKQINLQKQPKKELI--INEILVMKELKNPNIVNF---  309
+
+Query  793   VTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH--FSEDHIKSFMKQLMEGLEYC  850
+                    LD        ++V EY+     G L   +      E  I +  ++ ++ LE+ 
+Sbjct  310   -------LDSYLVGDELFVVMEYLAG---GSLTDVVTETCMDEAQIAAVCRECLQALEFL  359
+
+Query  851   HKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGE  910
+             H    +HRDIK  N+LL   G +KL DFG       E+S+  T  V T ++  PE ++  
+Sbjct  360   HANQVIHRDIKSDNVLLGMEGSVKLTDFGFCAQITPEQSKRST-MVGTPYWMAPE-VVTR  417
+
+Query  911   ERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPYFN  970
+             + Y P +D+WS G +  E+   +P +     L  L LI+                     
+Sbjct  418   KAYGPKVDIWSLGIMAIEMVEGEPPYLNENPLRALYLIA--------------------T  457
+
+Query  971   TMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLK  1021
+                P+ Q   +L   F        D L+  L +D  KR +A++ LQ  FLK
+Sbjct  458   NGTPELQNPEKLSPIFR-------DFLNRCLEMDVEKRGSAKELLQHPFLK  501
+
+
+>sp|O94804|STK10_HUMAN Serine/threonine-protein kinase 10 OS=Homo 
+sapiens OX=9606 GN=STK10 PE=1 SV=1
+Length=968
+
+ Score = 100 bits (249),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 70/238 (29%), Positives = 123/238 (52%), Gaps = 29/238 (12%)
+
+Query  709  YGERRQTESDWGKRCVD---KFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKE  765
+            + +R+  E +  +R +D    ++I+G +G+G +G+VYKAK+K+TG L A K +   +E+E
+Sbjct  15   FEKRKSREYEHVRRDLDPNEVWEIVGELGDGAFGKVYKAKNKETGALAAAKVIETKSEEE  74
+
+Query  766  GFPITAIREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEY-----MDHDL  820
+                  I EI+IL    H  +V +          L      G  +++ E+     +D  +
+Sbjct  75   LEDY--IVEIEILATCDHPYIVKL----------LGAYYHDGKLWIMIEFCPGGAVDA-I  121
+
+Query  821  MGLLESGLVHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGL  880
+            M  L+ GL   +E  I+   +Q++E L + H K  +HRD+K  N+L+   G I+LADFG+
+Sbjct  122  MLELDRGL---TEPQIQVVCRQMLEALNFLHSKRIIHRDLKAGNVLMTLEGDIRLADFGV  178
+
+Query  881  ARLYNSEESRPYTNKVITLWYRPPELLLGEER----YTPAIDVWSCGCILGELFTKKP  934
+            +   N +  +   + + T ++  PE+++ E      Y    D+WS G  L E+   +P
+Sbjct  179  S-AKNLKTLQKRDSFIGTPYWMAPEVVMCETMKDTPYDYKADIWSLGITLIEMAQIEP  235
+
+
+>sp|Q8TDC3|BRSK1_HUMAN Serine/threonine-protein kinase BRSK1 OS=Homo 
+sapiens OX=9606 GN=BRSK1 PE=1 SV=2
+Length=778
+
+ Score = 100 bits (248),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 76/285 (27%), Positives = 120/285 (42%), Gaps = 48/285 (17%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+             +G+G  G V       TG+ VA+K V  +   E   +   REI IL+ + H  V+ + ++
+Sbjct  40    LGKGQTGLVKLGVHCITGQKVAIKIVNREKLSESVLMKVEREIAILKLIEHPHVLKLHDV  99
+
+Query  793   VTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLV---HFSEDHIKSFMKQLMEGLEY  849
+               +K+            YLV E++     G L   LV     +    + F +Q++  L++
+Sbjct  100   YENKK----------YLYLVLEHVSG---GELFDYLVKKGRLTPKEARKFFRQIVSALDF  146
+
+Query  850   CHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLG  909
+             CH  +  HRD+K  N+LL+    I++ADFG+A L   +          +  Y  PE++ G
+Sbjct  147   CHSYSICHRDLKPENLLLDEKNNIRIADFGMASLQVGDSL--LETSCGSPHYACPEVIKG  204
+
+Query  910   EERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPYF  969
+             E+      D+WSCG IL  L      F  +     LE + R            V  +P+ 
+Sbjct  205   EKYDGRRADMWSCGVILFALLVGALPFDDDNLRQLLEKVKR-----------GVFHMPH-  252
+
+Query  970   NTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQT  1014
+                               FIP     LL  M+ ++P KR + EQ 
+Sbjct  253   ------------------FIPPDCQSLLRGMIEVEPEKRLSLEQI  279
+
+
+>sp|Q9H2K8|TAOK3_HUMAN Serine/threonine-protein kinase TAO3 OS=Homo 
+sapiens OX=9606 GN=TAOK3 PE=1 SV=2
+Length=898
+
+ Score = 100 bits (248),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 76/220 (35%), Positives = 107/220 (49%), Gaps = 27/220 (12%)
+
+Query  729  IIGI--IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAI-REIKILRQLIHRS  785
+             IG+  IG G++G VY A +  T E+VA+KK+    ++       I +E+K LRQL H +
+Sbjct  24   FIGLHEIGHGSFGAVYFATNAHTSEVVAIKKMSYSGKQTHEKWQDILKEVKFLRQLKHPN  83
+
+Query  786  VVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH---FSEDHIKSFMKQ  842
+             +  K     +  A          +LV EY       LLE   VH     E  I +    
+Sbjct  84   TIEYKGCYLKEHTA----------WLVMEYCLGSASDLLE---VHKKPLQEVEIAAITHG  130
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYR  902
+             + GL Y H    +HRDIK  NILL   GQ+KLADFG A +     + P  + V T ++ 
+Sbjct  131  ALHGLAYLHSHALIHRDIKAGNILLTEPGQVKLADFGSASM-----ASPANSFVGTPYWM  185
+
+Query  903  PPELLLG--EERYTPAIDVWSCGCILGELFTKK-PIFQAN  939
+             PE++L   E +Y   +D+WS G    EL  +K P+F  N
+Sbjct  186  APEVILAMDEGQYDGKVDIWSLGITCIELAERKPPLFNMN  225
+
+
+>sp|O00444|PLK4_HUMAN Serine/threonine-protein kinase PLK4 OS=Homo 
+sapiens OX=9606 GN=PLK4 PE=1 SV=3
+Length=970
+
+ Score = 99.8 bits (247),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 67/218 (31%), Positives = 106/218 (49%), Gaps = 14/218 (6%)
+
+Query  724  VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKV-RLDNEKEGFPITAIREIKILRQLI  782
+            ++ F +  ++G+G++  VY+A+   TG  VA+K + +    K G       E+KI  QL 
+Sbjct  9    IEDFKVGNLLGKGSFAGVYRAESIHTGLEVAIKMIDKKAMYKAGMVQRVQNEVKIHCQLK  68
+
+Query  783  HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMG-LLESGLVHFSEDHIKSFMK  841
+            H S++ +           ++ +D    YLV E   +  M   L++ +  FSE+  + FM 
+Sbjct  69   HPSILEL----------YNYFEDSNYVYLVLEMCHNGEMNRYLKNRVKPFSENEARHFMH  118
+
+Query  842  QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+            Q++ G+ Y H    LHRD+  SN+LL  +  IK+ADFGLA        + YT    T  Y
+Sbjct  119  QIITGMLYLHSHGILHRDLTLSNLLLTRNMNIKIADFGLATQLKMPHEKHYT-LCGTPNY  177
+
+Query  902  RPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQAN  939
+              PE+         + DVWS GC+   L   +P F  +
+Sbjct  178  ISPEIATRSAHGLES-DVWSLGCMFYTLLIGRPPFDTD  214
+
+
+>sp|O14757|CHK1_HUMAN Serine/threonine-protein kinase Chk1 OS=Homo 
+sapiens OX=9606 GN=CHEK1 PE=1 SV=2
+Length=476
+
+ Score = 96.7 bits (239),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 68/209 (33%), Positives = 102/209 (49%), Gaps = 14/209 (7%)
+
+Query  724  VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIH  783
+            V+ +D++  +GEG YG+V  A ++ T E VA+K V +    +  P    +EI I + L H
+Sbjct  6    VEDWDLVQTLGEGAYGEVQLAVNRVTEEAVAVKIVDMKRAVDC-PENIKKEICINKMLNH  64
+
+Query  784  RSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGLVHFSEDHIKSFMKQ  842
+             +VV               +++    YL  EY    +L   +E   +   E   + F  Q
+Sbjct  65   ENVVKF----------YGHRREGNIQYLFLEYCSGGELFDRIEPD-IGMPEPDAQRFFHQ  113
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVI-TLWY  901
+            LM G+ Y H     HRDIK  N+LL+    +K++DFGLA ++         NK+  TL Y
+Sbjct  114  LMAGVVYLHGIGITHRDIKPENLLLDERDNLKISDFGLATVFRYNNRERLLNKMCGTLPY  173
+
+Query  902  RPPELLLGEERYTPAIDVWSCGCILGELF  930
+              PELL   E +   +DVWSCG +L  + 
+Sbjct  174  VAPELLKRREFHAEPVDVWSCGIVLTAML  202
+
+
+>sp|P51957|NEK4_HUMAN Serine/threonine-protein kinase Nek4 OS=Homo 
+sapiens OX=9606 GN=NEK4 PE=1 SV=2
+Length=841
+
+ Score = 97.1 bits (240),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 63/222 (28%), Positives = 104/222 (47%), Gaps = 29/222 (13%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+            +  + ++G+G+YG+V   K +  G+   +KK+ L N        A +E ++L QL H ++
+Sbjct  6    YCYLRVVGKGSYGEVTLVKHRRDGKQYVIKKLNLRNASSRERRAAEQEAQLLSQLKHPNI  65
+
+Query  787  VNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH----------FSEDHI  836
+            V  KE          ++   G  Y+V        MG  E G ++            E+ +
+Sbjct  66   VTYKE---------SWEGGDGLLYIV--------MGFCEGGDLYRKLKEQKGQLLPENQV  108
+
+Query  837  KSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKV  896
+              +  Q+   L+Y H+K+ LHRD+K  N+ L  +  IK+ D G+AR+  +      T  +
+Sbjct  109  VEWFVQIAMALQYLHEKHILHRDLKTQNVFLTRTNIIKVGDLGIARVLENHCDMAST-LI  167
+
+Query  897  ITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQA  938
+             T +Y  PE L   + Y    DVW+ GC + E+ T K  F A
+Sbjct  168  GTPYYMSPE-LFSNKPYNYKSDVWALGCCVYEMATLKHAFNA  208
+
+
+>sp|Q9NQU5|PAK6_HUMAN Serine/threonine-protein kinase PAK 6 OS=Homo 
+sapiens OX=9606 GN=PAK6 PE=1 SV=1
+Length=681
+
+ Score = 96.3 bits (238),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 78/299 (26%), Positives = 139/299 (46%), Gaps = 42/299 (14%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+             IGEG+ G V  A++K +G  VA+K   +D  K+        E+ I+R   H +VV M + 
+Sbjct  413   IGEGSTGIVCLAREKHSGRQVAVKM--MDLRKQQRRELLFNEVVIMRDYQHFNVVEMYKS  470
+
+Query  793   VTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCHK  852
+                 ++           +++ E++    +  + S  V  +E+ I +  + +++ L Y H 
+Sbjct  471   YLVGEE----------LWVLMEFLQGGALTDIVSQ-VRLNEEQIATVCEAVLQALAYLHA  519
+
+Query  853   KNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEER  912
+             +  +HRDIK  +ILL   G++KL+DFG     + +  +   + V T ++  PE ++    
+Sbjct  520   QGVIHRDIKSDSILLTLDGRVKLSDFGFCAQISKDVPK-RKSLVGTPYWMAPE-VISRSL  577
+
+Query  913   YTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPYFNTM  972
+             Y   +D+WS G ++ E+   +P + ++   + ++ + RL  SP P       KL   + +
+Sbjct  578   YATEVDIWSLGIMVIEMVDGEPPYFSD---SPVQAMKRLRDSPPP-------KLKNSHKV  627
+
+Query  973   KPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFLKDVELSKMAPP  1031
+              P       LR           D L+ ML  DP +R TA++ L   FL    L +   P
+Sbjct  628   SPV------LR-----------DFLERMLVRDPQERATAQELLDHPFLLQTGLPECLVP  669
+
+
+>sp|Q96GD4|AURKB_HUMAN Aurora kinase B OS=Homo sapiens OX=9606 
+GN=AURKB PE=1 SV=3
+Length=344
+
+ Score = 91.7 bits (226),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 82/296 (28%), Positives = 132/296 (45%), Gaps = 53/296 (18%)
+
+Query  724   VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKV-RLDNEKEGFPITAIREIKILRQLI  782
+             +D F+I   +G+G +G VY A++K +  +VALK + +   EKEG      REI+I   L 
+Sbjct  74    IDDFEIGRPLGKGKFGNVYLAREKKSHFIVALKVLFKSQIEKEGVEHQLRREIEIQAHLH  133
+
+Query  783   HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGLVHFSEDHIKSFMK  841
+             H +++ +           ++  D+   YL+ EY    +L   L+     F E    + M+
+Sbjct  134   HPNILRL----------YNYFYDRRRIYLILEYAPRGELYKELQKSCT-FDEQRTATIME  182
+
+Query  842   QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+             +L + L YCH K  +HRDIK  N+LL   G++K+ADFG +    S   +       TL Y
+Sbjct  183   ELADALMYCHGKKVIHRDIKPENLLLGLKGELKIADFGWSVHAPSLRRKTMCG---TLDY  239
+
+Query  902   RPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWP  961
+              PPE++ G   +   +D+W  G +  EL    P F+                        
+Sbjct  240   LPPEMIEG-RMHNEKVDLWCIGVLCYELLVGNPPFE------------------------  274
+
+Query  962   DVIKLPYFNTMKPKKQYRRRLREEFSF---IPSAALDLLDHMLTLDPSKRCTAEQT  1014
+                      +    + YRR ++ +  F   +P  A DL+  +L  +PS+R    Q 
+Sbjct  275   ---------SASHNETYRRIVKVDLKFPASVPMGAQDLISKLLRHNPSERLPLAQV  321
+
+
+>sp|Q9H4B4|PLK3_HUMAN Serine/threonine-protein kinase PLK3 OS=Homo 
+sapiens OX=9606 GN=PLK3 PE=1 SV=2
+Length=646
+
+ Score = 94.4 bits (233),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 100/425 (24%), Positives = 170/425 (40%), Gaps = 82/425 (19%)
+
+Query  732   IIGEGTYGQVYKAKDKDTGELVALK-----KVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+             ++G+G + + Y+A D +TG   A+K     +V   +++E      + EI++ R L HR +
+Sbjct  67    LLGKGGFARCYEATDTETGSAYAVKVIPQSRVAKPHQREKI----LNEIELHRDLQHRHI  122
+
+Query  787   VNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEG  846
+             V       D  +           Y+  E      +  +        E  ++ +++Q++ G
+Sbjct  123   VRFSHHFEDADN----------IYIFLELCSRKSLAHIWKARHTLLEPEVRYYLRQILSG  172
+
+Query  847   LEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPEL  906
+             L+Y H++  LHRD+K  N  +  + ++K+ DFGLA      E R  T    T  Y  PE+
+Sbjct  173   LKYLHQRGILHRDLKLGNFFITENMELKVGDFGLAARLEPPEQRKKT-ICGTPNYVAPEV  231
+
+Query  907   LLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKL  966
+             LL  + + P  DVWS GC++  L                     LCGSP           
+Sbjct  232   LL-RQGHGPEADVWSLGCVMYTL---------------------LCGSP-----------  258
+
+Query  967   PYFNTMKPKKQYRRRLREEFSFIPSAAL---DLLDHMLTLDPSKRCTAEQTLQSDFLKD-  1022
+             P F T   K+ YR   +  ++   S +L    LL  +L   P  R + +Q L+ DF    
+Sbjct  259   P-FETADLKETYRCIKQVHYTLPASLSLPARQLLAAILRASPRDRPSIDQILRHDFFTKG  317
+
+Query  1023  -----------VELSKMAPPD---LPHWQDCHELWSKKRR-------RQRQSGVV---VE  1058
+                        V +  + PP+       +    L+ +K++       R   SG+V   + 
+Sbjct  318   YTPDRLPISSCVTVPDLTPPNPARSLFAKVTKSLFGRKKKSKNHAQERDEVSGLVSGLMR  377
+
+Query  1059  EPPPSKTSRKETTSGTSTEPVKNSSPAPPQPAPGKVESGAGDAIGLADITQQLNQSELAV  1118
+                  + +R E  + +   PV     AP   +P    + +GD          + +S L  
+Sbjct  378   TSVGHQDARPEAPAASGPAPVSLVETAPEDSSPRGTLASSGDGFEEGLTVATVVESALCA  437
+
+Query  1119  LLNLL  1123
+             L N +
+Sbjct  438   LRNCI  442
+
+
+>sp|Q12851|M4K2_HUMAN Mitogen-activated protein kinase kinase 
+kinase kinase 2 OS=Homo sapiens OX=9606 GN=MAP4K2 PE=1 SV=2
+Length=820
+
+ Score = 94.0 bits (232),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 90/302 (30%), Positives = 141/302 (47%), Gaps = 50/302 (17%)
+
+Query  725   DKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAI-REIKILRQLIH  783
+             D+F+++  +G GTYG VYKA+D  T EL A+K V+LD    G  I+++ +EI ILR+  H
+Sbjct  14    DRFELLQRVGAGTYGDVYKARDTVTSELAAVKIVKLD---PGDDISSLQQEITILRECRH  70
+
+Query  784   RSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQL  843
+              +VV               + D+   ++  E+     +  +        E  I    ++ 
+Sbjct  71    PNVVAYI--------GSYLRNDR--LWICMEFCGGGSLQEIYHATGPLEERQIAYVCREA  120
+
+Query  844   MEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLA-RLYNSEESRPYTNKVITLWYR  902
+             ++GL + H +  +HRDIK +N+LL   G +KLADFG++  L  S   R   + + T ++ 
+Sbjct  121   LKGLHHLHSQGKIHRDIKGANLLLTLQGDVKLADFGVSGELTASVAKR--RSFIGTPYWM  178
+
+Query  903   PPELLLGEER--YTPAIDVWSCGCI---LGELFTKKPIFQANLELAQLELISRLCGSPCP  957
+              PE+   E +  Y    DVW+ G     LGEL  + P+F  +  +  L L+S+    P  
+Sbjct  179   APEVAAVERKGGYNELCDVWALGITAIELGEL--QPPLFHLH-PMRALMLMSKSSFQP--  233
+
+Query  958   AVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQS  1017
+                             PK + + R  + F      A       LT +P KR TAE+ LQ 
+Sbjct  234   ----------------PKLRDKTRWTQNFHHFLKLA-------LTKNPKKRPTAEKLLQH  270
+
+Query  1018  DF  1019
+              F
+Sbjct  271   PF  272
+
+
+>sp|Q9H2G2|SLK_HUMAN STE20-like serine/threonine-protein kinase 
+OS=Homo sapiens OX=9606 GN=SLK PE=1 SV=1
+Length=1235
+
+ Score = 93.6 bits (231),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 64/220 (29%), Positives = 112/220 (51%), Gaps = 28/220 (13%)
+
+Query  725  DKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKV--RLDNEKEGFPITAIREIKILRQLI  782
+            D ++IIG +G+G +G+VYKA++K+T  L A K +  + + E E + +    EI IL    
+Sbjct  32   DFWEIIGELGDGAFGKVYKAQNKETSVLAAAKVIDTKSEEELEDYMV----EIDILASCD  87
+
+Query  783  HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHF----SEDHIKS  838
+            H ++V +        DA  ++ +    +++ E+      G +++ ++      +E  I+ 
+Sbjct  88   HPNIVKL-------LDAFYYENN---LWILIEFCAG---GAVDAVMLELERPLTESQIQV  134
+
+Query  839  FMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVIT  898
+              KQ ++ L Y H    +HRD+K  NIL    G IKLADFG++   N+   +   + + T
+Sbjct  135  VCKQTLDALNYLHDNKIIHRDLKAGNILFTLDGDIKLADFGVS-AKNTRTIQRRDSFIGT  193
+
+Query  899  LWYRPPELLLGEER----YTPAIDVWSCGCILGELFTKKP  934
+             ++  PE+++ E      Y    DVWS G  L E+   +P
+Sbjct  194  PYWMAPEVVMCETSKDRPYDYKADVWSLGITLIEMAEIEP  233
+
+
+>sp|Q8IWQ3|BRSK2_HUMAN Serine/threonine-protein kinase BRSK2 OS=Homo 
+sapiens OX=9606 GN=BRSK2 PE=1 SV=3
+Length=736
+
+ Score = 92.8 bits (229),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 75/285 (26%), Positives = 118/285 (41%), Gaps = 48/285 (17%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+             +G+G  G V       T + VA+K V  +   E   +   REI IL+ + H  V+ + ++
+Sbjct  25    LGKGQTGLVKLGVHCVTCQKVAIKIVNREKLSESVLMKVEREIAILKLIEHPHVLKLHDV  84
+
+Query  793   VTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLV---HFSEDHIKSFMKQLMEGLEY  849
+               +K+            YLV E++     G L   LV     +    + F +Q++  L++
+Sbjct  85    YENKK----------YLYLVLEHVSG---GELFDYLVKKGRLTPKEARKFFRQIISALDF  131
+
+Query  850   CHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLG  909
+             CH  +  HRD+K  N+LL+    I++ADFG+A L   +          +  Y  PE++ G
+Sbjct  132   CHSHSICHRDLKPENLLLDEKNNIRIADFGMASLQVGDSL--LETSCGSPHYACPEVIRG  189
+
+Query  910   EERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVIKLPYF  969
+             E+      DVWSCG IL  L      F  +     LE + R            V  +P+ 
+Sbjct  190   EKYDGRKADVWSCGVILFALLVGALPFDDDNLRQLLEKVKR-----------GVFHMPH-  237
+
+Query  970   NTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQT  1014
+                               FIP     LL  M+ +D ++R T E  
+Sbjct  238   ------------------FIPPDCQSLLRGMIEVDAARRLTLEHI  264
+
+
+>sp|Q8TD19|NEK9_HUMAN Serine/threonine-protein kinase Nek9 OS=Homo 
+sapiens OX=9606 GN=NEK9 PE=1 SV=2
+Length=979
+
+ Score = 92.8 bits (229),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 67/214 (31%), Positives = 98/214 (46%), Gaps = 20/214 (9%)
+
+Query  730  IGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNM  789
+            I ++G G +G+    +  +   LV  K+V L    E     A+ EI IL  L H +++  
+Sbjct  55   IRVLGRGAFGEATLYRRTEDDSLVVWKEVDLTRLSEKERRDALNEIVILALLQHDNIIAY  114
+
+Query  790  KEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH-----FSEDHIKSFMKQLM  844
+                 D    L          +  EY +    G L   ++      F E+ +  ++ Q++
+Sbjct  115  YNHFMDNTTLL----------IELEYCNG---GNLYDKILRQKDKLFEEEMVVWYLFQIV  161
+
+Query  845  EGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPP  904
+              +   HK   LHRDIK  NI L  +  IKL D+GLA+  NSE S   T  V T +Y  P
+Sbjct  162  SAVSCIHKAGILHRDIKTLNIFLTKANLIKLGDYGLAKKLNSEYSMAET-LVGTPYYMSP  220
+
+Query  905  ELLLGEERYTPAIDVWSCGCILGELFTKKPIFQA  938
+            EL  G  +Y    D+W+ GC++ EL T K  F A
+Sbjct  221  ELCQG-VKYNFKSDIWAVGCVIFELLTLKRTFDA  253
+
+
+>sp|Q8TDX7|NEK7_HUMAN Serine/threonine-protein kinase Nek7 OS=Homo 
+sapiens OX=9606 GN=NEK7 PE=1 SV=1
+Length=302
+
+ Score = 88.6 bits (218),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 69/231 (30%), Positives = 110/231 (48%), Gaps = 23/231 (10%)
+
+Query  707  PRYGERRQTESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEG  766
+            P++  ++    D G   +  F I   IG G + +VY+A     G  VALKKV++ +  + 
+Sbjct  14   PQFQPQKALRPDMGYNTLANFRIEKKIGRGQFSEVYRAACLLDGVPVALKKVQIFDLMDA  73
+
+Query  767  FP-ITAIREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLE  825
+                  I+EI +L+QL H +V+              F +D     +V E  D    G L 
+Sbjct  74   KARADCIKEIDLLKQLNHPNVIKYYA---------SFIED-NELNIVLELAD---AGDLS  120
+
+Query  826  SGLVHFS-------EDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADF  878
+              + HF        E  +  +  QL   LE+ H +  +HRDIK +N+ +  +G +KL D 
+Sbjct  121  RMIKHFKKQKRLIPERTVWKYFVQLCSALEHMHSRRVMHRDIKPANVFITATGVVKLGDL  180
+
+Query  879  GLARLYNSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGEL  929
+            GL R ++S+ +  ++  V T +Y  PE  + E  Y    D+WS GC+L E+
+Sbjct  181  GLGRFFSSKTTAAHS-LVGTPYYMSPE-RIHENGYNFKSDIWSLGCLLYEM  229
+
+
+>sp|P23443|KS6B1_HUMAN Ribosomal protein S6 kinase beta-1 OS=Homo 
+sapiens OX=9606 GN=RPS6KB1 PE=1 SV=2
+Length=525
+
+ Score = 90.9 bits (224),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 63/223 (28%), Positives = 113/223 (51%), Gaps = 33/223 (15%)
+
+Query  727  FDIIGIIGEGTYGQVY---KAKDKDTGELVALKKVR----LDNEKEGFPITAIREIKILR  779
+            F+++ ++G+G YG+V+   K    +TG++ A+K ++    + N K+     A R   IL 
+Sbjct  91   FELLRVLGKGGYGKVFQVRKVTGANTGKIFAMKVLKKAMIVRNAKDTAHTKAER--NILE  148
+
+Query  780  QLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHD--LMGLLESGLVHFSEDHIK  837
+            ++ H  +V          D +   +  G  YL+ EY+      M L   G+  F ED   
+Sbjct  149  EVKHPFIV----------DLIYAFQTGGKLYLILEYLSGGELFMQLEREGI--FMEDTAC  196
+
+Query  838  SFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLAR--LYNSEESRPYTNK  895
+             ++ ++   L + H+K  ++RD+K  NI+LN+ G +KL DFGL +  +++   +  +   
+Sbjct  197  FYLAEISMALGHLHQKGIIYRDLKPENIMLNHQGHVKLTDFGLCKESIHDGTVTHTFCG-  255
+
+Query  896  VITLWYRPPELLL--GEERYTPAIDVWSCGCILGELFTKKPIF  936
+              T+ Y  PE+L+  G  R   A+D WS G ++ ++ T  P F
+Sbjct  256  --TIEYMAPEILMRSGHNR---AVDWWSLGALMYDMLTGAPPF  293
+
+
+>sp|Q8IVH8|M4K3_HUMAN Mitogen-activated protein kinase kinase 
+kinase kinase 3 OS=Homo sapiens OX=9606 GN=MAP4K3 PE=1 SV=1
+Length=894
+
+ Score = 90.5 bits (223),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 65/213 (31%), Positives = 111/213 (52%), Gaps = 17/213 (8%)
+
+Query  725  DKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHR  784
+            + F++I  IG GTYG VYKA++ +TGEL A+K ++L+   E F +   +EI +++   H 
+Sbjct  14   EDFELIQRIGSGTYGDVYKARNVNTGELAAIKVIKLE-PGEDFAVVQ-QEIIMMKDCKHP  71
+
+Query  785  SVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLM  844
+            ++V               ++DK   ++  E+     +  +       SE  I    ++ +
+Sbjct  72   NIV--------AYFGSYLRRDK--LWICMEFCGGGSLQDIYHVTGPLSELQIAYVSRETL  121
+
+Query  845  EGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGL-ARLYNSEESRPYTNKVITLWYRP  903
+            +GL Y H K  +HRDIK +NILL ++G +KLADFG+ A++  +   R   + + T ++  
+Sbjct  122  QGLYYLHSKGKMHRDIKGANILLTDNGHVKLADFGVSAQITATIAKR--KSFIGTPYWMA  179
+
+Query  904  PELLLGEER--YTPAIDVWSCGCILGELFTKKP  934
+            PE+   E +  Y    D+W+ G    EL   +P
+Sbjct  180  PEVAAVERKGGYNQLCDLWAVGITAIELAELQP  212
+
+
+>sp|P00519|ABL1_HUMAN Tyrosine-protein kinase ABL1 OS=Homo sapiens 
+OX=9606 GN=ABL1 PE=1 SV=4
+Length=1130
+
+ Score = 89.7 bits (221),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 55/202 (27%), Positives = 100/202 (50%), Gaps = 18/202 (9%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDN-EKEGFPITAIREIKILRQLIHRSVVNMKE  791
+            +G G YG+VY+   K     VA+K ++ D  E E F    ++E  +++++ H ++V +  
+Sbjct  248  LGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEF----LKEAAVMKEIKHPNLVQLLG  303
+
+Query  792  IVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLL-ESGLVHFSEDHIKSFMKQLMEGLEY  849
+            + T +            FY++ E+M + +L+  L E      +   +     Q+   +EY
+Sbjct  304  VCTREP----------PFYIITEFMTYGNLLDYLRECNRQEVNAVVLLYMATQISSAMEY  353
+
+Query  850  CHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLG  909
+              KKNF+HRD+   N L+  +  +K+ADFGL+RL   +    +      + +  PE  L 
+Sbjct  354  LEKKNFIHRDLAARNCLVGENHLVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPE-SLA  412
+
+Query  910  EERYTPAIDVWSCGCILGELFT  931
+              +++   DVW+ G +L E+ T
+Sbjct  413  YNKFSIKSDVWAFGVLLWEIAT  434
+
+
+>sp|Q9Y4K4|M4K5_HUMAN Mitogen-activated protein kinase kinase 
+kinase kinase 5 OS=Homo sapiens OX=9606 GN=MAP4K5 PE=1 SV=2
+Length=846
+
+ Score = 87.0 bits (214),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 84/313 (27%), Positives = 146/313 (47%), Gaps = 48/313 (15%)
+
+Query  727   FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+             ++++  +G GTYG VYKA++  TGEL A+K ++L+   + F +   +EI ++++  H ++
+Sbjct  20    YELVQRVGSGTYGDVYKARNVHTGELAAVKIIKLE-PGDDFSLIQ-QEIFMVKECKHCNI  77
+
+Query  787   VNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEG  846
+             V        ++            ++  EY     +  +       SE  I    ++ ++G
+Sbjct  78    VAYFGSYLSREK----------LWICMEYCGGGSLQDIYHVTGPLSELQIAYVCRETLQG  127
+
+Query  847   LEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPEL  906
+             L Y H K  +HRDIK +NILL + G +KLADFG+A    +  ++   + + T ++  PE+
+Sbjct  128   LAYLHTKGKMHRDIKGANILLTDHGDVKLADFGVAAKITATIAKR-KSFIGTPYWMAPEV  186
+
+Query  907   LLGEER--YTPAIDVWSCGCI---LGELFTKKPIFQANLELAQLELISRLCGSPCPAVWP  961
+                E+   Y    D+W+ G     LGEL  + P+F  +  +  L L+S+           
+Sbjct  187   AAVEKNGGYNQLCDIWAVGITAIELGEL--QPPMFDLH-PMRALFLMSKS----------  233
+
+Query  962   DVIKLPYFNTMKPKKQYRRRLREEF-SFIPSAALDLLDHMLTLDPSKRCTAEQTLQSDFL  1020
+                     N   PK + + +    F +F+  A        LT +P KR TAE+ L   F+
+Sbjct  234   --------NFQPPKLKDKTKWSSTFHNFVKIA--------LTKNPKKRPTAERLLTHTFV  277
+
+Query  1021  KDVELSKMAPPDL  1033
+                 LS+    +L
+Sbjct  278   AQPGLSRALAVEL  290
+
+
+>sp|Q9HC98|NEK6_HUMAN Serine/threonine-protein kinase Nek6 OS=Homo 
+sapiens OX=9606 GN=NEK6 PE=1 SV=2
+Length=313
+
+ Score = 83.6 bits (205),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 65/217 (30%), Positives = 104/217 (48%), Gaps = 24/217 (11%)
+
+Query  722  RC-VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFP-ITAIREIKILR  779
+            RC +  F I   IG G + +VYKA      + VALKKV++    +       ++EI +L+
+Sbjct  39   RCSLADFQIEKKIGRGQFSEVYKATCLLDRKTVALKKVQIFEMMDAKARQDCVKEIGLLK  98
+
+Query  780  QLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFS-------  832
+            QL H +++            LD   +     +V E  D    G L   + +F        
+Sbjct  99   QLNHPNIIK----------YLDSFIEDNELNIVLELAD---AGDLSQMIKYFKKQKRLIP  145
+
+Query  833  EDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPY  892
+            E  +  +  QL   +E+ H +  +HRDIK +N+ +  +G +KL D GL R ++SE +  +
+Sbjct  146  ERTVWKYFVQLCSAVEHMHSRRVMHRDIKPANVFITATGVVKLGDLGLGRFFSSETTAAH  205
+
+Query  893  TNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGEL  929
+            +  V T +Y  PE  + E  Y    D+WS GC+L E+
+Sbjct  206  S-LVGTPYYMSPE-RIHENGYNFKSDIWSLGCLLYEM  240
+
+
+>sp|Q9P289|STK26_HUMAN Serine/threonine-protein kinase 26 OS=Homo 
+sapiens OX=9606 GN=STK26 PE=1 SV=2
+Length=416
+
+ Score = 85.1 bits (209),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 59/198 (30%), Positives = 99/198 (50%), Gaps = 16/198 (8%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+            IG+G++G+V+K  D  T ++VA+K + L+  ++       +EI +L Q     V      
+Sbjct  30   IGKGSFGEVFKGIDNRTQQVVAIKIIDLEEAEDEIEDIQ-QEITVLSQCDSSYVT-----  83
+
+Query  793  VTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCH  851
+               K      K  K   +++ EY+     + LL +G   F E  I + +K++++GL+Y H
+Sbjct  84   ---KYYGSYLKGSK--LWIIMEYLGGGSALDLLRAG--PFDEFQIATMLKEILKGLDYLH  136
+
+Query  852  KKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEE  911
+             +  +HRDIK +N+LL+  G +KLADFG+A      + +  T      W  P   ++ + 
+Sbjct  137  SEKKIHRDIKAANVLLSEQGDVKLADFGVAGQLTDTQIKRNTFVGTPFWMAPE--VIQQS  194
+
+Query  912  RYTPAIDVWSCGCILGEL  929
+             Y    D+WS G    EL
+Sbjct  195  AYDSKADIWSLGITAIEL  212
+
+
+>sp|O95835|LATS1_HUMAN Serine/threonine-protein kinase LATS1 OS=Homo 
+sapiens OX=9606 GN=LATS1 PE=1 SV=1
+Length=1130
+
+ Score = 86.3 bits (212),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 76/277 (27%), Positives = 119/277 (43%), Gaps = 71/277 (26%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+            F  I  +G G +G+V  A+  DT  L A K +R             +++ +  Q+ H  V
+Sbjct  705  FVKIKTLGIGAFGEVCLARKVDTKALYATKTLRK------------KDVLLRNQVAH--V  750
+
+Query  787  VNMKEIVTDKQDALDFK-----KDKGAFYLVFEYM-DHDLMGLL-ESGLVHFSEDHIKSF  839
+               ++I+ +  +    +     +DK   Y V +Y+   D+M LL   G+  F E   + +
+Sbjct  751  KAERDILAEADNEWVVRLYYSFQDKDNLYFVMDYIPGGDMMSLLIRMGI--FPESLARFY  808
+
+Query  840  MKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGL---------ARLYNS----  886
+            + +L   +E  HK  F+HRDIK  NIL++  G IKL DFGL         ++ Y S    
+Sbjct  809  IAELTCAVESVHKMGFIHRDIKPDNILIDRDGHIKLTDFGLCTGFRWTHDSKYYQSGDHP  868
+
+Query  887  -EESRPYTNK--------------------------------VITLWYRPPELLLGEERY  913
+             ++S  ++N+                                V T  Y  PE+LL    Y
+Sbjct  869  RQDSMDFSNEWGDPSSCRCGDRLKPLERRAARQHQRCLAHSLVGTPNYIAPEVLL-RTGY  927
+
+Query  914  TPAIDVWSCGCILGELFTKKPIFQANLEL-AQLELIS  949
+            T   D WS G IL E+   +P F A   L  Q+++I+
+Sbjct  928  TQLCDWWSVGVILFEMLVGQPPFLAQTPLETQMKVIN  964
+
+
+>sp|Q8N4C8|MINK1_HUMAN Misshapen-like kinase 1 OS=Homo sapiens 
+OX=9606 GN=MINK1 PE=1 SV=2
+Length=1332
+
+ Score = 85.9 bits (211),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 63/233 (27%), Positives = 109/233 (47%), Gaps = 19/233 (8%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIH-RS  785
+            F+++ ++G GTYGQVYK +   TG+L A+K + +  ++E       +EI +L++  H R+
+Sbjct  25   FELVEVVGNGTYGQVYKGRHVKTGQLAAIKVMDVTEDEE---EEIKQEINMLKKYSHHRN  81
+
+Query  786  VVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH----DLMGLLESGLVHFSEDHIKSFMK  841
+            +         K        +    +LV E+       DL+   +   +   ED I    +
+Sbjct  82   IATYYGAFIKKSPP----GNDDQLWLVMEFCGAGSVTDLVKNTKGNAL--KEDCIAYICR  135
+
+Query  842  QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+            +++ GL + H    +HRDIK  N+LL  + ++KL DFG++   +    R  T  + T ++
+Sbjct  136  EILRGLAHLHAHKVIHRDIKGQNVLLTENAEVKLVDFGVSAQLDRTVGRRNTF-IGTPYW  194
+
+Query  902  RPPELLLGEER----YTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISR  950
+              PE++  +E     Y    D+WS G    E+    P       +  L LI R
+Sbjct  195  MAPEVIACDENPDATYDYRSDIWSLGITAIEMAEGAPPLCDMHPMRALFLIPR  247
+
+
+>sp|O00506|STK25_HUMAN Serine/threonine-protein kinase 25 OS=Homo 
+sapiens OX=9606 GN=STK25 PE=1 SV=1
+Length=426
+
+ Score = 84.0 bits (206),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 58/209 (28%), Positives = 104/209 (50%), Gaps = 28/209 (13%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+            IG+G++G+VYK  D  T E+VA+K + L+  ++       +EI +L Q            
+Sbjct  26   IGKGSFGEVYKGIDNHTKEVVAIKIIDLEEAEDEIEDIQ-QEITVLSQC-----------  73
+
+Query  793  VTDKQDALDFKKDKGAF------YLVFEYMDH-DLMGLLESGLVHFSEDHIKSFMKQLME  845
+                 D+    +  G++      +++ EY+     + LL+ G +   E +I + ++++++
+Sbjct  74   -----DSPYITRYFGSYLKSTKLWIIMEYLGGGSALDLLKPGPL--EETYIATILREILK  126
+
+Query  846  GLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPE  905
+            GL+Y H +  +HRDIK +N+LL+  G +KLADFG+A      + +  T      W  P  
+Sbjct  127  GLDYLHSERKIHRDIKAANVLLSEQGDVKLADFGVAGQLTDTQIKRNTFVGTPFWMAPE-  185
+
+Query  906  LLLGEERYTPAIDVWSCGCILGELFTKKP  934
+             ++ +  Y    D+WS G    EL   +P
+Sbjct  186  -VIKQSAYDFKADIWSLGITAIELAKGEP  213
+
+
+>sp|Q9UKE5|TNIK_HUMAN TRAF2 and NCK-interacting protein kinase 
+OS=Homo sapiens OX=9606 GN=TNIK PE=1 SV=1
+Length=1360
+
+ Score = 85.5 bits (210),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 79/306 (26%), Positives = 137/306 (45%), Gaps = 49/306 (16%)
+
+Query  727   FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIH-RS  785
+             F+++ ++G GTYGQVYK +   TG+L A+K + +  ++E       +EI +L++  H R+
+Sbjct  25    FELVELVGNGTYGQVYKGRHVKTGQLAAIKVMDVTGDEEE---EIKQEINMLKKYSHHRN  81
+
+Query  786   VVNMKEIVTDKQD-ALDFKKDKGAFYLVFEYMDH----DLMGLLESGLVHFSEDHIKSFM  840
+             +         K    +D        +LV E+       DL+   +   +   E+ I    
+Sbjct  82    IATYYGAFIKKNPPGMD-----DQLWLVMEFCGAGSVTDLIKNTKGNTL--KEEWIAYIC  134
+
+Query  841   KQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLW  900
+             ++++ GL + H+   +HRDIK  N+LL  + ++KL DFG++   +    R  T  + T +
+Sbjct  135   REILRGLSHLHQHKVIHRDIKGQNVLLTENAEVKLVDFGVSAQLDRTVGRRNTF-IGTPY  193
+
+Query  901   YRPPELLLGEER----YTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPC  956
+             +  PE++  +E     Y    D+WS G    E+    P       +  L LI R      
+Sbjct  194   WMAPEVIACDENPDATYDFKSDLWSLGITAIEMAEGAPPLCDMHPMRALFLIPR-----N  248
+
+Query  957   PAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQ  1016
+             PA        P   + K  K+++       SFI S         L  + S+R   EQ ++
+Sbjct  249   PA--------PRLKSKKWSKKFQ-------SFIESC--------LVKNHSQRPATEQLMK  285
+
+Query  1017  SDFLKD  1022
+               F++D
+Sbjct  286   HPFIRD  291
+
+
+>sp|Q9NRM7|LATS2_HUMAN Serine/threonine-protein kinase LATS2 OS=Homo 
+sapiens OX=9606 GN=LATS2 PE=1 SV=2
+Length=1088
+
+ Score = 85.1 bits (209),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 72/259 (28%), Positives = 104/259 (40%), Gaps = 58/259 (22%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+            F  I  +G G +G+V  A   DT  L A+K +R   +K+      +  +K  R ++  + 
+Sbjct  668  FVKIKTLGIGAFGEVCLACKVDTHALYAMKTLR---KKDVLNRNQVAHVKAERDILAEAD  724
+
+Query  787  VNMKEIVTDKQDALDFKKDKGAFYLVFEYM-DHDLMGLLESGLVHFSEDHIKSFMKQLME  845
+                E V     +    +DK + Y V +Y+   D+M LL    V F E   + ++ +L  
+Sbjct  725  ---NEWVVKLYYSF---QDKDSLYFVMDYIPGGDMMSLLIRMEV-FPEHLARFYIAELTL  777
+
+Query  846  GLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKV---------  896
+             +E  HK  F+HRDIK  NIL++  G IKL DFGL   +    +  Y  K          
+Sbjct  778  AIESVHKMGFIHRDIKPDNILIDLDGHIKLTDFGLCTGFRWTHNSKYYQKGSHVRQDSME  837
+
+Query  897  -ITLW------------------------------------YRPPELLLGEERYTPAIDV  919
+               LW                                    Y  PE+LL  + YT   D 
+Sbjct  838  PSDLWDDVSNCRCGDRLKTLEQRARKQHQRCLAHSLVGTPNYIAPEVLL-RKGYTQLCDW  896
+
+Query  920  WSCGCILGELFTKKPIFQA  938
+            WS G IL E+   +P F A
+Sbjct  897  WSVGVILFEMLVGQPPFLA  915
+
+
+>sp|P53350|PLK1_HUMAN Serine/threonine-protein kinase PLK1 OS=Homo 
+sapiens OX=9606 GN=PLK1 PE=1 SV=1
+Length=603
+
+ Score = 84.0 bits (206),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 77/299 (26%), Positives = 125/299 (42%), Gaps = 61/299 (20%)
+
+Query  732   IIGEGTYGQVYKAKDKDTGELVALKKV----RLD-NEKEGFPITAIREIKILRQLIHRSV  786
+              +G+G + + ++  D DT E+ A K V     L  +++E   +    EI I R L H+ V
+Sbjct  58    FLGKGGFAKCFEISDADTKEVFAGKIVPKSLLLKPHQREKMSM----EISIHRSLAHQHV  113
+
+Query  787   VNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEG  846
+             V              F +D    ++V E      +  L       +E   + +++Q++ G
+Sbjct  114   VGFH----------GFFEDNDFVFVVLELCRRRSLLELHKRRKALTEPEARYYLRQIVLG  163
+
+Query  847   LEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARL--YNSEESRPYTNKVITLWYRPP  904
+              +Y H+   +HRD+K  N+ LN   ++K+ DFGLA    Y+ E  +       T  Y  P
+Sbjct  164   CQYLHRNRVIHRDLKLGNLFLNEDLEVKIGDFGLATKVEYDGERKKTLCG---TPNYIAP  220
+
+Query  905   ELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDVI  964
+             E +L ++ ++  +DVWS GCI+  L   KP F+                           
+Sbjct  221   E-VLSKKGHSFEVDVWSIGCIMYTLLVGKPPFE---------------------------  252
+
+Query  965   KLPYFNTMKPKKQYRRRLREEFSF---IPSAALDLLDHMLTLDPSKRCTAEQTLQSDFL  1020
+                   T   K+ Y R  + E+S    I   A  L+  ML  DP+ R T  + L  +F 
+Sbjct  253   ------TSCLKETYLRIKKNEYSIPKHINPVAASLIQKMLQTDPTARPTINELLNDEFF  305
+
+
+>sp|O43293|DAPK3_HUMAN Death-associated protein kinase 3 OS=Homo 
+sapiens OX=9606 GN=DAPK3 PE=1 SV=1
+Length=454
+
+ Score = 83.2 bits (204),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 84/306 (27%), Positives = 133/306 (43%), Gaps = 61/306 (20%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVA---LKKVRLDNEKEGFPITAI-REIKILRQLIHRSVVN  788
+             +G G +  V K + K TG+  A   +KK RL + + G     I RE+ ILR++ H +++ 
+Sbjct  19    LGSGQFAIVRKCRQKGTGKEYAAKFIKKRRLSSSRRGVSREEIEREVNILREIRHPNIIT  78
+
+Query  789   MKEIVTDKQDALDFKKDKGAFYLVFEYMD----HDLMGLLESGLVHFSEDHIKSFMKQLM  844
+             + +I  +K D +          L+ E +      D +   ES     +ED    F+KQ++
+Sbjct  79    LHDIFENKTDVV----------LILELVSGGELFDFLAEKES----LTEDEATQFLKQIL  124
+
+Query  845   EGLEYCHKKNFLHRDIKCSNILLNNSG----QIKLADFGLARLYNSEESRPYTNKVITLW  900
+             +G+ Y H K   H D+K  NI+L +      +IKL DFG+A  +  E    + N   T  
+Sbjct  125   DGVHYLHSKRIAHFDLKPENIMLLDKNVPNPRIKLIDFGIA--HKIEAGNEFKNIFGTPE  182
+
+Query  901   YRPPELLLGEERYTPA---IDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCP  957
+             +  PE++     Y P     D+WS G I   L +    F    +   L  IS        
+Sbjct  183   FVAPEIV----NYEPLGLEADMWSIGVITYILLSGASPFLGETKQETLTNIS--------  230
+
+Query  958   AVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQTLQS  1017
+             AV  D  +  + NT +  K + RRL                  L  DP +R T  Q+L+ 
+Sbjct  231   AVNYDFDEEYFSNTSELAKDFIRRL------------------LVKDPKRRMTIAQSLEH  272
+
+Query  1018  DFLKDV  1023
+              ++K +
+Sbjct  273   SWIKAI  278
+
+
+>sp|Q9Y6E0|STK24_HUMAN Serine/threonine-protein kinase 24 OS=Homo 
+sapiens OX=9606 GN=STK24 PE=1 SV=1
+Length=443
+
+ Score = 83.2 bits (204),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 58/203 (29%), Positives = 101/203 (50%), Gaps = 16/203 (8%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+            IG+G++G+V+K  D  T ++VA+K + L+  ++       +EI +L Q     V      
+Sbjct  42   IGKGSFGEVFKGIDNRTQKVVAIKIIDLEEAEDEIEDIQ-QEITVLSQCDSPYVTKYYG-  99
+
+Query  793  VTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCH  851
+                     + KD    +++ EY+     + LLE G     E  I + ++++++GL+Y H
+Sbjct  100  --------SYLKDT-KLWIIMEYLGGGSALDLLEPG--PLDETQIATILREILKGLDYLH  148
+
+Query  852  KKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEE  911
+             +  +HRDIK +N+LL+  G++KLADFG+A      + +  T      W  P   ++ + 
+Sbjct  149  SEKKIHRDIKAANVLLSEHGEVKLADFGVAGQLTDTQIKRNTFVGTPFWMAPE--VIKQS  206
+
+Query  912  RYTPAIDVWSCGCILGELFTKKP  934
+             Y    D+WS G    EL   +P
+Sbjct  207  AYDSKADIWSLGITAIELARGEP  229
+
+
+>sp|P17612|KAPCA_HUMAN cAMP-dependent protein kinase catalytic 
+subunit alpha OS=Homo sapiens OX=9606 GN=PRKACA PE=1 SV=2
+Length=351
+
+ Score = 82.0 bits (201),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 67/227 (30%), Positives = 114/227 (50%), Gaps = 18/227 (8%)
+
+Query  724  VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIK-ILRQLI  782
+            +D+F+ I  +G G++G+V   K K+TG   A+K   LD +K    +  +++I+  L +  
+Sbjct  41   LDQFERIKTLGTGSFGRVMLVKHKETGNHYAMKI--LDKQK----VVKLKQIEHTLNEKR  94
+
+Query  783  HRSVVNMKEIVTDKQDALDFK-KDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMK  841
+                VN   +V      L+F  KD    Y+V EY+    M      +  FSE H + +  
+Sbjct  95   ILQAVNFPFLVK-----LEFSFKDNSNLYMVMEYVPGGEMFSHLRRIGRFSEPHARFYAA  149
+
+Query  842  QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+            Q++   EY H  + ++RD+K  N+L++  G I++ DFG A+     + R +T    T  Y
+Sbjct  150  QIVLTFEYLHSLDLIYRDLKPENLLIDQQGYIQVTDFGFAK---RVKGRTWT-LCGTPEY  205
+
+Query  902  RPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELI  948
+              PE++L +  Y  A+D W+ G ++ E+    P F A+  +   E I
+Sbjct  206  LAPEIILSKG-YNKAVDWWALGVLIYEMAAGYPPFFADQPIQIYEKI  251
+
+
+>sp|O95819|M4K4_HUMAN Mitogen-activated protein kinase kinase 
+kinase kinase 4 OS=Homo sapiens OX=9606 GN=MAP4K4 PE=1 SV=2
+Length=1239
+
+ Score = 84.0 bits (206),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 62/218 (28%), Positives = 107/218 (49%), Gaps = 31/218 (14%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIR-EIKILRQLIH-R  784
+            F+++ ++G GTYGQVYK +   TG+L A+K + +  ++E      I+ EI +L++  H R
+Sbjct  25   FELVEVVGNGTYGQVYKGRHVKTGQLAAIKVMDVTEDEE----EEIKLEINMLKKYSHHR  80
+
+Query  785  SVVNMKEIVTDK-----QDALDFKKDKGAFYLVFEYMDH----DLMGLLESGLVHFSEDH  835
+            ++         K      D L         +LV E+       DL+   +   +   ED 
+Sbjct  81   NIATYYGAFIKKSPPGHDDQL---------WLVMEFCGAGSITDLVKNTKGNTL--KEDW  129
+
+Query  836  IKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNK  895
+            I    ++++ GL + H  + +HRDIK  N+LL  + ++KL DFG++   +    R  T  
+Sbjct  130  IAYISREILRGLAHLHIHHVIHRDIKGQNVLLTENAEVKLVDFGVSAQLDRTVGRRNTF-  188
+
+Query  896  VITLWYRPPELLLGEER----YTPAIDVWSCGCILGEL  929
+            + T ++  PE++  +E     Y    D+WSCG    E+
+Sbjct  189  IGTPYWMAPEVIACDENPDATYDYRSDLWSCGITAIEM  226
+
+
+>sp|Q9UQM7|KCC2A_HUMAN Calcium/calmodulin-dependent protein kinase 
+type II subunit alpha OS=Homo sapiens OX=9606 GN=CAMK2A 
+PE=1 SV=2
+Length=478
+
+ Score = 82.0 bits (201),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 89/321 (28%), Positives = 145/321 (45%), Gaps = 65/321 (20%)
+
+Query  704   ICCPRYGERRQTESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNE  763
+             I C R+ E  Q   + GK     F ++    +   GQ Y AK  +T +L A    +L+  
+Sbjct  4     ITCTRFTEEYQLFEELGK---GAFSVVRRCVKVLAGQEYAAKIINTKKLSARDHQKLE--  58
+
+Query  764   KEGFPITAIREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLM--  821
+                      RE +I R L H ++V + + ++++          G  YL+F     DL+  
+Sbjct  59    ---------REARICRLLKHPNIVRLHDSISEE----------GHHYLIF-----DLVTG  94
+
+Query  822   GLLESGLV---HFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNN---SGQIKL  875
+             G L   +V   ++SE      ++Q++E + +CH+   +HRD+K  N+LL +      +KL
+Sbjct  95    GELFEDIVAREYYSEADASHCIQQILEAVLHCHQMGVVHRDLKPENLLLASKLKGAAVKL  154
+
+Query  876   ADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPI  935
+             ADFGLA +    E + +     T  Y  PE +L ++ Y   +D+W+CG IL  L    P 
+Sbjct  155   ADFGLA-IEVEGEQQAWFGFAGTPGYLSPE-VLRKDPYGKPVDLWACGVILYILLVGYPP  212
+
+Query  936   FQANLELAQLELISRLCGSPCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALD  995
+             F    +  Q  L  +             IK   ++   P          E+  +   A D
+Sbjct  213   F---WDEDQHRLYQQ-------------IKAGAYDFPSP----------EWDTVTPEAKD  246
+
+Query  996   LLDHMLTLDPSKRCTAEQTLQ  1016
+             L++ MLT++PSKR TA + L+
+Sbjct  247   LINKMLTINPSKRITAAEALK  267
+
+
+>sp|O96017|CHK2_HUMAN Serine/threonine-protein kinase Chk2 OS=Homo 
+sapiens OX=9606 GN=CHEK2 PE=1 SV=1
+Length=543
+
+ Score = 82.0 bits (201),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 79/315 (25%), Positives = 142/315 (45%), Gaps = 51/315 (16%)
+
+Query  725   DKFDIIGIIGEGTYGQVYKAKDKDTGELVALK-----KVRLDNEKEGFPITAIR-EIKIL  778
+             D++ +   +G G  G+V  A ++ T + VA+K     K  + + +E  P   +  EI+IL
+Sbjct  218   DEYIMSKTLGSGACGEVKLAFERKTCKKVAIKIISKRKFAIGSAREADPALNVETEIEIL  277
+
+Query  779   RQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKS  838
+             ++L H  ++ +K    D +D          +Y+V E M+   +     G     E   K 
+Sbjct  278   KKLNHPCIIKIKNFF-DAED----------YYIVLELMEGGELFDKVVGNKRLKEATCKL  326
+
+Query  839   FMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQ---IKLADFGLARLYNSEESRPYTNK  895
+             +  Q++  ++Y H+   +HRD+K  N+LL++  +   IK+ DFG +++    E+      
+Sbjct  327   YFYQMLLAVQYLHENGIIHRDLKPENVLLSSQEEDCLIKITDFGHSKILG--ETSLMRTL  384
+
+Query  896   VITLWYRPPELL--LGEERYTPAIDVWSCGCILGELFTKKPIF-QANLELAQLELISRLC  952
+               T  Y  PE+L  +G   Y  A+D WS G IL    +  P F +   +++  + I+   
+Sbjct  385   CGTPTYLAPEVLVSVGTAGYNRAVDCWSLGVILFICLSGYPPFSEHRTQVSLKDQITSGK  444
+
+Query  953   GSPCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAE  1012
+              +  P VW +V                             ALDL+  +L +DP  R T E
+Sbjct  445   YNFIPEVWAEV--------------------------SEKALDLVKKLLVVDPKARFTTE  478
+
+Query  1013  QTLQSDFLKDVELSK  1027
+             + L+  +L+D ++ +
+Sbjct  479   EALRHPWLQDEDMKR  493
+
+
+>sp|Q56UN5|M3K19_HUMAN Mitogen-activated protein kinase kinase 
+kinase 19 OS=Homo sapiens OX=9606 GN=MAP3K19 PE=2 SV=1
+Length=1328
+
+ Score = 82.8 bits (203),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 65/217 (30%), Positives = 101/217 (47%), Gaps = 31/217 (14%)
+
+Query  732   IIGEGTYGQVYKAKDKDTGELVALKKVRLDN------EKEGFPITAIREIKILRQLIHRS  785
+             I+G+G YG VY       G+L+A+K+V LD       EKE   +    E+ +L+ L H +
+Sbjct  1066  ILGKGAYGTVYCGLTSQ-GQLIAVKQVALDTSNKLAAEKEYRKLQ--EEVDLLKALKHVN  1122
+
+Query  786   VVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFS---EDHIKSFMKQ  842
+             +V        +               V  +M+    G + S +  F    E     + KQ
+Sbjct  1123  IVAYLGTCLQENT-------------VSIFMEFVPGGSISSIINRFGPLPEMVFCKYTKQ  1169
+
+Query  843   LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARL-----YNSEESRPYTNKVI  897
+             +++G+ Y H+   +HRDIK +N++L  +G IKL DFG AR       N   S    +   
+Sbjct  1170  ILQGVAYLHENCVVHRDIKGNNVMLMPTGIIKLIDFGCARRLAWAGLNGTHSDMLKSMHG  1229
+
+Query  898   TLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKP  934
+             T ++  PE ++ E  Y    D+WS GC + E+ T KP
+Sbjct  1230  TPYWMAPE-VINESGYGRKSDIWSIGCTVFEMATGKP  1265
+
+
+>sp|Q9NYY3|PLK2_HUMAN Serine/threonine-protein kinase PLK2 OS=Homo 
+sapiens OX=9606 GN=PLK2 PE=1 SV=3
+Length=685
+
+ Score = 80.5 bits (197),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 54/211 (26%), Positives = 103/211 (49%), Gaps = 21/211 (10%)
+
+Query  732  IIGEGTYGQVYKAKDKDTGELVALK-----KVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+            ++G+G + + Y+  D    ++ A K     +V   +++E       +EI++ R L H+ V
+Sbjct  87   VLGKGGFAKCYEMTDLTNNKVYAAKIIPHSRVAKPHQREKID----KEIELHRILHHKHV  142
+
+Query  787  VNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEG  846
+            V       DK++           Y++ EY     M  +       +E  ++ +++Q++ G
+Sbjct  143  VQFYHYFEDKEN----------IYILLEYCSRRSMAHILKARKVLTEPEVRYYLRQIVSG  192
+
+Query  847  LEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPEL  906
+            L+Y H++  LHRD+K  N  +N + ++K+ DFGLA      E R  T    T  Y  PE 
+Sbjct  193  LKYLHEQEILHRDLKLGNFFINEAMELKVGDFGLAARLEPLEHRRRT-ICGTPNYLSPE-  250
+
+Query  907  LLGEERYTPAIDVWSCGCILGELFTKKPIFQ  937
+            +L ++ +    D+W+ GC++  +   +P F+
+Sbjct  251  VLNKQGHGCESDIWALGCVMYTMLLGRPPFE  281
+
+
+>sp|O14578|CTRO_HUMAN Citron Rho-interacting kinase OS=Homo sapiens 
+OX=9606 GN=CIT PE=1 SV=2
+Length=2027
+
+ Score = 80.1 bits (196),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 64/214 (30%), Positives = 99/214 (46%), Gaps = 23/214 (11%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALK----KVRLDNEKEGFPITAIREIKILRQLI  782
+            F++  ++G G + +V   ++K TG++ A+K    K  L  E+  F        +  R ++
+Sbjct  97   FEVRSLVGCGHFAEVQVVREKATGDIYAMKVMKKKALLAQEQVSF-------FEEERNIL  149
+
+Query  783  HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYM-DHDLMGLLESGLVHFSEDHIKSFMK  841
+             RS       +   Q A    +DK   YLV EY    DL+ LL        E+ I+ ++ 
+Sbjct  150  SRST---SPWIPQLQYAF---QDKNHLYLVMEYQPGGDLLSLLNRYEDQLDENLIQFYLA  203
+
+Query  842  QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+            +L+  +   H   ++HRDIK  NIL++ +G IKL DFG A   NS +       + T  Y
+Sbjct  204  ELILAVHSVHLMGYVHRDIKPENILVDRTGHIKLVDFGSAAKMNSNKMVNAKLPIGTPDY  263
+
+Query  902  RPPELLL-----GEERYTPAIDVWSCGCILGELF  930
+              PE+L      G+  Y    D WS G I  E+ 
+Sbjct  264  MAPEVLTVMNGDGKGTYGLDCDWWSVGVIAYEMI  297
+
+
+>sp|O95747|OXSR1_HUMAN Serine/threonine-protein kinase OSR1 OS=Homo 
+sapiens OX=9606 GN=OXSR1 PE=1 SV=1
+Length=527
+
+ Score = 78.2 bits (191),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 61/213 (29%), Positives = 103/213 (48%), Gaps = 11/213 (5%)
+
+Query  725  DKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHR  784
+            D +++  +IG G    V  A      E VA+K++ L+  +       ++EI+ + Q  H 
+Sbjct  15   DDYELQEVIGSGATAVVQAAYCAPKKEKVAIKRINLEKCQTSMD-ELLKEIQAMSQCHHP  73
+
+Query  785  SVVNM-KEIVTDKQDALDFKKDKGAFYLVFEYMDHDLM-GLLESGLVHFSEDHIKSFMKQ  842
+            ++V+     V   +  L  K   G    V + + H +  G  +SG++   E  I + +++
+Sbjct  74   NIVSYYTSFVVKDELWLVMKLLSGGS--VLDIIKHIVAKGEHKSGVL--DESTIATILRE  129
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLY--NSEESRPYTNK--VIT  898
+            ++EGLEY HK   +HRD+K  NILL   G +++ADFG++       + +R    K  V T
+Sbjct  130  VLEGLEYLHKNGQIHRDVKAGNILLGEDGSVQIADFGVSAFLATGGDITRNKVRKTFVGT  189
+
+Query  899  LWYRPPELLLGEERYTPAIDVWSCGCILGELFT  931
+              +  PE++     Y    D+WS G    EL T
+Sbjct  190  PCWMAPEVMEQVRGYDFKADIWSFGITAIELAT  222
+
+
+>sp|P07332|FES_HUMAN Tyrosine-protein kinase Fes/Fps OS=Homo sapiens 
+OX=9606 GN=FES PE=1 SV=3
+Length=822
+
+ Score = 78.6 bits (192),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 73/268 (27%), Positives = 111/268 (41%), Gaps = 35/268 (13%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFP----ITAIREIKILRQLIHRSVVN  788
+            IG G +G+V+  + +    LVA+K  R     E  P       ++E +IL+Q  H ++V 
+Sbjct  567  IGRGNFGEVFSGRLRADNTLVAVKSCR-----ETLPPDLKAKFLQEARILKQYSHPNIVR  621
+
+Query  789  MKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGLVHFSEDHIKSFMKQLMEGL  847
+            +  + T KQ            Y+V E +   D +  L +         +   +     G+
+Sbjct  622  LIGVCTQKQ----------PIYIVMELVQGGDFLTFLRTEGARLRVKTLLQMVGDAAAGM  671
+
+Query  848  EYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYT-----NKVITLWYR  902
+            EY   K  +HRD+   N L+     +K++DFG++R    E    Y       +V   W  
+Sbjct  672  EYLESKCCIHRDLAARNCLVTEKNVLKISDFGMSR---EEADGVYAASGGLRQVPVKWTA  728
+
+Query  903  PPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQL-ELISRLCGSPCPAVWP  961
+            P  L  G  RY+   DVWS G +L E F+       NL   Q  E + +    PCP + P
+Sbjct  729  PEALNYG--RYSSESDVWSFGILLWETFSLGASPYPNLSNQQTREFVEKGGRLPCPELCP  786
+
+Query  962  DVIKLPYFNTMKPKKQYRRRLREEFSFI  989
+            D +    F  M+    Y    R  FS I
+Sbjct  787  DAV----FRLMEQCWAYEPGQRPSFSTI  810
+
+
+>sp|P17252|KPCA_HUMAN Protein kinase C alpha type OS=Homo sapiens 
+OX=9606 GN=PRKCA PE=1 SV=4
+Length=672
+
+ Score = 77.0 bits (188),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 56/234 (24%), Positives = 117/234 (50%), Gaps = 22/234 (9%)
+
+Query  711  ERRQTESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPIT  770
+            +R+Q  ++  +  +  F+ + ++G+G++G+V  A  K T EL A+K ++ D         
+Sbjct  323  DRKQPSNNLDRVKLTDFNFLMVLGKGSFGKVMLADRKGTEELYAIKILKKD--------V  374
+
+Query  771  AIREIKILRQLIHRSVVNMKE---IVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLES  826
+             I++  +   ++ + V+ + +    +T         +     Y V EY++  DLM  ++ 
+Sbjct  375  VIQDDDVECTMVEKRVLALLDKPPFLTQLHSCF---QTVDRLYFVMEYVNGGDLMYHIQQ  431
+
+Query  827  GLVHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLAR--LY  884
+             +  F E     +  ++  GL + HK+  ++RD+K  N++L++ G IK+ADFG+ +  + 
+Sbjct  432  -VGKFKEPQAVFYAAEISIGLFFLHKRGIIYRDLKLDNVMLDSEGHIKIADFGMCKEHMM  490
+
+Query  885  NSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQA  938
+            +   +R +     T  Y  PE ++  + Y  ++D W+ G +L E+   +P F  
+Sbjct  491  DGVTTRTFCG---TPDYIAPE-IIAYQPYGKSVDWWAYGVLLYEMLAGQPPFDG  540
+
+
+>sp|Q8NG66|NEK11_HUMAN Serine/threonine-protein kinase Nek11 OS=Homo 
+sapiens OX=9606 GN=NEK11 PE=1 SV=2
+Length=645
+
+ Score = 76.6 bits (187),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 59/212 (28%), Positives = 98/212 (46%), Gaps = 22/212 (10%)
+
+Query  733  IGEGTYGQVYKAKDKDTG---ELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNM  789
+            +G G++G VY   DK      EL  LK++ +        + A  E ++L +L H ++V  
+Sbjct  35   LGSGSFGTVYLVSDKKAKRGEELKVLKEISVGELNPNETVQANLEAQLLSKLDHPAIVKF  94
+
+Query  790  KEIVTDKQDALDFKKDKGAFYLVFEY-----MDHDLMGLLESGLVHFSEDHIKSFMKQLM  844
+                 ++ +          F ++ EY     +D  +    ++G + F E+ I  +  QL+
+Sbjct  95   HASFVEQDN----------FCIITEYCEGRDLDDKIQEYKQAGKI-FPENQIIEWFIQLL  143
+
+Query  845  EGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPP  904
+             G++Y H++  LHRD+K  N+ L N+  +K+ DFG++RL         T    T  Y  P
+Sbjct  144  LGVDYMHERRILHRDLKSKNVFLKNN-LLKIGDFGVSRLLMG-SCDLATTLTGTPHYMSP  201
+
+Query  905  ELLLGEERYTPAIDVWSCGCILGELFTKKPIF  936
+            E  L  + Y    D+WS  CIL E+      F
+Sbjct  202  E-ALKHQGYDTKSDIWSLACILYEMCCMNHAF  232
+
+
+>sp|Q9UEW8|STK39_HUMAN STE20/SPS1-related proline-alanine-rich 
+protein kinase OS=Homo sapiens OX=9606 GN=STK39 PE=1 SV=3
+Length=545
+
+ Score = 76.6 bits (187),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 63/219 (29%), Positives = 105/219 (48%), Gaps = 19/219 (9%)
+
+Query  723  CVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLI  782
+            C D +++  +IG G    V  A  K   E VA+K++ L+  +       ++EI+ + Q  
+Sbjct  59   CRDAYELQEVIGSGATAVVQAALCKPRQERVAIKRINLEKCQTSMD-ELLKEIQAMSQCS  117
+
+Query  783  HRSVVNM-KEIVTDKQDALDFKKDKGAFYL-VFEYM----DHDLMGLLESGLVHFSEDHI  836
+            H +VV      V   +  L  K   G   L + +Y+    +H   G+LE  +       I
+Sbjct  118  HPNVVTYYTSFVVKDELWLVMKLLSGGSMLDIIKYIVNRGEHK-NGVLEEAI-------I  169
+
+Query  837  KSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNS--EESRPYTN  894
+             + +K+++EGL+Y H+   +HRD+K  NILL   G +++ADFG++    +  + +R    
+Sbjct  170  ATILKEVLEGLDYLHRNGQIHRDLKAGNILLGEDGSVQIADFGVSAFLATGGDVTRNKVR  229
+
+Query  895  K--VITLWYRPPELLLGEERYTPAIDVWSCGCILGELFT  931
+            K  V T  +  PE++     Y    D+WS G    EL T
+Sbjct  230  KTFVGTPCWMAPEVMEQVRGYDFKADMWSFGITAIELAT  268
+
+
+>sp|P11362|FGFR1_HUMAN Fibroblast growth factor receptor 1 OS=Homo 
+sapiens OX=9606 GN=FGFR1 PE=1 SV=3
+Length=822
+
+ Score = 76.6 bits (187),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 65/224 (29%), Positives = 110/224 (49%), Gaps = 37/224 (17%)
+
+Query  733  IGEGTYGQVYKAK----DKDT---GELVALKKVRLDNEKEGFPITAIREIKILRQL-IHR  784
+            +GEG +GQV  A+    DKD       VA+K ++ D  ++      I E+++++ +  H+
+Sbjct  484  LGEGCFGQVVLAEAIGLDKDKPNRVTKVAVKMLKSDATEKDLS-DLISEMEMMKMIGKHK  542
+
+Query  785  SVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLES----GLVH---------  830
+            +++N+    T  QD        G  Y++ EY    +L   L++    GL +         
+Sbjct  543  NIINLLGACT--QD--------GPLYVIVEYASKGNLREYLQARRPPGLEYCYNPSHNPE  592
+
+Query  831  --FSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLAR-LYNSE  887
+               S   + S   Q+  G+EY   K  +HRD+   N+L+     +K+ADFGLAR +++ +
+Sbjct  593  EQLSSKDLVSCAYQVARGMEYLASKKCIHRDLAARNVLVTEDNVMKIADFGLARDIHHID  652
+
+Query  888  ESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFT  931
+              +  TN  + + +  PE L  +  YT   DVWS G +L E+FT
+Sbjct  653  YYKKTTNGRLPVKWMAPEALF-DRIYTHQSDVWSFGVLLWEIFT  695
+
+
+>sp|Q99558|M3K14_HUMAN Mitogen-activated protein kinase kinase 
+kinase 14 OS=Homo sapiens OX=9606 GN=MAP3K14 PE=1 SV=2
+Length=947
+
+ Score = 76.3 bits (186),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 57/208 (27%), Positives = 93/208 (45%), Gaps = 31/208 (15%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+            +G G++G+V++ +DK TG   A+KKVRL+       +    E+     L    +V +   
+Sbjct  406  LGRGSFGEVHRMEDKQTGFQCAVKKVRLE-------VFRAEELMACAGLTSPRIVPLYGA  458
+
+Query  793  VTDKQDALDFKKDKGAFYLVF-EYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCH  851
+            V +           G +  +F E ++   +G L        ED    ++ Q +EGLEY H
+Sbjct  459  VRE-----------GPWVNIFMELLEGGSLGQLVKEQGCLPEDRALYYLGQALEGLEYLH  507
+
+Query  852  KKNFLHRDIKCSNILLNNSG-QIKLADFGLARLYNSEESRPYTNKVITLWYRP-------  903
+             +  LH D+K  N+LL++ G    L DFG A     +        ++T  Y P       
+Sbjct  508  SRRILHGDVKADNVLLSSDGSHAALCDFGHAVCLQPDG---LGKSLLTGDYIPGTETHMA  564
+
+Query  904  PELLLGEERYTPAIDVWSCGCILGELFT  931
+            PE++LG       +DVWS  C++  +  
+Sbjct  565  PEVVLGRS-CDAKVDVWSSCCMMLHMLN  591
+
+
+>sp|P31749|AKT1_HUMAN RAC-alpha serine/threonine-protein kinase 
+OS=Homo sapiens OX=9606 GN=AKT1 PE=1 SV=2
+Length=480
+
+ Score = 74.3 bits (181),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 82/331 (25%), Positives = 146/331 (44%), Gaps = 70/331 (21%)
+
+Query  724   VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALK----KVRLDNEKEGFPITAIREIKILR  779
+             +++F+ + ++G+GT+G+V   K+K TG   A+K    +V +  ++    +T   E ++L+
+Sbjct  147   MNEFEYLKLLGKGTFGKVILVKEKATGRYYAMKILKKEVIVAKDEVAHTLT---ENRVLQ  203
+
+Query  780   QLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSF  839
+                H  +  +K       D L F         V EY +   +    S    FSED  + +
+Sbjct  204   NSRHPFLTALK-YSFQTHDRLCF---------VMEYANGGELFFHLSRERVFSEDRARFY  253
+
+Query  840   MKQLMEGLEYCH-KKNFLHRDIKCSNILLNNSGQIKLADFGLAR--LYNSEESRPYTNKV  896
+               +++  L+Y H +KN ++RD+K  N++L+  G IK+ DFGL +  + +    + +    
+Sbjct  254   GAEIVSALDYLHSEKNVVYRDLKLENLMLDKDGHIKITDFGLCKEGIKDGATMKTFCG--  311
+
+Query  897   ITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPC  956
+              T  Y  PE +L +  Y  A+D W  G ++ E+                     +CG   
+Sbjct  312   -TPEYLAPE-VLEDNDYGRAVDWWGLGVVMYEM---------------------MCG---  345
+
+Query  957   PAVWPDVIKLPYFNTMKPKKQYRRRLREEFSF---IPSAALDLLDHMLTLDPSKRC----  1009
+                     +LP++N    +K +   L EE  F   +   A  LL  +L  DP +R     
+Sbjct  346   --------RLPFYNQ-DHEKLFELILMEEIRFPRTLGPEAKSLLSGLLKKDPKQRLGGGS  396
+
+Query  1010  -TAEQTLQSDFL-----KDVELSKMAPPDLP  1034
+               A++ +Q  F      + V   K++PP  P
+Sbjct  397   EDAKEIMQHRFFAGIVWQHVYEKKLSPPFKP  427
+
+
+>sp|Q8WZ42|TITIN_HUMAN Titin OS=Homo sapiens OX=9606 GN=TTN PE=1 
+SV=4
+Length=34350
+
+ Score = 75.1 bits (183),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 70/308 (23%), Positives = 127/308 (41%), Gaps = 53/308 (17%)
+
+Query  721    KRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQ  780
+              K   +K+ I   +G G +G V++  +  + +    K V++    +   +   +EI IL  
+Sbjct  32172  KELYEKYMIAEDLGRGEFGIVHRCVETSSKKTYMAKFVKVKGTDQ---VLVKKEISILNI  32228
+
+Query  781    LIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGLVHFSEDHIKSF  839
+                HR+++++ E     ++ +          ++FE++   D+   + +     +E  I S+
+Sbjct  32229  ARHRNILHLHESFESMEELV----------MIFEFISGLDIFERINTSAFELNEREIVSY  32278
+
+Query  840    MKQLMEGLEYCHKKNFLHRDIKCSNILLNN--SGQIKLADFGLARLYNSEESRPYTNKVI  897
+              + Q+ E L++ H  N  H DI+  NI+     S  IK+ +FG AR     + +P  N   
+Sbjct  32279  VHQVCEALQFLHSHNIGHFDIRPENIIYQTRRSSTIKIIEFGQAR-----QLKPGDN--F  32331
+
+Query  898    TLWYRPPELLLGE----ERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCG  953
+               L +  PE    E    +  + A D+WS G ++  L +    F A      +E       
+Sbjct  32332  RLLFTAPEYYAPEVHQHDVVSTATDMWSLGTLVYVLLSGINPFLAETNQQIIE-------  32384
+
+Query  954    SPCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAALDLLDHMLTLDPSKRCTAEQ  1013
+                              N M  +  +     E F  I   A+D +D +L  +   R TA +
+Sbjct  32385  ----------------NIMNAEYTFD---EEAFKEISIEAMDFVDRLLVKERKSRMTASE  32425
+
+Query  1014   TLQSDFLK  1021
+               LQ  +LK
+Sbjct  32426  ALQHPWLK  32433
+
+
+>sp|P53671|LIMK2_HUMAN LIM domain kinase 2 OS=Homo sapiens OX=9606 
+GN=LIMK2 PE=1 SV=1
+Length=638
+
+ Score = 74.3 bits (181),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 59/219 (27%), Positives = 100/219 (46%), Gaps = 34/219 (16%)
+
+Query  732  IIGEGTYGQVYKAKDKDTGELVALKK-VRLDNEKEGFPITAIREIKILRQLIHRSVVNMK  790
+            ++G+G +GQ  K   K TG+++ +K+ +R D E +    T + E+K++R L H +V+   
+Sbjct  336  VLGKGFFGQAIKVTHKATGKVMVMKELIRCDEETQK---TFLTEVKVMRSLDHPNVLKFI  392
+
+Query  791  EIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYC  850
+             ++          KDK    L+ EY++   +      +  F       F K +  G+ Y 
+Sbjct  393  GVLY---------KDK-KLNLLTEYIEGGTLKDFLRSMDPFPWQQKVRFAKGIASGMAYL  442
+
+Query  851  HKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRP----YTNKVITL-------  899
+            H    +HRD+   N L+     + +ADFGL+RL   E  R      T K  TL       
+Sbjct  443  HSMCIIHRDLNSHNCLIKLDKTVVVADFGLSRLIVEERKRAPMEKATTKKRTLRKNDRKK  502
+
+Query  900  --------WYRPPELLLGEERYTPAIDVWSCGCILGELF  930
+                    ++  PE+L G+  Y   +D++S G +L E+ 
+Sbjct  503  RYTVVGNPYWMAPEMLNGKS-YDETVDIFSFGIVLCEII  540
+
+
+>sp|Q14680|MELK_HUMAN Maternal embryonic leucine zipper kinase 
+OS=Homo sapiens OX=9606 GN=MELK PE=1 SV=3
+Length=651
+
+ Score = 73.2 bits (178),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 73/295 (25%), Positives = 126/295 (43%), Gaps = 65/295 (22%)
+
+Query  733   IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIR-EIKILRQLIHRSVVNMKE  791
+             IG G + +V  A    TGE+VA+K   +D    G  +  I+ EI+ L+ L H+ +  +  
+Sbjct  17    IGTGGFAKVKLACHILTGEMVAIKI--MDKNTLGSDLPRIKTEIEALKNLRHQHICQLYH  74
+
+Query  792   IVTDKQDALDFKKDKGAFYLVFEYM-DHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYC  850
+             ++          +     ++V EY    +L   + S     SE+  +   +Q++  + Y 
+Sbjct  75    VL----------ETANKIFMVLEYCPGGELFDYIISQ-DRLSEEETRVVFRQIVSAVAYV  123
+
+Query  851   HKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNK-------VITLWYRP  903
+             H + + HRD+K  N+L +   ++KL DFGL        ++P  NK         +L Y  
+Sbjct  124   HSQGYAHRDLKPENLLFDEYHKLKLIDFGLC-------AKPKGNKDYHLQTCCGSLAYAA  176
+
+Query  904   PELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLELISRLCGSPCPAVWPDV  963
+             PEL+ G+       DVWS G +L  L                     +CG          
+Sbjct  177   PELIQGKSYLGSEADVWSMGILLYVL---------------------MCGF---------  206
+
+Query  964   IKLPYFNTMKPKKQYRRRLREEFS---FIPSAALDLLDHMLTLDPSKRCTAEQTL  1015
+               LP F+       Y++ +R ++    ++  +++ LL  ML +DP KR + +  L
+Sbjct  207   --LP-FDDDNVMALYKKIMRGKYDVPKWLSPSSILLLQQMLQVDPKKRISMKNLL  258
+
+
+>sp|P05771|KPCB_HUMAN Protein kinase C beta type OS=Homo sapiens 
+OX=9606 GN=PRKCB PE=1 SV=4
+Length=671
+
+ Score = 72.8 bits (177),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 51/218 (23%), Positives = 109/218 (50%), Gaps = 22/218 (10%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+            F+ + ++G+G++G+V  ++ K T EL A+K ++ D          I++  +   ++ + V
+Sbjct  342  FNFLMVLGKGSFGKVMLSERKGTDELYAVKILKKD--------VVIQDDDVECTMVEKRV  393
+
+Query  787  VNMKE---IVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGLVHFSEDHIKSFMKQ  842
+            + +      +T         +     Y V EY++  DLM  ++  +  F E H   +  +
+Sbjct  394  LALPGKPPFLTQLHSCF---QTMDRLYFVMEYVNGGDLMYHIQQ-VGRFKEPHAVFYAAE  449
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLAR--LYNSEESRPYTNKVITLW  900
+            +  GL +   K  ++RD+K  N++L++ G IK+ADFG+ +  +++   ++ +     T  
+Sbjct  450  IAIGLFFLQSKGIIYRDLKLDNVMLDSEGHIKIADFGMCKENIWDGVTTKTFCG---TPD  506
+
+Query  901  YRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQA  938
+            Y  PE ++  + Y  ++D W+ G +L E+   +  F+ 
+Sbjct  507  YIAPE-IIAYQPYGKSVDWWAFGVLLYEMLAGQAPFEG  543
+
+
+>sp|Q13464|ROCK1_HUMAN Rho-associated protein kinase 1 OS=Homo 
+sapiens OX=9606 GN=ROCK1 PE=1 SV=1
+Length=1354
+
+ Score = 71.6 bits (174),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 63/220 (29%), Positives = 100/220 (45%), Gaps = 21/220 (10%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALK---KVRLDNEKEGFPITAIREIKILRQLIH  783
+            ++++ +IG G +G+V   + K T ++ A+K   K  +    +       R+I        
+Sbjct  76   YEVVKVIGRGAFGEVQLVRHKSTRKVYAMKLLSKFEMIKRSDSAFFWEERDI--------  127
+
+Query  784  RSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYM-DHDLMGLLESGLVHFSEDHIKSFMKQ  842
+             +  N   +V   Q    F+ D+   Y+V EYM   DL+ L+ +  V   E   + +  +
+Sbjct  128  MAFANSPWVV---QLFYAFQDDR-YLYMVMEYMPGGDLVNLMSNYDV--PEKWARFYTAE  181
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYR  902
+            ++  L+  H   F+HRD+K  N+LL+ SG +KLADFG     N E        V T  Y 
+Sbjct  182  VVLALDAIHSMGFIHRDVKPDNMLLDKSGHLKLADFGTCMKMNKEGMVRCDTAVGTPDYI  241
+
+Query  903  PPELLL---GEERYTPAIDVWSCGCILGELFTKKPIFQAN  939
+             PE+L    G+  Y    D WS G  L E+      F A+
+Sbjct  242  SPEVLKSQGGDGYYGRECDWWSVGVFLYEMLVGDTPFYAD  281
+
+
+>sp|Q13163|MP2K5_HUMAN Dual specificity mitogen-activated protein 
+kinase kinase 5 OS=Homo sapiens OX=9606 GN=MAP2K5 PE=1 SV=2
+Length=448
+
+ Score = 70.1 bits (170),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 58/203 (29%), Positives = 92/203 (45%), Gaps = 31/203 (15%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+            +G G  G VYKA    +G+++A+K + LD   E                + + +++  EI
+Sbjct  172  LGHGNGGTVYKAYHVPSGKILAVKVILLDITLE----------------LQKQIMSELEI  215
+
+Query  793  VTDKQDALDFKKDKGAFY------LVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEG  846
+            +  K D+       GAF+      +  E+MD   + +         E  +      +++G
+Sbjct  216  LY-KCDSSYIIGFYGAFFVENRISICTEFMDGGSLDVYRK----MPEHVLGRIAVAVVKG  270
+
+Query  847  LEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPEL  906
+            L Y      LHRD+K SN+L+N  GQ+KL DFG++    +  ++ Y     T  Y  PE 
+Sbjct  271  LTYLWSLKILHRDVKPSNMLVNTRGQVKLCDFGVSTQLVNSIAKTYVG---TNAYMAPER  327
+
+Query  907  LLGEERYTPAIDVWSCGCILGEL  929
+            + GE+ Y    DVWS G    EL
+Sbjct  328  ISGEQ-YGIHSDVWSLGISFMEL  349
+
+
+>sp|Q9NYL2|M3K20_HUMAN Mitogen-activated protein kinase kinase 
+kinase 20 OS=Homo sapiens OX=9606 GN=MAP3K20 PE=1 SV=3
+Length=800
+
+ Score = 70.1 bits (170),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 72/303 (24%), Positives = 139/303 (46%), Gaps = 34/303 (11%)
+
+Query  726   KFDIIGII---GEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLI  782
+             KFD +      G G++G VY+AK     + VA+KK+ L  EKE          +IL  L 
+Sbjct  12    KFDDLQFFENCGGGSFGSVYRAKWISQDKEVAVKKL-LKIEKEA---------EILSVLS  61
+
+Query  783   HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQ  842
+             HR+++    ++ +  +      +  +   +++Y++ +    ++        DHI ++   
+Sbjct  62    HRNIIQFYGVILEPPN-YGIVTEYASLGSLYDYINSNRSEEMDM-------DHIMTWATD  113
+
+Query  843   LMEGLEYCHKK---NFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITL  899
+             + +G+ Y H +     +HRD+K  N+++   G +K+ DFG +R +N      + + V T 
+Sbjct  114   VAKGMHYLHMEAPVKVIHRDLKSRNVVIAADGVLKICDFGASRFHNHT---THMSLVGTF  170
+
+Query  900   WYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQA--NLELAQL--ELISRLCG-S  954
+              +  PE++      +   D +S G +L E+ T++  F+    L++A L  E   RL   S
+Sbjct  171   PWMAPEVIQSLP-VSETCDTYSYGVVLWEMLTREVPFKGLEGLQVAWLVVEKNERLTIPS  229
+
+Query  955   PCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSFIPSAAL-DLLDHMLTLDPSKRCTAEQ  1013
+              CP  + +++   +    K +  +++ +    S     +L D  +  L      RC  E 
+Sbjct  230   SCPRSFAELLHQCWEADAKKRPSFKQIISILESMSNDTSLPDKCNSFLHNKAEWRCEIEA  289
+
+Query  1014  TLQ  1016
+             TL+
+Sbjct  290   TLE  292
+
+
+>sp|Q7Z2Y5|NRK_HUMAN Nik-related protein kinase OS=Homo sapiens 
+OX=9606 GN=NRK PE=1 SV=2
+Length=1582
+
+ Score = 69.7 bits (169),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 63/235 (27%), Positives = 102/235 (43%), Gaps = 31/235 (13%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITA--IREIKILRQLIHR  784
+            F +   IG GTYG++Y    + TG   A+K   ++  K   P     +R  K  + +  R
+Sbjct  25   FSLDKTIGLGTYGRIYLGLHEKTGAFTAVKV--MNARKTPLPEIGRRVRVNKYQKSVGWR  82
+
+Query  785  SVVNMKEIVTDKQ--DALDFKKDKGAFYLVFEYMD-----HDL---MGLLESGLV-----  829
+                 +++ T+        F K+  +FY  F  +      H L   M L  +G V     
+Sbjct  83   YSDEEEDLRTELNLLRKYSFHKNIVSFYGAFFKLSPPGQRHQLWMVMELCAAGSVTDVVR  142
+
+Query  830  -----HFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLY  884
+                    ED I    +++++GL + H    +HRDIK  N+LL ++ ++KL DFG++   
+Sbjct  143  MTSNQSLKEDWIAYICREILQGLAHLHAHRVIHRDIKGQNVLLTHNAEVKLVDFGVSAQV  202
+
+Query  885  NSEESRPYTNKVI-TLWYRPPELLLGEE----RYTPAIDVWSCGCILGELFTKKP  934
+            +    R   N  I T ++  PE++  +E     Y    DVWS G    E+    P
+Sbjct  203  SRTNGR--RNSFIGTPYWMAPEVIDCDEDPRRSYDYRSDVWSVGITAIEMAEGAP  255
+
+
+>sp|O14733|MP2K7_HUMAN Dual specificity mitogen-activated protein 
+kinase kinase 7 OS=Homo sapiens OX=9606 GN=MAP2K7 PE=1 SV=2
+Length=419
+
+ Score = 68.6 bits (166),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 71/236 (30%), Positives = 105/236 (44%), Gaps = 42/236 (18%)
+
+Query  710  GERRQTESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPI  769
+            G+R Q E       ++  + +G +G GT GQV+K + + TG ++A+K++R    KE    
+Sbjct  110  GQRYQAE-------INDLENLGEMGSGTCGQVWKMRFRKTGHVIAVKQMRRSGNKE----  158
+
+Query  770  TAIREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYL---VFEYMDHDLMGLLES  826
+                  +IL  L         ++V    D     +  G F     VF  M+  LMG    
+Sbjct  159  ---ENKRILMDL---------DVVLKSHDCPYIVQCFGTFITNTDVFIAME--LMGTCAE  204
+
+Query  827  GLVH-----FSEDHIKSFMKQLMEGLEYCHKKN-FLHRDIKCSNILLNNSGQIKLADFGL  880
+             L         E  +      +++ L Y  +K+  +HRD+K SNILL+  GQIKL DFG+
+Sbjct  205  KLKKRMQGPIPERILGKMTVAIVKALYYLKEKHGVIHRDVKPSNILLDERGQIKLCDFGI  264
+
+Query  881  A-RLYNSEESRPYTNKVITLWYRPPELLL----GEERYTPAIDVWSCGCILGELFT  931
+            + RL +S+     T       Y  PE +      +  Y    DVWS G  L EL T
+Sbjct  265  SGRLVDSKAK---TRSAGCAAYMAPERIDPPDPTKPDYDIRADVWSLGISLVELAT  317
+
+
+>sp|P49137|MAPK2_HUMAN MAP kinase-activated protein kinase 2 OS=Homo 
+sapiens OX=9606 GN=MAPKAPK2 PE=1 SV=1
+Length=400
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 66/226 (29%), Positives = 103/226 (46%), Gaps = 21/226 (9%)
+
+Query  724  VDKFDIIG-IIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLI  782
+            +D + +   ++G G  G+V +  +K T E  ALK ++ D  K      A RE+++     
+Sbjct  60   IDDYKVTSQVLGLGINGKVLQIFNKRTQEKFALKMLQ-DCPK------ARREVEL-----  107
+
+Query  783  HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLES-GLVHFSEDHIKSFM  840
+            H        IV       +    +    +V E +D  +L   ++  G   F+E      M
+Sbjct  108  HWRASQCPHIVRIVDVYENLYAGRKCLLIVMECLDGGELFSRIQDRGDQAFTEREASEIM  167
+
+Query  841  KQLMEGLEYCHKKNFLHRDIKCSNILLNN---SGQIKLADFGLARLYNSEESRPYTNKVI  897
+            K + E ++Y H  N  HRD+K  N+L  +   +  +KL DFG A+   S  S   T    
+Sbjct  168  KSIGEAIQYLHSINIAHRDVKPENLLYTSKRPNAILKLTDFGFAKETTSHNS--LTTPCY  225
+
+Query  898  TLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELA  943
+            T +Y  PE +LG E+Y  + D+WS G I+  L    P F +N  LA
+Sbjct  226  TPYYVAPE-VLGPEKYDKSCDMWSLGVIMYILLCGYPPFYSNHGLA  270
+
+
+>sp|Q02750|MP2K1_HUMAN Dual specificity mitogen-activated protein 
+kinase kinase 1 OS=Homo sapiens OX=9606 GN=MAP2K1 PE=1 SV=2
+Length=393
+
+ Score = 67.8 bits (164),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 60/212 (28%), Positives = 95/212 (45%), Gaps = 28/212 (13%)
+
+Query  725  DKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHR  784
+            D F+ I  +G G  G V+K   K +G ++A K + L+  K       IRE+++L +    
+Sbjct  66   DDFEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEI-KPAIRNQIIRELQVLHECNSP  124
+
+Query  785  SVVNMKEIVTDKQDALDFKKDKGAFY------LVFEYMDHDLMGLLESGLVHFSEDHIKS  838
+             +V                   GAFY      +  E+MD   +  +        E  +  
+Sbjct  125  YIVGFY----------------GAFYSDGEISICMEHMDGGSLDQVLKKAGRIPEQILGK  168
+
+Query  839  FMKQLMEGLEYCHKKN-FLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVI  897
+                +++GL Y  +K+  +HRD+K SNIL+N+ G+IKL DFG++       +  +     
+Sbjct  169  VSIAVIKGLTYLREKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSMANSFVG---  225
+
+Query  898  TLWYRPPELLLGEERYTPAIDVWSCGCILGEL  929
+            T  Y  PE L G   Y+   D+WS G  L E+
+Sbjct  226  TRSYMSPERLQG-THYSVQSDIWSMGLSLVEM  256
+
+
+>sp|P36507|MP2K2_HUMAN Dual specificity mitogen-activated protein 
+kinase kinase 2 OS=Homo sapiens OX=9606 GN=MAP2K2 PE=1 SV=1
+Length=400
+
+ Score = 67.8 bits (164),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 60/212 (28%), Positives = 95/212 (45%), Gaps = 28/212 (13%)
+
+Query  725  DKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHR  784
+            D F+ I  +G G  G V K + + +G ++A K + L+  K       IRE+++L +    
+Sbjct  70   DDFERISELGAGNGGVVTKVQHRPSGLIMARKLIHLEI-KPAIRNQIIRELQVLHECNSP  128
+
+Query  785  SVVNMKEIVTDKQDALDFKKDKGAFY------LVFEYMDHDLMGLLESGLVHFSEDHIKS  838
+             +V                   GAFY      +  E+MD   +  +        E+ +  
+Sbjct  129  YIVGFY----------------GAFYSDGEISICMEHMDGGSLDQVLKEAKRIPEEILGK  172
+
+Query  839  FMKQLMEGLEYCHKKN-FLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVI  897
+                ++ GL Y  +K+  +HRD+K SNIL+N+ G+IKL DFG++       +  +     
+Sbjct  173  VSIAVLRGLAYLREKHQIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSMANSFVG---  229
+
+Query  898  TLWYRPPELLLGEERYTPAIDVWSCGCILGEL  929
+            T  Y  PE L G   Y+   D+WS G  L EL
+Sbjct  230  TRSYMAPERLQG-THYSVQSDIWSMGLSLVEL  260
+
+
+>sp|Q96GX5|GWL_HUMAN Serine/threonine-protein kinase greatwall 
+OS=Homo sapiens OX=9606 GN=MASTL PE=1 SV=1
+Length=879
+
+ Score = 68.6 bits (166),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 49/176 (28%), Positives = 82/176 (47%), Gaps = 43/176 (24%)
+
+Query  724  VDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIH  783
+            +++F I+  I  G +G+VY  +    G+L A+K V+  +                  +I+
+Sbjct  32   IEEFSIVKPISRGAFGKVYLGQKG--GKLYAVKVVKKAD------------------MIN  71
+
+Query  784  RSVVNMKEIVTDKQDALDFKKD------------KGAFYLVFEYMDHDLMGLLESGLVH-  830
+            +   NM   V  ++DAL   K                 YLV EY    L+G     L+H 
+Sbjct  72   K---NMTHQVQAERDALALSKSPFIVHLYYSLQSANNVYLVMEY----LIGGDVKSLLHI  124
+
+Query  831  ---FSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARL  883
+               F E+    ++ ++   L+Y H+   +HRD+K  N+L++N G IKL DFGL+++
+Sbjct  125  YGYFDEEMAVKYISEVALALDYLHRHGIIHRDLKPDNMLISNEGHIKLTDFGLSKV  180
+
+
+ Score = 35.4 bits (80),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 17/37 (46%), Positives = 20/37 (54%), Gaps = 1/37 (3%)
+
+Query  901  YRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQ  937
+            Y  PELLLG   + PA+D W+ G  L E  T  P F 
+Sbjct  744  YLAPELLLGRA-HGPAVDWWALGVCLFEFLTGIPPFN  779
+
+
+>sp|Q9P1W9|PIM2_HUMAN Serine/threonine-protein kinase pim-2 OS=Homo 
+sapiens OX=9606 GN=PIM2 PE=1 SV=1
+Length=311
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 64/229 (28%), Positives = 104/229 (45%), Gaps = 29/229 (13%)
+
+Query  732  IIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFP-----ITAIREIKILRQLI----  782
+            ++G+G +G V+ A  + T  L    KV   N   G+      +T   E+ +L ++     
+Sbjct  37   LLGKGGFGTVF-AGHRLTDRLQVAIKVIPRNRVLGWSPLSDSVTCPLEVALLWKVGAGGG  95
+
+Query  783  HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFE--YMDHDLMGLL-ESGLVHFSEDHIKSF  839
+            H  V+ +          LD+ + +  F LV E      DL   + E G     E   + F
+Sbjct  96   HPGVIRL----------LDWFETQEGFMLVLERPLPAQDLFDYITEKG--PLGEGPSRCF  143
+
+Query  840  MKQLMEGLEYCHKKNFLHRDIKCSNILLN-NSGQIKLADFGLARLYNSEESRPYTNKVIT  898
+              Q++  +++CH +  +HRDIK  NIL++   G  KL DFG   L + E   PYT+   T
+Sbjct  144  FGQVVAAIQHCHSRGVVHRDIKDENILIDLRRGCAKLIDFGSGALLHDE---PYTDFDGT  200
+
+Query  899  LWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQLEL  947
+              Y PPE +   + +     VWS G +L ++      F+ + E+ + EL
+Sbjct  201  RVYSPPEWISRHQYHALPATVWSLGILLYDMVCGDIPFERDQEILEAEL  249
+
+
+>sp|Q99640|PMYT1_HUMAN Membrane-associated tyrosine- and threonine-specific 
+cdc2-inhibitory kinase OS=Homo sapiens OX=9606 
+GN=PKMYT1 PE=1 SV=1
+Length=499
+
+ Score = 65.9 bits (159),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 60/222 (27%), Positives = 90/222 (41%), Gaps = 32/222 (14%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSV  786
+            F  +  +G G+YG+V+K + K+ G L A+K+         F     R  K+     H  V
+Sbjct  110  FQRLSRLGHGSYGEVFKVRSKEDGRLYAVKR-----SMSPFRGPKDRARKLAEVGSHEKV  164
+
+Query  787  VNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEG  846
+                  V  +Q      ++ G  YL  E     L    E+      E  +  +++  +  
+Sbjct  165  GQHPCCVRLEQA----WEEGGILYLQTELCGPSLQQHCEAWGASLPEAQVWGYLRDTLLA  220
+
+Query  847  LEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGL------ARLYNSEESRPYTNKVITLW  900
+            L + H +  +H D+K +NI L   G+ KL DFGL      A     +E  P         
+Sbjct  221  LAHLHSQGLVHLDVKPANIFLGPRGRCKLGDFGLLVELGTAGAGEVQEGDPR--------  272
+
+Query  901  YRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLEL  942
+            Y  PELL G   Y  A DV+S G  + E+         N+EL
+Sbjct  273  YMAPELLQGS--YGTAADVFSLGLTILEV-------ACNMEL  305
+
+
+>sp|O75116|ROCK2_HUMAN Rho-associated protein kinase 2 OS=Homo 
+sapiens OX=9606 GN=ROCK2 PE=1 SV=4
+Length=1388
+
+ Score = 65.1 bits (157),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 60/220 (27%), Positives = 97/220 (44%), Gaps = 21/220 (10%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALK---KVRLDNEKEGFPITAIREIKILRQLIH  783
+            +D++ +IG G +G+V   + K + ++ A+K   K  +    +       R+I        
+Sbjct  92   YDVVKVIGRGAFGEVQLVRHKASQKVYAMKLLSKFEMIKRSDSAFFWEERDI--------  143
+
+Query  784  RSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYM-DHDLMGLLESGLVHFSEDHIKSFMKQ  842
+             +  N   +V   Q    F+ D+   Y+V EYM   DL+ L+ +  V   E   K +  +
+Sbjct  144  MAFANSPWVV---QLFYAFQDDR-YLYMVMEYMPGGDLVNLMSNYDV--PEKWAKFYTAE  197
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYR  902
+            ++  L+  H    +HRD+K  N+LL+  G +KLADFG     +          V T  Y 
+Sbjct  198  VVLALDAIHSMGLIHRDVKPDNMLLDKHGHLKLADFGTCMKMDETGMVHCDTAVGTPDYI  257
+
+Query  903  PPELLL---GEERYTPAIDVWSCGCILGELFTKKPIFQAN  939
+             PE+L    G+  Y    D WS G  L E+      F A+
+Sbjct  258  SPEVLKSQGGDGFYGRECDWWSVGVFLYEMLVGDTPFYAD  297
+
+
+>sp|P46734|MP2K3_HUMAN Dual specificity mitogen-activated protein 
+kinase kinase 3 OS=Homo sapiens OX=9606 GN=MAP2K3 PE=1 SV=2
+Length=347
+
+ Score = 61.6 bits (148),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 57/215 (27%), Positives = 98/215 (46%), Gaps = 29/215 (13%)
+
+Query  728  DIIGI--IGEGTYGQVYKAKDKDTGELVALKKVRLD-NEKEGFPITAIREIKILRQLIHR  784
+            D++ I  +G G YG V K +   +G ++A+K++R   N +E             ++L+  
+Sbjct  63   DLVTISELGRGAYGVVEKVRHAQSGTIMAVKRIRATVNSQEQ------------KRLLMD  110
+
+Query  785  SVVNMKEIVTDKQDALDFKKD---KGAFYLVFEYMDHDLMGLLESGL---VHFSEDHIKS  838
+              +NM+ +  D    + F      +G  ++  E MD  L       L   +   ED +  
+Sbjct  111  LDINMRTV--DCFYTVTFYGALFREGDVWICMELMDTSLDKFYRKVLDKNMTIPEDILGE  168
+
+Query  839  FMKQLMEGLEYCHKK-NFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVI  897
+                ++  LE+ H K + +HRD+K SN+L+N  G +K+ DFG++      +S   T    
+Sbjct  169  IAVSIVRALEHLHSKLSVIHRDVKPSNVLINKEGHVKMCDFGISGYL--VDSVAKTMDAG  226
+
+Query  898  TLWYRPPELL---LGEERYTPAIDVWSCGCILGEL  929
+               Y  PE +   L ++ Y    DVWS G  + E+
+Sbjct  227  CKPYMAPERINPELNQKGYNVKSDVWSLGITMIEM  261
+
+
+>sp|Q13546|RIPK1_HUMAN Receptor-interacting serine/threonine-protein 
+kinase 1 OS=Homo sapiens OX=9606 GN=RIPK1 PE=1 SV=3
+Length=671
+
+ Score = 62.4 bits (150),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 53/177 (30%), Positives = 88/177 (50%), Gaps = 27/177 (15%)
+
+Query  772  IREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGLVH  830
+            + E K++ +L H  VV +  ++ ++          G + LV EYM+  +LM +L++ +  
+Sbjct  61   LEEAKMMNRLRHSRVVKLLGVIIEE----------GKYSLVMEYMEKGNLMHVLKAEMS-  109
+
+Query  831  FSEDHIKS-FMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLA------RL  883
+             +   +K   + +++EG+ Y H K  +H+D+K  NIL++N   IK+AD GLA      +L
+Sbjct  110  -TPLSVKGRIILEIIEGMCYLHGKGVIHKDLKPENILVDNDFHIKIADLGLASFKMWSKL  168
+
+Query  884  YNSE--ESRPYTNKVI----TLWYRPPELLLG-EERYTPAIDVWSCGCILGELFTKK  933
+             N E  E R           TL+Y  PE L     + T   DV+S   +L  +F  K
+Sbjct  169  NNEEHNELREVDGTAKKNGGTLYYMAPEHLNDVNAKPTEKSDVYSFAVVLWAIFANK  225
+
+
+>sp|P09619|PGFRB_HUMAN Platelet-derived growth factor receptor 
+beta OS=Homo sapiens OX=9606 GN=PDGFRB PE=1 SV=1
+Length=1106
+
+ Score = 62.8 bits (151),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 34/100 (34%), Positives = 49/100 (49%), Gaps = 8/100 (8%)
+
+Query  836  IKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNK  895
+            +  F  Q+  G+E+   KN +HRD+   N+L+     +K+ DFGLAR  +      Y +K
+Sbjct  803  LVGFSYQVANGMEFLASKNCVHRDLAARNVLICEGKLVKICDFGLAR--DIMRDSNYISK  860
+
+Query  896  VITL----WYRPPELLLGEERYTPAIDVWSCGCILGELFT  931
+              T     W  P  +      YT   DVWS G +L E+FT
+Sbjct  861  GSTFLPLKWMAPESIF--NSLYTTLSDVWSFGILLWEIFT  898
+
+
+>sp|Q16513|PKN2_HUMAN Serine/threonine-protein kinase N2 OS=Homo 
+sapiens OX=9606 GN=PKN2 PE=1 SV=1
+Length=984
+
+ Score = 62.0 bits (149),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 56/213 (26%), Positives = 99/213 (46%), Gaps = 25/213 (12%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVR----LDNEKEGFPITAIREIKILRQLI  782
+            F    ++G G +G+V  A+ K+T E+ A+K ++    +  ++    +   R  + +  + 
+Sbjct  657  FRCCAVLGRGHFGKVLLAEYKNTNEMFAIKALKKGDIVARDEVDSLMCEKRIFETVNSVR  716
+
+Query  783  HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYM-DHDLMGLLESGLVHFSEDHIKSFMK  841
+            H  +VN+      K+              V EY    DLM  + + +  FSE     +  
+Sbjct  717  HPFLVNLFACFQTKEHVC----------FVMEYAAGGDLMMHIHTDV--FSEPRAVFYAA  764
+
+Query  842  QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+             ++ GL+Y H+   ++RD+K  N+LL+  G +K+ADFGL +     E   Y ++  T   
+Sbjct  765  CVVLGLQYLHEHKIVYRDLKLDNLLLDTEGFVKIADFGLCK-----EGMGYGDRTSTFCG  819
+
+Query  902  RPPEL---LLGEERYTPAIDVWSCGCILGELFT  931
+             P  L   +L E  YT A+D W  G ++ E+  
+Sbjct  820  TPEFLAPEVLTETSYTRAVDWWGLGVLIYEMLV  852
+
+
+>sp|P43405|KSYK_HUMAN Tyrosine-protein kinase SYK OS=Homo sapiens 
+OX=9606 GN=SYK PE=1 SV=1
+Length=635
+
+ Score = 61.2 bits (147),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 41/147 (28%), Positives = 73/147 (50%), Gaps = 10/147 (7%)
+
+Query  830  HFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEES  889
+            H  + +I   + Q+  G++Y  + NF+HRD+   N+LL      K++DFGL++   ++E+
+Sbjct  465  HVKDKNIIELVHQVSMGMKYLEESNFVHRDLAARNVLLVTQHYAKISDFGLSKALRADEN  524
+
+Query  890  RPYT---NKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFT--KKPI--FQANLEL  942
+                    K    WY P    +   +++   DVWS G ++ E F+  +KP    + +   
+Sbjct  525  YYKAQTHGKWPVKWYAPE--CINYYKFSSKSDVWSFGVLMWEAFSYGQKPYRGMKGSEVT  582
+
+Query  943  AQLELISRL-CGSPCPAVWPDVIKLPY  968
+            A LE   R+ C + CP    D++ L +
+Sbjct  583  AMLEKGERMGCPAGCPREMYDLMNLCW  609
+
+
+>sp|P52564|MP2K6_HUMAN Dual specificity mitogen-activated protein 
+kinase kinase 6 OS=Homo sapiens OX=9606 GN=MAP2K6 PE=1 SV=1
+Length=334
+
+ Score = 60.1 bits (144),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 55/205 (27%), Positives = 98/205 (48%), Gaps = 21/205 (10%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQL-IHRSVVNMKE  791
+            +G G YG V K +   +G+++A+K++R         + +  + ++L  L I    V+   
+Sbjct  59   LGRGAYGVVEKMRHVPSGQIMAVKRIRA-------TVNSQEQKRLLMDLDISMRTVDCPF  111
+
+Query  792  IVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH---FSEDHIKSFMKQLMEGLE  848
+             VT    AL F++  G  ++  E MD  L    +  +       ED +      +++ LE
+Sbjct  112  TVT-FYGAL-FRE--GDVWICMELMDTSLDKFYKQVIDKGQTIPEDILGKIAVSIVKALE  167
+
+Query  849  YCHKK-NFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELL  907
+            + H K + +HRD+K SN+L+N  GQ+K+ DFG++       ++          Y  PE +
+Sbjct  168  HLHSKLSVIHRDVKPSNVLINALGQVKMCDFGISGYLVDSVAKTIDAGCKP--YMAPERI  225
+
+Query  908  ---LGEERYTPAIDVWSCGCILGEL  929
+               L ++ Y+   D+WS G  + EL
+Sbjct  226  NPELNQKGYSVKSDIWSLGITMIEL  250
+
+
+>sp|P06213|INSR_HUMAN Insulin receptor OS=Homo sapiens OX=9606 
+GN=INSR PE=1 SV=4
+Length=1382
+
+ Score = 61.6 bits (148),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 55/221 (25%), Positives = 103/221 (47%), Gaps = 28/221 (13%)
+
+Query  725   DKFDIIGIIGEGTYGQVYK--AKDKDTGELVALKKVRLDNEKEGFP--ITAIREIKILRQ  780
+             +K  ++  +G+G++G VY+  A+D   GE      V+  NE       I  + E  +++ 
+Sbjct  1021  EKITLLRELGQGSFGMVYEGNARDIIKGEAETRVAVKTVNESASLRERIEFLNEASVMKG  1080
+
+Query  781   LIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLESGLVHFSEDH----  835
+                  VV +  +V+  Q  L          +V E M H DL   L S L   +E++    
+Sbjct  1081  FTCHHVVRLLGVVSKGQPTL----------VVMELMAHGDLKSYLRS-LRPEAENNPGRP  1129
+
+Query  836   ------IKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLAR-LYNSEE  888
+                   +     ++ +G+ Y + K F+HRD+   N ++ +   +K+ DFG+ R +Y ++ 
+Sbjct  1130  PPTLQEMIQMAAEIADGMAYLNAKKFVHRDLAARNCMVAHDFTVKIGDFGMTRDIYETDY  1189
+
+Query  889   SRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGEL  929
+              R     ++ + +  PE  L +  +T + D+WS G +L E+
+Sbjct  1190  YRKGGKGLLPVRWMAPE-SLKDGVFTTSSDMWSFGVVLWEI  1229
+
+
+>sp|Q86V86|PIM3_HUMAN Serine/threonine-protein kinase pim-3 OS=Homo 
+sapiens OX=9606 GN=PIM3 PE=1 SV=3
+Length=326
+
+ Score = 58.5 bits (140),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 61/227 (27%), Positives = 102/227 (45%), Gaps = 26/227 (11%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPI---TAIREIKILRQLIH  783
+            + +  ++G G +G VY       G  VA+K V  +   E   +   T   E+ +LR++  
+Sbjct  40   YQVGAVLGSGGFGTVYAGSRIADGLPVAVKHVVKERVTEWGSLGGATVPLEVVLLRKVGA  99
+
+Query  784  ----RSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMD--HDLMGLL-ESGLVHFSEDHI  836
+                R V+ +          LD+ +    F LV E  +   DL   + E G +   E   
+Sbjct  100  AGGARGVIRL----------LDWFERPDGFLLVLERPEPAQDLFDFITERGAL--DEPLA  147
+
+Query  837  KSFMKQLMEGLEYCHKKNFLHRDIKCSNILLN-NSGQIKLADFGLARLYNSEESRPYTNK  895
+            + F  Q++  + +CH    +HRDIK  N+L++  SG++KL DFG   L    +   YT+ 
+Sbjct  148  RRFFAQVLAAVRHCHSCGVVHRDIKDENLLVDLRSGELKLIDFGSGALL---KDTVYTDF  204
+
+Query  896  VITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLEL  942
+              T  Y PPE +     +  +  VWS G +L ++      F+ + E+
+Sbjct  205  DGTRVYSPPEWIRYHRYHGRSATVWSLGVLLYDMVCGDIPFEQDEEI  251
+
+
+>sp|P00533|EGFR_HUMAN Epidermal growth factor receptor OS=Homo 
+sapiens OX=9606 GN=EGFR PE=1 SV=2
+Length=1210
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 56/225 (25%), Positives = 98/225 (44%), Gaps = 45/225 (20%)
+
+Query  726  KFDIIGIIGEGTYGQVYKAKDKDTGELV----ALKKVR-----------LDNEKEGFPIT  770
+            +F  I ++G G +G VYK      GE V    A+K++R           LD   E + + 
+Sbjct  711  EFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATSPKANKEILD---EAYVMA  767
+
+Query  771  AIREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYM-DH-DLMGLLESGL  828
+            ++    + R L+   + +  +++T              F  + +Y+ +H D +G      
+Sbjct  768  SVDNPHVCR-LLGICLTSTVQLITQLM----------PFGCLLDYVREHKDNIG------  810
+
+Query  829  VHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEE  888
+                  ++ ++  Q+ +G+ Y   +  +HRD+   N+L+     +K+ DFGLA+L  +EE
+Sbjct  811  ----SQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGAEE  866
+
+Query  889  SRPYT--NKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFT  931
+               +    KV   W     +L     YT   DVWS G  + EL T
+Sbjct  867  KEYHAEGGKVPIKWMALESIL--HRIYTHQSDVWSYGVTVWELMT  909
+
+
+>sp|P33981|TTK_HUMAN Dual specificity protein kinase TTK OS=Homo 
+sapiens OX=9606 GN=TTK PE=1 SV=2
+Length=857
+
+ Score = 58.9 bits (141),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 68/243 (28%), Positives = 113/243 (47%), Gaps = 41/243 (17%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIR-EIKILRQLIHRS  785
+            + I+  IG G   +V++  + +  ++ A+K V L+ E +   + + R EI  L +L   S
+Sbjct  525  YSILKQIGSGGSSKVFQVLN-EKKQIYAIKYVNLE-EADNQTLDSYRNEIAYLNKLQQHS  582
+
+Query  786  VVNMKEIVTDKQDAL-DFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSED--HIKSFMKQ  842
+                     DK   L D++      Y+V E  + DL   L+      S D    KS+ K 
+Sbjct  583  ---------DKIIRLYDYEITDQYIYMVMECGNIDLNSWLKKKK---SIDPWERKSYWKN  630
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVI-----  897
+            ++E +   H+   +H D+K +N L+ + G +KL DFG+A      + +P T  V+     
+Sbjct  631  MLEAVHTIHQHGIVHSDLKPANFLIVD-GMLKLIDFGIAN-----QMQPDTTSVVKDSQV  684
+
+Query  898  -TLWYRPPELL--LGEER--------YTPAIDVWSCGCILGEL-FTKKPIFQANLELAQL  945
+             T+ Y PPE +  +   R         +P  DVWS GCIL  + + K P  Q   ++++L
+Sbjct  685  GTVNYMPPEAIKDMSSSRENGKSKSKISPKSDVWSLGCILYYMTYGKTPFQQIINQISKL  744
+
+Query  946  ELI  948
+              I
+Sbjct  745  HAI  747
+
+
+>sp|P33981|TTK_HUMAN Dual specificity protein kinase TTK OS=Homo 
+sapiens OX=9606 GN=TTK PE=1 SV=2
+Length=857
+
+ Score = 58.9 bits (141),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 68/243 (28%), Positives = 113/243 (47%), Gaps = 41/243 (17%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIR-EIKILRQLIHRS  785
+            + I+  IG G   +V++  + +  ++ A+K V L+ E +   + + R EI  L +L   S
+Sbjct  525  YSILKQIGSGGSSKVFQVLN-EKKQIYAIKYVNLE-EADNQTLDSYRNEIAYLNKLQQHS  582
+
+Query  786  VVNMKEIVTDKQDAL-DFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSED--HIKSFMKQ  842
+                     DK   L D++      Y+V E  + DL   L+      S D    KS+ K 
+Sbjct  583  ---------DKIIRLYDYEITDQYIYMVMECGNIDLNSWLKKKK---SIDPWERKSYWKN  630
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVI-----  897
+            ++E +   H+   +H D+K +N L+ + G +KL DFG+A      + +P T  V+     
+Sbjct  631  MLEAVHTIHQHGIVHSDLKPANFLIVD-GMLKLIDFGIAN-----QMQPDTTSVVKDSQV  684
+
+Query  898  -TLWYRPPELL--LGEER--------YTPAIDVWSCGCILGEL-FTKKPIFQANLELAQL  945
+             T+ Y PPE +  +   R         +P  DVWS GCIL  + + K P  Q   ++++L
+Sbjct  685  GTVNYMPPEAIKDMSSSRENGKSKSKISPKSDVWSLGCILYYMTYGKTPFQQIINQISKL  744
+
+Query  946  ELI  948
+              I
+Sbjct  745  HAI  747
+
+
+>sp|Q8TEA7|TBCK_HUMAN TBC domain-containing protein kinase-like 
+protein OS=Homo sapiens OX=9606 GN=TBCK PE=1 SV=4
+Length=893
+
+ Score = 56.2 bits (134),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 54/201 (27%), Positives = 87/201 (43%), Gaps = 42/201 (21%)
+
+Query  842   QLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWY  901
+             ++++GL+Y +K   +HR +   NILL+  G IKLA FGL  +    +   +     +  Y
+Sbjct  99    EVLQGLQYMNKHGIVHRALSPHNILLDRKGHIKLAKFGLYHMTAHGDDVDFPIGYPS--Y  156
+
+Query  902   RPPELLL-GEERYT------------PAIDVWSCGCILGELFTKKPIFQANLELAQLELI  948
+               PE++  G  + T            P  DVWS G IL EL   + +FQ+ L++++    
+Sbjct  157   LAPEVIAQGIFKTTDHMPSKKPLPSGPKSDVWSLGIILFELCVGRKLFQS-LDISE----  211
+
+Query  949   SRLCGSPCPAVWPDVIKLPYFNTMKPKKQYRRRLREEFSF------IPSAALDLLDHMLT  1002
+                             +L +  T+         L EE         +P   +DLL+  LT
+Sbjct  212   ----------------RLKFLLTLDCVDDTLIVLAEEHGCLDIIKELPETVIDLLNKCLT  255
+
+Query  1003  LDPSKRCTAEQTLQSDFLKDV  1023
+               PSKR T +Q ++     +V
+Sbjct  256   FHPSKRPTPDQLMKDKVFSEV  276
+
+
+>sp|P45985|MP2K4_HUMAN Dual specificity mitogen-activated protein 
+kinase kinase 4 OS=Homo sapiens OX=9606 GN=MAP2K4 PE=1 SV=1
+Length=399
+
+ Score = 55.5 bits (132),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 64/229 (28%), Positives = 101/229 (44%), Gaps = 54/229 (24%)
+
+Query  730  IGIIGEGTYGQVYKAKDKDTGELVALKKVR-LDNEKEGFPITAIREIKILRQLIHRS---  785
+            +G IG G YG V K   K +G+++A+K++R   +EKE       +++ +   ++ RS   
+Sbjct  105  LGEIGRGAYGSVNKMVHKPSGQIMAVKRIRSTVDEKEQ------KQLLMDLDVVMRSSDC  158
+
+Query  786  --VVNMKEIVTDKQDAL--------DFKKDKGAFYLVFE-YMDHDLMGLLESGLVHFSED  834
+              +V     +  + D           F K     Y V +  +  +++G +    V  + +
+Sbjct  159  PYIVQFYGALFREGDCWICMELMSTSFDKFYKYVYSVLDDVIPEEILGKITLATVK-ALN  217
+
+Query  835  HIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLA-RLYNS------E  887
+            H+K  +K              +HRDIK SNILL+ SG IKL DFG++ +L +S       
+Sbjct  218  HLKENLK-------------IIHRDIKPSNILLDRSGNIKLCDFGISGQLVDSIAKTRDA  264
+
+Query  888  ESRPYTNKVITLWYRPPELL---LGEERYTPAIDVWSCGCILGELFTKK  933
+              RPY           PE +      + Y    DVWS G  L EL T +
+Sbjct  265  GCRPYM---------APERIDPSASRQGYDVRSDVWSLGITLYELATGR  304
+
+
+>sp|Q99986|VRK1_HUMAN Serine/threonine-protein kinase VRK1 OS=Homo 
+sapiens OX=9606 GN=VRK1 PE=1 SV=1
+Length=396
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 28/84 (33%), Positives = 45/84 (54%), Gaps = 2/84 (2%)
+
+Query  803  KKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKC  862
+            K  K   +++ +    DL  + E+    FS   +     ++++ LEY H+  ++H DIK 
+Sbjct  121  KNGKSYRFMIMDRFGSDLQKIYEANAKRFSRKTVLQLSLRILDILEYIHEHEYVHGDIKA  180
+
+Query  863  SNILLN--NSGQIKLADFGLARLY  884
+            SN+LLN  N  Q+ L D+GLA  Y
+Sbjct  181  SNLLLNYKNPDQVYLVDYGLAYRY  204
+
+
+>sp|P48730|KC1D_HUMAN Casein kinase I isoform delta OS=Homo sapiens 
+OX=9606 GN=CSNK1D PE=1 SV=2
+Length=415
+
+ Score = 54.3 bits (129),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 52/184 (28%), Positives = 79/184 (43%), Gaps = 22/184 (12%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKEI  792
+            IG G++G +Y   D   GE VA+K   L+  K   P   I E KI + +  +  V +  I
+Sbjct  15   IGSGSFGDIYLGTDIAAGEEVAIK---LECVKTKHPQLHI-ESKIYKMM--QGGVGIPTI  68
+
+Query  793  VTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCHK  852
+                 +  D+        +V E +   L  L       FS   +     Q++  +EY H 
+Sbjct  69   RWCGAEG-DYN------VMVMELLGPSLEDLFNFCSRKFSLKTVLLLADQMISRIEYIHS  121
+
+Query  853  KNFLHRDIKCSNILLN---NSGQIKLADFGLARLYNSEESRPYTNKVITLWYRPPELLLG  909
+            KNF+HRD+K  N L+        + + DFGLA+ Y    +  +      + YR  + L G
+Sbjct  122  KNFIHRDVKPDNFLMGLGKKGNLVYIIDFGLAKKYRDARTHQH------IPYRENKNLTG  175
+
+Query  910  EERY  913
+              RY
+Sbjct  176  TARY  179
+
+
+>sp|P0C263|SBK2_HUMAN Serine/threonine-protein kinase SBK2 OS=Homo 
+sapiens OX=9606 GN=SBK2 PE=3 SV=2
+Length=348
+
+ Score = 52.4 bits (124),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 54/208 (26%), Positives = 87/208 (42%), Gaps = 26/208 (13%)
+
+Query  733  IGEGTYGQVYKAKDKDTGELVALKKV-RLDNEKEGFPITAIREIKILRQL-IHRSVVNMK  790
+            +G+G YG+V     +  G  +ALK++ +      GF    + E  +   L  H ++V   
+Sbjct  68   LGQGCYGRVLLVTHRQKGTPLALKQLPKPRTSLRGF----LYEFCVGLSLGAHSAIVTAY  123
+
+Query  791  EIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYC  850
+             I  +   +  F  +          +  DLM  ++   V   +  +     QL   LEY 
+Sbjct  124  GIGIESAHSYSFLTEP--------VLHGDLMAFIQPK-VGLPQPAVHRCAAQLASALEYI  174
+
+Query  851  HKKNFLHRDIKCSNILLNNSG--QIKLADFGLAR-----LYNSEESRPYTNKVITLWYRP  903
+            H +  ++RD+K  N+L+ +    + KL DFG  R     L  +    PYT   +     P
+Sbjct  175  HARGLVYRDLKPENVLVCDPACRRFKLTDFGHTRPRGTLLRLAGPPIPYTAPELC---AP  231
+
+Query  904  PELLLGEERYTPAIDVWSCGCILGELFT  931
+            P L  G     PA+D W+ G +L  L T
+Sbjct  232  PPLPEGLP-IQPALDAWALGVLLFCLLT  258
+
+
+>sp|P49674|KC1E_HUMAN Casein kinase I isoform epsilon OS=Homo 
+sapiens OX=9606 GN=CSNK1E PE=1 SV=1
+Length=416
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 52/196 (27%), Positives = 84/196 (43%), Gaps = 22/196 (11%)
+
+Query  722  RCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQL  781
+            R  +K+ +   IG G++G +Y   +  +GE VA+K   L+  K   P   I E K  + +
+Sbjct  4    RVGNKYRLGRKIGSGSFGDIYLGANIASGEEVAIK---LECVKTKHPQLHI-ESKFYKMM  59
+
+Query  782  IHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMK  841
+              +  V +  I     +  D+        +V E +   L  L       FS   +     
+Sbjct  60   --QGGVGIPSIKWCGAEG-DYN------VMVMELLGPSLEDLFNFCSRKFSLKTVLLLAD  110
+
+Query  842  QLMEGLEYCHKKNFLHRDIKCSNILLN---NSGQIKLADFGLARLYNSEESRPYTNKVIT  898
+            Q++  +EY H KNF+HRD+K  N L+        + + DFGLA+ Y    +  +      
+Sbjct  111  QMISRIEYIHSKNFIHRDVKPDNFLMGLGKKGNLVYIIDFGLAKKYRDARTHQH------  164
+
+Query  899  LWYRPPELLLGEERYT  914
+            + YR  + L G  RY 
+Sbjct  165  IPYRENKNLTGTARYA  180
+
+
+>sp|Q04771|ACVR1_HUMAN Activin receptor type-1 OS=Homo sapiens 
+OX=9606 GN=ACVR1 PE=1 SV=1
+Length=509
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 57/226 (25%), Positives = 99/226 (44%), Gaps = 40/226 (18%)
+
+Query  726  KFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRS  785
+            +  ++  +G+G YG+V++   +  GE VA+K     +EK  F  T +    +LR   H +
+Sbjct  207  QITLLECVGKGRYGEVWRGSWQ--GENVAVKIFSSRDEKSWFRETELYNTVMLR---HEN  261
+
+Query  786  VVNMKEIVTDKQD--------ALDFKKDKGAFYLVFEYMDHDLMGLLE------SGLVHF  831
+            ++    I +D            +    + G+ Y   +    D +  L       SGL H 
+Sbjct  262  ILGF--IASDMTSRHSSTQLWLITHYHEMGSLYDYLQLTTLDTVSCLRIVLSIASGLAHL  319
+
+Query  832  SEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRP  891
+               HI+ F  Q         K    HRD+K  NIL+  +GQ  +AD GLA +++   ++ 
+Sbjct  320  ---HIEIFGTQ--------GKPAIAHRDLKSKNILVKKNGQCCIADLGLAVMHSQSTNQL  368
+
+Query  892  YTN---KVITLWYRPPELL---LGEERYTPA--IDVWSCGCILGEL  929
+                  +V T  Y  PE+L   +  + +     +D+W+ G +L E+
+Sbjct  369  DVGNNPRVGTKRYMAPEVLDETIQVDCFDSYKRVDIWAFGLVLWEV  414
+
+
+>sp|P08069|IGF1R_HUMAN Insulin-like growth factor 1 receptor OS=Homo 
+sapiens OX=9606 GN=IGF1R PE=1 SV=1
+Length=1367
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 56/217 (26%), Positives = 95/217 (44%), Gaps = 32/217 (15%)
+
+Query  733   IGEGTYGQVY----KAKDKDTGEL-VALKKVRLDNEKEGFP--ITAIREIKILRQLIHRS  785
+             +G+G++G VY    K   KD  E  VA+K V   NE       I  + E  ++++     
+Sbjct  1005  LGQGSFGMVYEGVAKGVVKDEPETRVAIKTV---NEAASMRERIEFLNEASVMKEFNCHH  1061
+
+Query  786   VVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDH-DLMGLLES---------GLVHFSEDH  835
+             VV +  +V+  Q  L          ++ E M   DL   L S          L   S   
+Sbjct  1062  VVRLLGVVSQGQPTL----------VIMELMTRGDLKSYLRSLRPEMENNPVLAPPSLSK  1111
+
+Query  836   IKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLAR-LYNSEESRPYTN  894
+             +     ++ +G+ Y +   F+HRD+   N ++     +K+ DFG+ R +Y ++  R    
+Sbjct  1112  MIQMAGEIADGMAYLNANKFVHRDLAARNCMVAEDFTVKIGDFGMTRDIYETDYYRKGGK  1171
+
+Query  895   KVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFT  931
+              ++ + +  PE  L +  +T   DVWS G +L E+ T
+Sbjct  1172  GLLPVRWMSPE-SLKDGVFTTYSDVWSFGVVLWEIAT  1207
+
+
+>sp|P30291|WEE1_HUMAN Wee1-like protein kinase OS=Homo sapiens 
+OX=9606 GN=WEE1 PE=1 SV=2
+Length=646
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 39/161 (24%), Positives = 70/161 (43%), Gaps = 15/161 (9%)
+
+Query  715  TESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPIT-AIR  773
+            TES+   R   +F  +  IG G +G V+K   +  G + A+K+ +        P+  ++ 
+Sbjct  287  TESNMKSRYTTEFHELEKIGSGEFGSVFKCVKRLDGCIYAIKRSKK-------PLAGSVD  339
+
+Query  774  EIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMD----HDLMGLLESGLV  829
+            E   LR++   +V+     V     A     +     +  EY +     D +      + 
+Sbjct  340  EQNALREVYAHAVLGQHSHVVRYFSAW---AEDDHMLIQNEYCNGGSLADAISENYRIMS  396
+
+Query  830  HFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNS  870
+            +F E  +K  + Q+  GL Y H  + +H DIK SNI ++ +
+Sbjct  397  YFKEAELKDLLLQVGRGLRYIHSMSLVHMDIKPSNIFISRT  437
+
+
+>sp|Q7RTN6|STRAA_HUMAN STE20-related kinase adapter protein alpha 
+OS=Homo sapiens OX=9606 GN=STRADA PE=1 SV=1
+Length=431
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 48/222 (22%), Positives = 98/222 (44%), Gaps = 37/222 (17%)
+
+Query  727  FDIIGIIGEGT--YGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHR  784
+            ++++ +IG+G      V  A+ K TGE V ++++ L+            E+ + +   H 
+Sbjct  69   YELLTVIGKGFEDLMTVNLARYKPTGEYVTVRRINLEACSNEMVTFLQGELHVSKLFNHP  128
+
+Query  785  SVVNMKE-IVTDKQDALDFKKDKGAFYLVFEYMDH----DLMGLLESGLVHF----SEDH  835
+            ++V  +   + D +            ++V  +M +    DL+        HF    +E  
+Sbjct  129  NIVPYRATFIADNE-----------LWVVTSFMAYGSAKDLI------CTHFMDGMNELA  171
+
+Query  836  IKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADF--GLARLYNSEESRP--  891
+            I   ++ +++ L+Y H   ++HR +K S+IL++  G++ L+     L+ + + +  R   
+Sbjct  172  IAYILQGVLKALDYIHHMGYVHRSVKASHILISVDGKVYLSGLRSNLSMISHGQRQRVVH  231
+
+Query  892  ----YTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGEL  929
+                Y+ KV+  W  P  L    + Y    D++S G    EL
+Sbjct  232  DFPKYSVKVLP-WLSPEVLQQNLQGYDAKSDIYSVGITACEL  272
+
+
+>sp|P41279|M3K8_HUMAN Mitogen-activated protein kinase kinase 
+kinase 8 OS=Homo sapiens OX=9606 GN=MAP3K8 PE=1 SV=2
+Length=467
+
+ Score = 45.8 bits (107),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 52/211 (25%), Positives = 85/211 (40%), Gaps = 36/211 (17%)
+
+Query  732  IIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKE  791
+             I  G +G+VY A+D  T + +A K + +D  K         +++I     H ++  +  
+Sbjct  143  FIPRGAFGKVYLAQDIKTKKRMACKLIPVDQFKPS-------DVEIQACFRHENIAELYG  195
+
+Query  792  IVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVH--------FSEDHIKSFMKQL  843
+             V   +                    H  M   E G V           E  I    K +
+Sbjct  196  AVLWGETV------------------HLFMEAGEGGSVLEKLESCGPMREFEIIWVTKHV  237
+
+Query  844  MEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEESRPYTNKVITLWYRP  903
+            ++GL++ H K  +H DIK SNI+  ++  + L DFGL+     +   P   +   + Y  
+Sbjct  238  LKGLDFLHSKKVIHHDIKPSNIVFMSTKAV-LVDFGLSVQMTEDVYFPKDLRGTEI-YMS  295
+
+Query  904  PELLLGEERYTPAIDVWSCGCILGELFTKKP  934
+            PE++L     T A D++S G  L  + T  P
+Sbjct  296  PEVILCRGHSTKA-DIYSLGATLIHMQTGTP  325
+
+
+>sp|O00311|CDC7_HUMAN Cell division cycle 7-related protein kinase 
+OS=Homo sapiens OX=9606 GN=CDC7 PE=1 SV=1
+Length=574
+
+ Score = 45.8 bits (107),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 46/161 (29%), Positives = 74/161 (46%), Gaps = 22/161 (14%)
+
+Query  727  FDIIGIIGEGTYGQVYKAKDK-DTG--ELVALKKVRLDNEKEGFPITAIREIKILRQLIH  783
+            F I   IGEGT+  VY A  +   G  E +ALK +          I     I+I  +L  
+Sbjct  58   FKIEDKIGEGTFSSVYLATAQLQVGPEEKIALKHL----------IPTSHPIRIAAELQC  107
+
+Query  784  RSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHD-LMGLLESGLVHFSEDHIKSFMKQ  842
+             +V   ++ V   +    F+K+     +   Y++H+  + +L S     S   ++ +M  
+Sbjct  108  LTVAGGQDNVMGVKYC--FRKNDHVV-IAMPYLEHESFLDILNS----LSFQEVREYMLN  160
+
+Query  843  LMEGLEYCHKKNFLHRDIKCSNILLNNS-GQIKLADFGLAR  882
+            L + L+  H+   +HRD+K SN L N    +  L DFGLA+
+Sbjct  161  LFKALKRIHQFGIVHRDVKPSNFLYNRRLKKYALVDFGLAQ  201
+
+
+ Score = 35.4 bits (80),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 30/55 (55%), Gaps = 1/55 (2%)
+
+Query  901  YRPPELLLGEERYTPAIDVWSCGCILGELFT-KKPIFQANLELAQLELISRLCGS  954
+            +R PE+L      T AID+WS G I   L + + P ++A+ +L  L  I  + GS
+Sbjct  379  FRAPEVLTKCPNQTTAIDMWSAGVIFLSLLSGRYPFYKASDDLTALAQIMTIRGS  433
+
+
+>sp|P36896|ACV1B_HUMAN Activin receptor type-1B OS=Homo sapiens 
+OX=9606 GN=ACVR1B PE=1 SV=1
+Length=505
+
+ Score = 45.8 bits (107),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 45/161 (28%), Positives = 75/161 (47%), Gaps = 26/161 (16%)
+
+Query  732  IIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKE  791
+            IIG+G +G+V++ + +  G  VA+K      E+  F    I +  +LR   H +++    
+Sbjct  212  IIGKGRFGEVWRGRWR--GGDVAVKIFSSREERSWFREAEIYQTVMLR---HENILGF--  264
+
+Query  792  IVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSEDHIKSFMKQLME---GLE  848
+            I  D +D   + +     +LV +Y +H   G L   L  ++   I+  +K  +    GL 
+Sbjct  265  IAADNKDNGTWTQ----LWLVSDYHEH---GSLFDYLNRYTVT-IEGMIKLALSAASGLA  316
+
+Query  849  YCH--------KKNFLHRDIKCSNILLNNSGQIKLADFGLA  881
+            + H        K    HRD+K  NIL+  +G   +AD GLA
+Sbjct  317  HLHMEIVGTQGKPGIAHRDLKSKNILVKKNGMCAIADLGLA  357
+
+
+>sp|Q9C0K7|STRAB_HUMAN STE20-related kinase adapter protein beta 
+OS=Homo sapiens OX=9606 GN=STRADB PE=1 SV=1
+Length=418
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 60/250 (24%), Positives = 105/250 (42%), Gaps = 37/250 (15%)
+
+Query  724  VDKFDIIGIIGEG--TYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQL  781
+            V  +++   IG G      V+ A+   TG LV +K   L+N  E   + A+++  IL   
+Sbjct  55   VSHYELQVEIGRGFDNLTSVHLARHTPTGTLVTIKITNLENCNEE-RLKALQKAVILSHF  113
+
+Query  782  I-HRSVVNMKEIVTDKQDALDFKKDKGAFYLVFE-YMDHD-----LMGLLESGLVHFSED  834
+              H ++     + T            G++  V   +M +      L      G+   SE 
+Sbjct  114  FRHPNITTYWTVFT-----------VGSWLWVISPFMAYGSASQLLRTYFPEGM---SET  159
+
+Query  835  HIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYN---------  885
+             I++ +   + GL Y H+   +HR IK S+IL++  G + L+  GL+ L++         
+Sbjct  160  LIRNILFGAVRGLNYLHQNGCIHRSIKASHILISGDGLVTLS--GLSHLHSLVKHGQRHR  217
+
+Query  886  SEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFTKKPIFQANLELAQL  945
+            +    P  +  +  W  P  L      Y    D++S G    EL + +  FQ ++   Q+
+Sbjct  218  AVYDFPQFSTSVQPWLSPELLRQDLHGYNVKSDIYSVGITACELASGQVPFQ-DMHRTQM  276
+
+Query  946  ELISRLCGSP  955
+             L+ +L G P
+Sbjct  277  -LLQKLKGPP  285
+
+
+>sp|P0C1S8|WEE2_HUMAN Wee1-like protein kinase 2 OS=Homo sapiens 
+OX=9606 GN=WEE2 PE=1 SV=2
+Length=567
+
+ Score = 44.3 bits (103),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 56/247 (23%), Positives = 94/247 (38%), Gaps = 57/247 (23%)
+
+Query  716  ESDWGKRCVDKFDIIGIIGEGTYGQVYKAKDKDTGELVALKK-----VRLDNEKEGFPIT  770
+            E++   R   +F  +  IG G +G VYK   +  G + A+K+       L NE      +
+Sbjct  201  ETNMASRYEKEFLEVEKIGVGEFGTVYKCIKRLDGCVYAIKRSMKTFTELSNEN-----S  255
+
+Query  771  AIREIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLV-  829
+            A+ E+     L H   V        + D +  +          EY +    G L++ +  
+Sbjct  256  ALHEVYAHAVLGHHPHVVRYYSSWAEDDHMIIQN---------EYCNG---GSLQAAISE  303
+
+Query  830  ------HFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIKCSNILL------NNSGQI----  873
+                  HF E  +K  + Q+  GL Y H  + +H DIK SNI +       +SG I    
+Sbjct  304  NTKSGNHFEEPKLKDILLQISLGLNYIHNSSMVHLDIKPSNIFICHKMQSESSGVIEEVE  363
+
+Query  874  -------------KLADFGLARLYNSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVW  920
+                         K+ D G A   N  +     ++ +       E+L  + R+ P  D++
+Sbjct  364  NEADWFLSANVMYKIGDLGHATSINKPKVEEGDSRFLA-----NEILQEDYRHLPKADIF  418
+
+Query  921  SCGCILG  927
+            + G  + 
+Sbjct  419  ALGLTIA  425
+
+
+>sp|Q96KB5|TOPK_HUMAN Lymphokine-activated killer T-cell-originated 
+protein kinase OS=Homo sapiens OX=9606 GN=PBK PE=1 SV=3
+Length=322
+
+ Score = 35.8 bits (81),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 44/167 (26%), Positives = 71/167 (43%), Gaps = 18/167 (11%)
+
+Query  774  EIKILRQLIHRSVVNMKEIVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFSE  833
+            E KIL+ L H ++V  +   T+  D        G+  L  EY     +  L       S+
+Sbjct  85   EAKILKSLHHPNIVGYRAF-TEAND--------GSLCLAMEYGGEKSLNDLIEERYKASQ  135
+
+Query  834  D-----HIKSFMKQLMEGLEYCHK-KNFLHRDIKCSNILLNNSGQ-IKLADFGLARLY--  884
+            D      I      +  GL+Y H+ K  LH DIK SN+++    + IK+ D G++     
+Sbjct  136  DPFPAAIILKVALNMARGLKYLHQEKKLLHGDIKSSNVVIKGDFETIKICDVGVSLPLDE  195
+
+Query  885  NSEESRPYTNKVITLWYRPPELLLGEERYTPAIDVWSCGCILGELFT  931
+            N   + P    + T  ++P E +      T   D+++ G  L E+ T
+Sbjct  196  NMTVTDPEACYIGTEPWKPKEAVEENGVITDKADIFAFGLTLWEMMT  242
+
+
+>sp|O43683|BUB1_HUMAN Mitotic checkpoint serine/threonine-protein 
+kinase BUB1 OS=Homo sapiens OX=9606 GN=BUB1 PE=1 SV=1
+Length=1085
+
+ Score = 36.2 bits (82),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 34/146 (23%), Positives = 59/146 (40%), Gaps = 18/146 (12%)
+
+Query  732  IIGEGTYGQVYKAKDKDTGELVALKKVRLDNEKEGFPITAIREIKILRQLIHRSVVNMKE  791
+            ++GEG + QVY+A   D  +    +K  L  +K   P     E  I  QL+ R   +M+ 
+Sbjct  792  LLGEGAFAQVYEATQGDLNDAKNKQKFVLKVQKPANP----WEFYIGTQLMERLKPSMQH  847
+
+Query  792  IVTDKQDALDFKKDKGAFYLVFEYMDHDLMGLLESGLVHFS--------EDHIKSFMKQL  843
+            +      A  F+        ++ Y      G L + +  +         +  + SF  ++
+Sbjct  848  MFMKFYSAHLFQNGSVLVGELYSY------GTLLNAINLYKNTPEKVMPQGLVISFAMRM  901
+
+Query  844  MEGLEYCHKKNFLHRDIKCSNILLNN  869
+            +  +E  H    +H DIK  N +L N
+Sbjct  902  LYMIEQVHDCEIIHGDIKPDNFILGN  927
+
+
+>sp|P18583|SON_HUMAN Protein SON OS=Homo sapiens OX=9606 GN=SON 
+PE=1 SV=4
+Length=2426
+
+ Score = 30.8 bits (68),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 66/227 (29%), Positives = 90/227 (40%), Gaps = 41/227 (18%)
+
+Query  210   YKTVDSPKRRSRSPHRKWSDSSKQDDSPSGASYGQD-YDLSPSRSHTSSNYDSYKKSPGS  268
+             Y+    P R    P+R   D+ +    P     G D Y L+P         D Y+ SP  
+Sbjct  921   YRLAQDPYRLGHDPYRLGHDAYRLGQDP--YRLGHDPYRLTP---------DPYRMSP--  967
+
+Query  269   TSRRQSVSP-PYK-EPSAYQSSTRSPSPYSRRQRSVSPYSRRRS--SSYERS-GSYSGRS  323
+               R   ++P  Y+  P  Y+ + R     SRR   +S Y+  RS  SSYERS  SY    
+Sbjct  968   --RPYRIAPRSYRIAPRPYRLAPRPLMLASRRSMMMS-YAAERSMMSSYERSMMSYERSM  1024
+
+Query  324   PSPYGRRRSSSPFLSKRSL-------SRSPLPSRKSMKS--RSRSPAYSRHSSS----HS  370
+              SP   R   S +  +RS+         SP+  R  M +  RS   AY R   S     S
+Sbjct  1025  MSPMAERSMMSAY--ERSMMSAYERSMMSPMAERSMMSAYERSMMSAYERSMMSPMADRS  1082
+
+Query  371   KKKRSSSRSRHSSISPVRLPLNSSLGAE----LSRKKKERAAAAAAA  413
+                  + RS  SS S     + SS  A     +S    +R+  + AA
+Sbjct  1083  MMSMGADRSMMSSYSAADRSMMSSYSAADRSMMSSYTADRSMMSMAA  1129
+
+
+>sp|Q8IWB6|TEX14_HUMAN Inactive serine/threonine-protein kinase 
+TEX14 OS=Homo sapiens OX=9606 GN=TEX14 PE=1 SV=2
+Length=1497
+
+ Score = 30.4 bits (67),  Expect = 0.73, Method: Compositional matrix adjust.
+ Identities = 25/102 (25%), Positives = 50/102 (49%), Gaps = 9/102 (9%)
+
+Query  836  IKSFMKQLMEGLEYCHKKNFLHRDIKCSNILLNNSGQIKLADFGLARLYNSEE---SRPY  892
+            I   + Q+ + L Y H + F+HR +    + + + G+ +L +  L  +  SE+    R  
+Sbjct  353  IVHLLLQISDALRYLHFQGFIHRSLSSYAVHIISPGEARLTN--LEYMLESEDRGVQRDL  410
+
+Query  893  TNKVI--TLW-YRPPELLLGEERYTPAIDVWSCGCILGELFT  931
+            T   +   L+ +  PE++L ++  T   D++S   I+ E+ T
+Sbjct  411  TRVPLPTQLYNWAAPEVIL-QKAATVKSDIYSFSMIMQEILT  451
+
+
+>sp|P01375|TNFA_HUMAN Tumor necrosis factor OS=Homo sapiens OX=9606 
+GN=TNF PE=1 SV=1
+Length=233
+
+ Score = 28.1 bits (61),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 25/41 (61%), Gaps = 0/41 (0%)
+
+Query  1139  NIHSNPEMQQQLEALNQSISALTEATSQQQDSETMAPEESL  1179
+             ++ +NP+ + QL+ LN+  +AL     + +D++ + P E L
+Sbjct  91    HVVANPQAEGQLQWLNRRANALLANGVELRDNQLVVPSEGL  131
+
+
+>sp|Q8TF76|HASP_HUMAN Serine/threonine-protein kinase haspin OS=Homo 
+sapiens OX=9606 GN=HASPIN PE=1 SV=3
+Length=798
+
+ Score = 28.5 bits (62),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 21/37 (57%), Gaps = 5/37 (14%)
+
+Query  70   LVEYDDISSDSDTFSDDMAFKLD-----RRENDERRG  101
+            +V + D+S D D F+ D  ++ D     ++EN+ R G
+Sbjct  698  IVVFCDVSMDEDLFTGDGDYQFDIYRLMKKENNNRWG  734
+
+
+>sp|Q13123|RED_HUMAN Protein Red OS=Homo sapiens OX=9606 GN=IK 
+PE=1 SV=3
+Length=557
+
+ Score = 28.1 bits (61),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 23/37 (62%), Gaps = 0/37 (0%)
+
+Query  166  VAKSSSKESRSSKLHKEKTRKERELKSGHKDRSKSHR  202
+             A+   K+S  +KL +++  +EREL   ++DR+K  R
+Sbjct  71   AARRRKKKSYYAKLRQQEIERERELAEKYRDRAKERR  107
+
+
+>sp|Q15058|KIF14_HUMAN Kinesin-like protein KIF14 OS=Homo sapiens 
+OX=9606 GN=KIF14 PE=1 SV=1
+Length=1648
+
+ Score = 28.5 bits (62),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 25/46 (54%), Gaps = 7/46 (15%)
+
+Query  816   MDHDLMGLLESGLVHFSEDHIKSFMKQLMEGLEYCHKKNFLHRDIK  861
+             M  + MGL+ S    F+E  IKSF +Q+ E       +NF ++D K
+Sbjct  1456  MKTNAMGLIRSLENIFAESKIKSFRRQVQE-------ENFEYQDFK  1494
+
+
+>sp|Q53H47|SETMR_HUMAN Histone-lysine N-methyltransferase SETMAR 
+OS=Homo sapiens OX=9606 GN=SETMAR PE=1 SV=2
+Length=684
+
+ Score = 28.1 bits (61),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 26/59 (44%), Gaps = 0/59 (0%)
+
+Query  1184  SAPVILPSAEQTTLEASSTPADMQNILAVLLSQLMKTQEPAGSLEENNSDKNSGPQGPR  1242
+             SAP + PS ++ TLE      D + I A+ L +    ++ A +    N+    G    R
+Sbjct  326   SAPSVFPSCKRLTLETMKMMLDKKQIRAIFLFEFKMGRKAAETTRNINNAFGPGTANER  384
+
+
+>sp|Q9NPG1|FZD3_HUMAN Frizzled-3 OS=Homo sapiens OX=9606 GN=FZD3 
+PE=1 SV=1
+Length=666
+
+ Score = 28.1 bits (61),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 17/30 (57%), Positives = 20/30 (67%), Gaps = 4/30 (13%)
+
+Query  355  SRSRSPAYSRHSSSHSKKKRSSSRSRHSSI  384
+            S SR   +SRHSSSH    R + +SRHSSI
+Sbjct  613  SMSRLTDHSRHSSSH----RLNEQSRHSSI  638
+
+
+>sp|Q14203|DCTN1_HUMAN Dynactin subunit 1 OS=Homo sapiens OX=9606 
+GN=DCTN1 PE=1 SV=3
+Length=1278
+
+ Score = 27.7 bits (60),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 19/36 (53%), Gaps = 1/36 (3%)
+
+Query  517  ETETSEKETPPPLPTIASPPPPLPTTTPPPQTPPLP  552
+            E  +SE  TP   P +A+P  P P  T P   PPLP
+Sbjct  177  ELSSSEPSTPAQTP-LAAPIIPTPVLTSPGAVPPLP  211
+
+
+>sp|Q9UPV0|CE164_HUMAN Centrosomal protein of 164 kDa OS=Homo 
+sapiens OX=9606 GN=CEP164 PE=1 SV=3
+Length=1460
+
+ Score = 27.7 bits (60),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 35/78 (45%), Gaps = 8/78 (10%)
+
+Query  1205  DMQNILAVLLSQLMKTQEPAGSLEENNSD--------KNSGPQGPRRTPTMPQEEAAACP  1256
+             D+  +  VL     + Q+P G  ++++S         K S     R +P +P EE A  P
+Sbjct  425   DVDVLSPVLGGACRQAQQPLGIEDKDDSQSSQDELQSKQSKGLEERLSPPLPHEERAQSP  484
+
+Query  1257  PHILPPEKRPPEPPGPPP  1274
+             P  L  E+ PP+ P   P
+Sbjct  485   PRSLATEEEPPQGPEGQP  502
+
+
+>sp|Q7Z7A1|CNTRL_HUMAN Centriolin OS=Homo sapiens OX=9606 GN=CNTRL 
+PE=1 SV=2
+Length=2325
+
+ Score = 27.3 bits (59),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 36/62 (58%), Gaps = 3/62 (5%)
+
+Query  1138  LNIHSN-PEMQQQLEALNQSISALTEATSQQQDSETMAPEESLKEAPSAPVILPSAEQTT  1196
+             L++H++   MQQQL+   +++++L E  +  QD   +A ++ L       V+L  +EQT 
+Sbjct  1846  LSLHNDISAMQQQLQEKREAVNSLQEELANVQDHLNLAKQDLLHTTKHQDVLL--SEQTR  1903
+
+Query  1197  LE  1198
+             L+
+Sbjct  1904  LQ  1905
+
+
+>sp|O75179|ANR17_HUMAN Ankyrin repeat domain-containing protein 
+17 OS=Homo sapiens OX=9606 GN=ANKRD17 PE=1 SV=3
+Length=2603
+
+ Score = 26.9 bits (58),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 28/55 (51%), Gaps = 6/55 (11%)
+
+Query  532  IASPPPPLPTTTPPPQTPPLPPLPPIPALPQ-QPPLPPSQPAFSQVPASSTSTLP  585
+            +++PPP +   TPP       P  P+ ALP   PP  P +P     PA+  +TLP
+Sbjct  724  LSAPPPDVTQLTPPSHDLNRAPRVPVQALPMVVPPQEPDKP-----PANVATTLP  773
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.127    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1068744375
+
+
+  Database: sequence.fasta
+    Posted date:  Jul 30, 2020  4:34 AM
+  Number of letters in database: 881,835
+  Number of sequences in database:  1,218
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

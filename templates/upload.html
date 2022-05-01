@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../static/img/favicon.ico" rel="icon">
+    <link href="../static/css/bootstrap.css" rel="stylesheet" media="all">
+    <link href="../static/css/main.css" rel="stylesheet" media="all">
+    <script src="../static/js/jquery-3.4.1.js"></script>
+    <script src="../static/js/bootstrap.bundle.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="h-100 w-100 row m-0">
+        {% include 'nav.html' %}
+        <div class="col-9 lb p-0">
+            {% include 'header.html' %}
+            <div class="mt-3 mx-5">
+                <h4 class="drd"><strong>Gene and Protein Data Upload</strong></h4>
+                <form class="form" role="form" action="../gene_upload/" method="POST"
+                    enctype=application/x-www-form-urlencoded>
+                    {% csrf_token %}
+                    <div class="row mx-0 mb-3 align-items-center">
+                        <div style="width:7vw;margin:0 0 0 0"><strong>UniProt<br>Accession</strong></div>
+                        <input type="text" class="form-control" style="width:12vw" name="uniprot">
+                        <div style="width:5vw;margin:0 0 0 3vw"><strong>Gene<br>Name</strong></div>
+                        <input type="text" class="form-control" style="width:13vw" name="gene">
+                        <div style="width:6vw;margin:0 0 0 2vw"><strong>Evidence</strong></div>
+                        <input type="text" class="form-control" style="width:13vw" name="evidence"
+                            placeholder="PubMed ID">
+                    </div>
+                    <div class="row mx-0 mb-3 align-items-center">
+                        <div style="width:7vw;margin:0 0 0 0"><strong>Description</strong></div>
+                        <input type="text" class="form-control" style="width:54vw" name="description"
+                            placeholder="Place fill in the key result description">
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:6vw;margin:0 0 0 55vw"><strong>Submit</strong></button>
+                </form>
+                <h3 style="height:10vh;margin:-5vh 0 0 0"><em><strong>{{ gmsg|safe }}</strong></em></h3>
+
+                <h4 class="drd"><strong>Compound Data Upload</strong></h4>
+                <form class="form" role="form" action="../compound_upload/" method="POST"
+                    enctype=application/x-www-form-urlencoded>
+                    {% csrf_token %}
+                    <div class="row mx-0 mb-3 align-items-center">
+                        <div style="width:7vw;margin:0 0 0 0"><strong>SMILES</strong></div>
+                        <input type="text" class="form-control" style="width:54vw" name="smiles">
+                    </div>
+                    <div class="row mx-0 mb-3 align-items-center">
+                        <div style="width:7vw;margin:0 0 0 0"><strong>UniProt<br>Accession</strong></div>
+                        <input type="text" class="form-control" style="width:12vw" name="uniprot">
+                        <div style="width:5vw;margin:0 0 0 3vw"><strong>Gene<br>Name</strong></div>
+                        <input type="text" class="form-control" style="width:13vw" name="gene">
+                        <div style="width:6vw;margin:0 0 0 2vw"><strong>Evidence</strong></div>
+                        <input type="text" class="form-control" style="width:13vw" name="evidence"
+                            placeholder="PubMed ID">
+                    </div>
+                    <div class="row mx-0 mb-3 align-items-center">
+                        <div style="width:7vw;margin:0 0 0 0"><strong>Description</strong></div>
+                        <input type="text" class="form-control" style="width:54vw" name="description"
+                            placeholder="Place fill in the key result description">
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:6vw;margin:0 0 0 55vw"><strong>Submit</strong></button>
+                </form>
+                <h3 style="margin:-5vh 0 0 0"><em><strong>{{ cmsg|safe }}</strong></em></h3>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

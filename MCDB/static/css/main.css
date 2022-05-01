@@ -1,0 +1,63 @@
+.rd {
+    background-color: #be2619;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.lrd {
+    background-color: #ffcccc;
+}
+
+.drd {
+    color: #691111;
+    line-height: 1.7;
+}
+
+.pp {
+    background-color: #462551;
+}
+
+.lpp {
+    background-color: #735378;
+}
+
+.lb {
+    background-color: #aeb9cf;
+    border: 0;
+}
+
+table thead th {
+    border-bottom: 2px solid black !important;
+}
+
+table th, table td {
+    border-top: 1px solid black !important;
+}
+
+.test{
+    color: #071ee9
+}
+
+*{
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.footer a{
+    color: #007bff;
+}
+
+a{
+    color: #00f;
+}
+
+.btn{
+    background-color: #00f;
+}
+
+@page {
+    size: auto;
+}

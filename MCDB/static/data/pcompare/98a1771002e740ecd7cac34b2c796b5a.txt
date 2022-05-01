@@ -1,0 +1,108 @@
+BLASTP 2.10.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: sequence.fasta
+           1,218 sequences; 881,835 total letters
+
+
+
+Query= 
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+sp|Q93034|CUL5_HUMAN Cullin-5 OS=Homo sapiens OX=9606 GN=CUL5 PE=...  23.1    4.7  
+sp|O43566|RGS14_HUMAN Regulator of G-protein signaling 14 OS=Homo...  22.7    5.5  
+sp|Q7RTN6|STRAA_HUMAN STE20-related kinase adapter protein alpha ...  22.3    7.1  
+sp|P33991|MCM4_HUMAN DNA replication licensing factor MCM4 OS=Hom...  22.3    7.5  
+
+
+>sp|Q93034|CUL5_HUMAN Cullin-5 OS=Homo sapiens OX=9606 GN=CUL5 
+PE=1 SV=4
+Length=780
+
+ Score = 23.1 bits (48),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 21/48 (44%), Gaps = 2/48 (4%)
+
+Query  11   ALANINETRYPTOPHANLEUCINELYSINESERINEGLUTAMINEMET  58
+            AL  +   R      A +E+C+N L +  +   + E  +  MI   ET
+Sbjct  245  ALRYLETRRECNSVEALMECCVNALVTSFKETILAE--CQGMIKRNET  290
+
+
+>sp|O43566|RGS14_HUMAN Regulator of G-protein signaling 14 OS=Homo 
+sapiens OX=9606 GN=RGS14 PE=1 SV=4
+Length=566
+
+ Score = 22.7 bits (47),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 21/75 (28%), Positives = 33/75 (44%), Gaps = 9/75 (12%)
+
+Query  37   SINESERINEGLUTAMINEMETHIONINETHREONINEG-LU-------TAMATEAR-GI  87
+            S+N S  ++ G    + ++ E+H  ++  T  E     G  +       TA    AR G+
+Sbjct  263  SLNSSASLDLGFLAFVSSKSESHRKSLGSTEGESESRPGKYCCVYLPDGTASLALARPGL  322
+
+Query  88   NINEALANINEPROL  102
+             I + LA I E R L
+Sbjct  323  TIRDMLAGICEKRGL  337
+
+
+>sp|Q7RTN6|STRAA_HUMAN STE20-related kinase adapter protein alpha 
+OS=Homo sapiens OX=9606 GN=STRADA PE=1 SV=1
+Length=431
+
+ Score = 22.3 bits (46),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 14/39 (36%), Positives = 19/39 (49%), Gaps = 6/39 (15%)
+
+Query  10   EALANINETRY-PTOPHA-----NLEUCINELYSINESE  42
+            E L  +N  RY PT  +      NLE C NE+ +  + E
+Sbjct  80   EDLMTVNLARYKPTGEYVTVRRINLEACSNEMVTFLQGE  118
+
+
+>sp|P33991|MCM4_HUMAN DNA replication licensing factor MCM4 OS=Homo 
+sapiens OX=9606 GN=MCM4 PE=1 SV=5
+Length=863
+
+ Score = 22.3 bits (46),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 7/14 (50%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  30   UCINELYSINESER  43
+            +CI+E   +NES R
+Sbjct  571  CCIDEFDKMNESTR  584
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.126    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 35049300
+
+
+  Database: sequence.fasta
+    Posted date:  Jul 30, 2020  4:34 AM
+  Number of letters in database: 881,835
+  Number of sequences in database:  1,218
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

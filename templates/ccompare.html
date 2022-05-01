@@ -1,0 +1,179 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../static/img/favicon.ico" rel="icon">
+    <link href="../static/css/bootstrap.css" rel="stylesheet" media="all">
+    <link href="../static/css/bootstrap-icons.css" rel="stylesheet" media="all">
+    <link href="../static/css/main.css" rel="stylesheet" media="all">
+    <script src="../static/js/jquery-3.4.1.js"></script>
+    <script src="../static/js/bootstrap.bundle.js"></script>
+    <script src="../static/js/jquery.twbsPagination.js"></script>
+    <title>Target Prediction</title>
+</head>
+
+<body>
+    <div class="h-100 w-100 row m-0 p-0">
+        {% include 'nav.html' %}
+        <div class="col-9 lb p-0">
+            {% include 'header.html' %}
+            <div class="ml-5 pt-3 overflow-auto" style="height:90vh">
+                <h2><strong>Target Prediction</strong></h2>
+                {% csrf_token %}
+                <form class="form-inline" role="form" action="../ccompare_search/" method="POST"
+                    enctype=application/x-www-form-urlencoded>
+                    {% csrf_token %}
+                    <input type="text" class="form-control col-6" name="text" value={{ text }}>
+                    <select class="form-control mx-4" name="algorithm">
+                        <option {% if algorithm != "Tanimoto" %}selected{% endif %} value="SHAFTS">SHAFTS(3D)</option>
+                        <option {% if algorithm == "Tanimoto" %}selected{% endif %} value="Tanimoto">Tanimoto
+                            Coefficient(2D)</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary"><strong>Submit</strong></button>
+                    <div class="form-group" style="display:none">
+                        <input type="text" class="form-control" name="page" value=1>
+                    </div>
+
+                </form>
+                <strong>Keywords: SMILES<br>e.g. <u><a
+                            href='../ccompare_search/?text=O=C(N[C@@H](CC1CCCCC1)C(N[C@@H](C[C@@H]2CCNC2=O)C([H])=O)=O)C3=CC4=C(N3)C=CC=C4&page=1'>O=C(N[C@@H](CC1CCCCC1)C(N[C@@H](C[C@@H]2CCNC2=O)C([H])=O)=O)C3=CC4=C(N3)C=CC=C4</a></u></strong>
+                <br>
+                <h4>The comparison with the database usually takes about 10 seconds to calculate, please be patient.
+                </h4>
+                <h3><em><strong>{{ msg }}</strong></em></h3>
+                {% if algorithm == "Tanimoto" %}
+                <div class="text-right"><strong><a href="../ccdownload?name={{ name }}"
+                            class="btn btn-primary mb-2">download</a></strong></div>
+                <div class="table-responsive mb-3">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Uniprot Accession
+                                    <a href="../ccompare_search/?text={{ text }}&page=1&algorithm=Tanimoto&sort=uniprot"><i class="bi bi-sort-alpha-down"></i></a>
+                                </th>
+                                <th scope="col">Gene Name
+                                    <a href="../ccompare_search/?text={{ text }}&page=1&algorithm=Tanimoto&sort=gene"><i class="bi bi-sort-alpha-down"></i></a>
+                                </th>
+                                <th scope="col">Classification<i class="bi bi-question-square-fill p-1" data-bs-html="true" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" data-bs-align="left" title="<b>Inhibitor:</b> The molecule that can inhibit the function of proteins, but does not induce conformational change in the protein.<br/>
+                                    <b>Activator:</b> The molecule that can activate the function of proteins, but does not induce conformational change in the protein.<br/>
+                                    <b>Allosteric regulator:</b> The molecule that can induce conformational change in the protein.<br/>"></i>
+                                    <a href="../ccompare_search/?text={{ text }}&page=1&algorithm=Tanimoto&sort=prop"><i class="bi bi-sort-alpha-down"></i></a>
+                                </th>
+                                <th scope="col">Confidence Level <i class="bi bi-question-square-fill p-1"
+                                        data-bs-html="true" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                        data-bs-align="left"
+                                        title="<b>Level1:</b> with literature support and GO items association.<br/>
+                                    <b>Level2:</b> with literature support but GO items are not mentioned.<br/>
+                                    <b>Level3:</b> with GO items association and homologous enzymes have been reported in the literature.<br/>
+                                    <b>Level4:</b> GO items are indicated to be associated with mitosis which may be involved in MC."></i>
+                                    <a href="../ccompare_search/?text={{ text }}&page=1&algorithm=Tanimoto&sort=level"><i class="bi bi-sort-numeric-down"></i></a>
+                                </th>
+                                <th scope="col">Similarity Score <a href="../ccompare_search/?text={{ text }}&page=1&algorithm=Tanimoto&sort=similarity"><i class="bi bi-sort-numeric-down-alt"></i></a>
+                                </th>
+                                <th scope="col">SMILES</th>
+                            </tr>
+                        </thead>
+                        {% for data in datas %}
+                        <tr>
+                            <td nowrap><u><a href='../compound_search/?text={{ data.uniprot }}&page=1'>{{ data.uniprot }}</a></u>
+                            </td>
+                            <td nowrap>{{ data.gene }}</td>
+                            <td nowrap>{{ data.prop }}</td>
+                            <td nowrap>{{ data.level }}</td>
+                            <td nowrap>{{ data.similarity }}</td>
+                            <td nowrap><u><a href='../compound_search/?text={{ data.smiles }}&page=1'>{{ data.smiles }}</a></u>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                {% endif %}
+                {% if algorithm == "SHAFTS" %}
+                <div class="text-right"><strong><a href="../ccdownload?name={{ name }}"
+                            class="btn btn-primary mb-2">download</a></strong></div>
+                <div class="table-responsive mb-3">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Uniprot Accession
+                                    <a href="../ccompare_search/?text={{ text }}&page=1&sort=uniprot"><i class="bi bi-sort-alpha-down"></i></a>
+                                </th>
+                                <th scope="col">Gene Name
+                                    <a href="../ccompare_search/?text={{ text }}&page=1&sort=gene"><i class="bi bi-sort-alpha-down"></i></a>
+                                </th>
+                                <th scope="col">Classification<i class="bi bi-question-square-fill p-1" data-bs-html="true" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" data-bs-align="left" title="<b>Inhibitor:</b> The molecule that can inhibit the function of proteins, but does not induce conformational change in the protein.<br/>
+                                    <b>Activator:</b> The molecule that can activate the function of proteins, but does not induce conformational change in the protein.<br/>
+                                    <b>Allosteric regulator:</b> The molecule that can induce conformational change in the protein.<br/>"></i>
+                                    <a href="../ccompare_search/?text={{ text }}&page=1&sort=prop"><i class="bi bi-sort-alpha-down"></i></a>
+                                </th>
+                                <th scope="col">Confidence Level <i class="bi bi-question-square-fill p-1"
+                                        data-bs-html="true" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                        data-bs-align="left"
+                                        title="<b>Level1:</b> with literature support and GO items association.<br/>
+                                    <b>Level2:</b> with literature support but GO items are not mentioned.<br/>
+                                    <b>Level3:</b> with GO items association and homologous enzymes have been reported in the literature.<br/>
+                                    <b>Level4:</b> GO items are indicated to be associated with mitosis which may be involved in MC."></i>
+                                    <a href="../ccompare_search/?text={{ text }}&page=1&sort=level"><i class="bi bi-sort-numeric-down"></i></a>
+                                </th>
+                                <th scope="col">Hybrid Score <i class="bi bi-question-square-fill p-1"
+                                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-align="left"
+                                        title="Hybrid Score is the sum of Feature Score and Shape Score and scaled to [0, 2]"></i>
+                                        <a href="../ccompare_search/?text={{ text }}&page=1&sort=HybridScore"><i class="bi bi-sort-numeric-down-alt"></i></a>
+                                </th>
+                                <th scope="col">Shape Score<i class="bi bi-question-square-fill p-1"
+                                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-align="left"
+                                        title="The overlap of shape between molecules A and B can be defined as the sum of the overlap integrals of individual atomic shape-densities expressed in Gaussian function."></i>
+                                        <a href="../ccompare_search/?text={{ text }}&page=1&sort=ShapeScore"><i class="bi bi-sort-numeric-down-alt"></i></a>
+                                </th>
+                                <th scope="col">Feature Score<i class="bi bi-question-square-fill p-1"
+                                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-align="left"
+                                        title="Feature Score is essentially the fit value between the pharmacophore points extracted from template and target molecules, which is defined as the sum of the overlap between the feature points in A and B with the same type."></i>
+                                        <a href="../ccompare_search/?text={{ text }}&page=1&sort=FeatureScore"><i class="bi bi-sort-numeric-down-alt"></i></a>
+                                </th>
+                                <th scope="col">SMILES</th>
+                            </tr>
+                        </thead>
+                        {% for data in datas %}
+                        <tr>
+                            <td nowrap><u><a href='../compound_search/?text={{ data.uniprot }}&page=1'>{{ data.uniprot }}</a></u>
+                            </td>
+                            <td nowrap>{{ data.gene }}</td>
+                            <td nowrap>{{ data.prop }}</td>
+                            <td nowrap>{{ data.level }}</td>
+                            <td nowrap>{{ data.HybridScore }}</td>
+                            <td nowrap>{{ data.ShapeScore }}</td>
+                            <td nowrap>{{ data.FeatureScore }}</td>
+                            <td nowrap><u><a href='../compound_search/?text={{ data.smiles }}&page=1'>{{ data.smiles }}</a></u>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                {% endif %}
+                <ul id="pagination">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% if check %}
+    <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })    
+        $('#pagination').twbsPagination({
+            totalPages: {{ totalPages }},
+            startPage: {{ currentPage }},
+            visiblePages: 10,
+            initiateStartPageClick: false,
+            onPageClick: function (event, page) {
+                $(window).attr('location', '../ccompare_search/?text={{ text }}&algorithm={{ algorithm }}&page=' + page);
+            }
+            });
+    </script>
+    {% endif %}
+</body>
+
+</html>
